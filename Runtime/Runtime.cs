@@ -163,21 +163,8 @@ namespace Polite
                     token.PrimaryType == Token.Types.Primary.Constant ||
                     token.SecondaryType == Token.Types.Secondary.Variable.ParentReference)
             {
-                Variable variable = null; // TODO: Implement internal properties
-                /*
-                string printedTokenName = Token.PrintAddress(token, ".");
-                if (this.TryFindType(printedTokenName, out Type type))
-                {
-                    variable = new Variable(printedTokenName);
-                    variable.Container = new Container(type); // this is what typeof() should do instead
-
-                    locals_cache.AddVariable(variable);
-
-                    last_variable = variable;
-                    last_instruction = null;
-                    return () => variable;
-                }
-                */
+                Variable variable = null;
+                
                 List<Variable> address = new List<Variable>();
                 bool isNew = TryCreateNewVariable(token, false, address, globals_cache, locals_cache, out variable);
 
