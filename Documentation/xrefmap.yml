@@ -1,0 +1,3341 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Polite
+  name: Polite
+  href: api/Polite.html
+  commentId: N:Polite
+  fullName: Polite
+  nameWithType: Polite
+- uid: Polite.CommonGrammar
+  name: CommonGrammar
+  href: api/Polite.CommonGrammar.html
+  commentId: T:Polite.CommonGrammar
+  fullName: Polite.CommonGrammar
+  nameWithType: CommonGrammar
+- uid: Polite.CommonGrammar.AddresserLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: AddresserLed(Token, Token, Int32, Parser)
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_AddresserLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.CommonGrammar.AddresserLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.CommonGrammar.AddresserLed(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: CommonGrammar.AddresserLed(Token, Token, Int32, Parser)
+- uid: Polite.CommonGrammar.AddresserLed*
+  name: AddresserLed
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_AddresserLed_
+  commentId: Overload:Polite.CommonGrammar.AddresserLed
+  isSpec: "True"
+  fullName: Polite.CommonGrammar.AddresserLed
+  nameWithType: CommonGrammar.AddresserLed
+- uid: Polite.CommonGrammar.InfixLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: InfixLed(Token, Token, Int32, Parser)
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_InfixLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.CommonGrammar.InfixLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.CommonGrammar.InfixLed(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: CommonGrammar.InfixLed(Token, Token, Int32, Parser)
+- uid: Polite.CommonGrammar.InfixLed*
+  name: InfixLed
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_InfixLed_
+  commentId: Overload:Polite.CommonGrammar.InfixLed
+  isSpec: "True"
+  fullName: Polite.CommonGrammar.InfixLed
+  nameWithType: CommonGrammar.InfixLed
+- uid: Polite.CommonGrammar.PrefixNud(Polite.Token,Polite.Parser)
+  name: PrefixNud(Token, Parser)
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_PrefixNud_Polite_Token_Polite_Parser_
+  commentId: M:Polite.CommonGrammar.PrefixNud(Polite.Token,Polite.Parser)
+  fullName: Polite.CommonGrammar.PrefixNud(Polite.Token, Polite.Parser)
+  nameWithType: CommonGrammar.PrefixNud(Token, Parser)
+- uid: Polite.CommonGrammar.PrefixNud*
+  name: PrefixNud
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_PrefixNud_
+  commentId: Overload:Polite.CommonGrammar.PrefixNud
+  isSpec: "True"
+  fullName: Polite.CommonGrammar.PrefixNud
+  nameWithType: CommonGrammar.PrefixNud
+- uid: Polite.CommonGrammar.ReducedInfixLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: ReducedInfixLed(Token, Token, Int32, Parser)
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_ReducedInfixLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.CommonGrammar.ReducedInfixLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.CommonGrammar.ReducedInfixLed(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: CommonGrammar.ReducedInfixLed(Token, Token, Int32, Parser)
+- uid: Polite.CommonGrammar.ReducedInfixLed*
+  name: ReducedInfixLed
+  href: api/Polite.CommonGrammar.html#Polite_CommonGrammar_ReducedInfixLed_
+  commentId: Overload:Polite.CommonGrammar.ReducedInfixLed
+  isSpec: "True"
+  fullName: Polite.CommonGrammar.ReducedInfixLed
+  nameWithType: CommonGrammar.ReducedInfixLed
+- uid: Polite.Container
+  name: Container
+  href: api/Polite.Container.html
+  commentId: T:Polite.Container
+  fullName: Polite.Container
+  nameWithType: Container
+- uid: Polite.Container.#ctor
+  name: Container()
+  href: api/Polite.Container.html#Polite_Container__ctor
+  commentId: M:Polite.Container.#ctor
+  fullName: Polite.Container.Container()
+  nameWithType: Container.Container()
+- uid: Polite.Container.#ctor(System.Object)
+  name: Container(Object)
+  href: api/Polite.Container.html#Polite_Container__ctor_System_Object_
+  commentId: M:Polite.Container.#ctor(System.Object)
+  fullName: Polite.Container.Container(System.Object)
+  nameWithType: Container.Container(Object)
+- uid: Polite.Container.#ctor*
+  name: Container
+  href: api/Polite.Container.html#Polite_Container__ctor_
+  commentId: Overload:Polite.Container.#ctor
+  isSpec: "True"
+  fullName: Polite.Container.Container
+  nameWithType: Container.Container
+- uid: Polite.Container.Members
+  name: Members
+  href: api/Polite.Container.html#Polite_Container_Members
+  commentId: P:Polite.Container.Members
+  fullName: Polite.Container.Members
+  nameWithType: Container.Members
+- uid: Polite.Container.Members*
+  name: Members
+  href: api/Polite.Container.html#Polite_Container_Members_
+  commentId: Overload:Polite.Container.Members
+  isSpec: "True"
+  fullName: Polite.Container.Members
+  nameWithType: Container.Members
+- uid: Polite.Container.ToString
+  name: ToString()
+  href: api/Polite.Container.html#Polite_Container_ToString
+  commentId: M:Polite.Container.ToString
+  fullName: Polite.Container.ToString()
+  nameWithType: Container.ToString()
+- uid: Polite.Container.ToString*
+  name: ToString
+  href: api/Polite.Container.html#Polite_Container_ToString_
+  commentId: Overload:Polite.Container.ToString
+  isSpec: "True"
+  fullName: Polite.Container.ToString
+  nameWithType: Container.ToString
+- uid: Polite.Container.Value
+  name: Value
+  href: api/Polite.Container.html#Polite_Container_Value
+  commentId: P:Polite.Container.Value
+  fullName: Polite.Container.Value
+  nameWithType: Container.Value
+- uid: Polite.Container.Value*
+  name: Value
+  href: api/Polite.Container.html#Polite_Container_Value_
+  commentId: Overload:Polite.Container.Value
+  isSpec: "True"
+  fullName: Polite.Container.Value
+  nameWithType: Container.Value
+- uid: Polite.Extensions
+  name: Extensions
+  href: api/Polite.Extensions.html
+  commentId: T:Polite.Extensions
+  fullName: Polite.Extensions
+  nameWithType: Extensions
+- uid: Polite.Extensions.Indented(System.String,System.Int32)
+  name: Indented(String, Int32)
+  href: api/Polite.Extensions.html#Polite_Extensions_Indented_System_String_System_Int32_
+  commentId: M:Polite.Extensions.Indented(System.String,System.Int32)
+  fullName: Polite.Extensions.Indented(System.String, System.Int32)
+  nameWithType: Extensions.Indented(String, Int32)
+- uid: Polite.Extensions.Indented*
+  name: Indented
+  href: api/Polite.Extensions.html#Polite_Extensions_Indented_
+  commentId: Overload:Polite.Extensions.Indented
+  isSpec: "True"
+  fullName: Polite.Extensions.Indented
+  nameWithType: Extensions.Indented
+- uid: Polite.Frame
+  name: Frame
+  href: api/Polite.Frame.html
+  commentId: T:Polite.Frame
+  fullName: Polite.Frame
+  nameWithType: Frame
+- uid: Polite.Frame.#ctor
+  name: Frame()
+  href: api/Polite.Frame.html#Polite_Frame__ctor
+  commentId: M:Polite.Frame.#ctor
+  fullName: Polite.Frame.Frame()
+  nameWithType: Frame.Frame()
+- uid: Polite.Frame.#ctor*
+  name: Frame
+  href: api/Polite.Frame.html#Polite_Frame__ctor_
+  commentId: Overload:Polite.Frame.#ctor
+  isSpec: "True"
+  fullName: Polite.Frame.Frame
+  nameWithType: Frame.Frame
+- uid: Polite.Frame.Clear
+  name: Clear()
+  href: api/Polite.Frame.html#Polite_Frame_Clear
+  commentId: M:Polite.Frame.Clear
+  fullName: Polite.Frame.Clear()
+  nameWithType: Frame.Clear()
+- uid: Polite.Frame.Clear*
+  name: Clear
+  href: api/Polite.Frame.html#Polite_Frame_Clear_
+  commentId: Overload:Polite.Frame.Clear
+  isSpec: "True"
+  fullName: Polite.Frame.Clear
+  nameWithType: Frame.Clear
+- uid: Polite.Frame.GetOrSet(System.Int32,Polite.Variable)
+  name: GetOrSet(Int32, Variable)
+  href: api/Polite.Frame.html#Polite_Frame_GetOrSet_System_Int32_Polite_Variable_
+  commentId: M:Polite.Frame.GetOrSet(System.Int32,Polite.Variable)
+  fullName: Polite.Frame.GetOrSet(System.Int32, Polite.Variable)
+  nameWithType: Frame.GetOrSet(Int32, Variable)
+- uid: Polite.Frame.GetOrSet*
+  name: GetOrSet
+  href: api/Polite.Frame.html#Polite_Frame_GetOrSet_
+  commentId: Overload:Polite.Frame.GetOrSet
+  isSpec: "True"
+  fullName: Polite.Frame.GetOrSet
+  nameWithType: Frame.GetOrSet
+- uid: Polite.Frame.Set(System.Int32,Polite.Variable)
+  name: Set(Int32, Variable)
+  href: api/Polite.Frame.html#Polite_Frame_Set_System_Int32_Polite_Variable_
+  commentId: M:Polite.Frame.Set(System.Int32,Polite.Variable)
+  fullName: Polite.Frame.Set(System.Int32, Polite.Variable)
+  nameWithType: Frame.Set(Int32, Variable)
+- uid: Polite.Frame.Set*
+  name: Set
+  href: api/Polite.Frame.html#Polite_Frame_Set_
+  commentId: Overload:Polite.Frame.Set
+  isSpec: "True"
+  fullName: Polite.Frame.Set
+  nameWithType: Frame.Set
+- uid: Polite.Frame.Variables
+  name: Variables
+  href: api/Polite.Frame.html#Polite_Frame_Variables
+  commentId: P:Polite.Frame.Variables
+  fullName: Polite.Frame.Variables
+  nameWithType: Frame.Variables
+- uid: Polite.Frame.Variables*
+  name: Variables
+  href: api/Polite.Frame.html#Polite_Frame_Variables_
+  commentId: Overload:Polite.Frame.Variables
+  isSpec: "True"
+  fullName: Polite.Frame.Variables
+  nameWithType: Frame.Variables
+- uid: Polite.Function
+  name: Function
+  href: api/Polite.Function.html
+  commentId: T:Polite.Function
+  fullName: Polite.Function
+  nameWithType: Function
+- uid: Polite.Function.Members
+  name: Members
+  href: api/Polite.Function.html#Polite_Function_Members
+  commentId: P:Polite.Function.Members
+  fullName: Polite.Function.Members
+  nameWithType: Function.Members
+- uid: Polite.Function.Members*
+  name: Members
+  href: api/Polite.Function.html#Polite_Function_Members_
+  commentId: Overload:Polite.Function.Members
+  isSpec: "True"
+  fullName: Polite.Function.Members
+  nameWithType: Function.Members
+- uid: Polite.Function.Operation
+  name: Operation
+  href: api/Polite.Function.html#Polite_Function_Operation
+  commentId: P:Polite.Function.Operation
+  fullName: Polite.Function.Operation
+  nameWithType: Function.Operation
+- uid: Polite.Function.Operation*
+  name: Operation
+  href: api/Polite.Function.html#Polite_Function_Operation_
+  commentId: Overload:Polite.Function.Operation
+  isSpec: "True"
+  fullName: Polite.Function.Operation
+  nameWithType: Function.Operation
+- uid: Polite.Function.Parameters
+  name: Parameters
+  href: api/Polite.Function.html#Polite_Function_Parameters
+  commentId: P:Polite.Function.Parameters
+  fullName: Polite.Function.Parameters
+  nameWithType: Function.Parameters
+- uid: Polite.Function.Parameters*
+  name: Parameters
+  href: api/Polite.Function.html#Polite_Function_Parameters_
+  commentId: Overload:Polite.Function.Parameters
+  isSpec: "True"
+  fullName: Polite.Function.Parameters
+  nameWithType: Function.Parameters
+- uid: Polite.Function.Parent
+  name: Parent
+  href: api/Polite.Function.html#Polite_Function_Parent
+  commentId: P:Polite.Function.Parent
+  fullName: Polite.Function.Parent
+  nameWithType: Function.Parent
+- uid: Polite.Function.Parent*
+  name: Parent
+  href: api/Polite.Function.html#Polite_Function_Parent_
+  commentId: Overload:Polite.Function.Parent
+  isSpec: "True"
+  fullName: Polite.Function.Parent
+  nameWithType: Function.Parent
+- uid: Polite.Function.ReturnsNull
+  name: ReturnsNull
+  href: api/Polite.Function.html#Polite_Function_ReturnsNull
+  commentId: P:Polite.Function.ReturnsNull
+  fullName: Polite.Function.ReturnsNull
+  nameWithType: Function.ReturnsNull
+- uid: Polite.Function.ReturnsNull*
+  name: ReturnsNull
+  href: api/Polite.Function.html#Polite_Function_ReturnsNull_
+  commentId: Overload:Polite.Function.ReturnsNull
+  isSpec: "True"
+  fullName: Polite.Function.ReturnsNull
+  nameWithType: Function.ReturnsNull
+- uid: Polite.Function.ToString
+  name: ToString()
+  href: api/Polite.Function.html#Polite_Function_ToString
+  commentId: M:Polite.Function.ToString
+  fullName: Polite.Function.ToString()
+  nameWithType: Function.ToString()
+- uid: Polite.Function.ToString*
+  name: ToString
+  href: api/Polite.Function.html#Polite_Function_ToString_
+  commentId: Overload:Polite.Function.ToString
+  isSpec: "True"
+  fullName: Polite.Function.ToString
+  nameWithType: Function.ToString
+- uid: Polite.Function.Value
+  name: Value
+  href: api/Polite.Function.html#Polite_Function_Value
+  commentId: P:Polite.Function.Value
+  fullName: Polite.Function.Value
+  nameWithType: Function.Value
+- uid: Polite.Function.Value*
+  name: Value
+  href: api/Polite.Function.html#Polite_Function_Value_
+  commentId: Overload:Polite.Function.Value
+  isSpec: "True"
+  fullName: Polite.Function.Value
+  nameWithType: Function.Value
+- uid: Polite.FunctionInvoker
+  name: FunctionInvoker
+  href: api/Polite.FunctionInvoker.html
+  commentId: T:Polite.FunctionInvoker
+  fullName: Polite.FunctionInvoker
+  nameWithType: FunctionInvoker
+- uid: Polite.Grammars
+  name: Grammars
+  href: api/Polite.Grammars.html
+  commentId: T:Polite.Grammars
+  fullName: Polite.Grammars
+  nameWithType: Grammars
+- uid: Polite.Grammars.JavaScript
+  name: Grammars.JavaScript
+  href: api/Polite.Grammars.JavaScript.html
+  commentId: T:Polite.Grammars.JavaScript
+  fullName: Polite.Grammars.JavaScript
+  nameWithType: Grammars.JavaScript
+- uid: Polite.Grammars.JavaScript.AssignmentLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: AssignmentLed(Token, Token, Int32, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_AssignmentLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.AssignmentLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.AssignmentLed(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: Grammars.JavaScript.AssignmentLed(Token, Token, Int32, Parser)
+- uid: Polite.Grammars.JavaScript.AssignmentLed*
+  name: AssignmentLed
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_AssignmentLed_
+  commentId: Overload:Polite.Grammars.JavaScript.AssignmentLed
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.AssignmentLed
+  nameWithType: Grammars.JavaScript.AssignmentLed
+- uid: Polite.Grammars.JavaScript.BlockFunction(Polite.Parser)
+  name: BlockFunction(Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_BlockFunction_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.BlockFunction(Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.BlockFunction(Polite.Parser)
+  nameWithType: Grammars.JavaScript.BlockFunction(Parser)
+- uid: Polite.Grammars.JavaScript.BlockFunction*
+  name: BlockFunction
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_BlockFunction_
+  commentId: Overload:Polite.Grammars.JavaScript.BlockFunction
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.BlockFunction
+  nameWithType: Grammars.JavaScript.BlockFunction
+- uid: Polite.Grammars.JavaScript.ConstantFunction(Polite.Token,Polite.Parser)
+  name: ConstantFunction(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ConstantFunction_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.ConstantFunction(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.ConstantFunction(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.ConstantFunction(Token, Parser)
+- uid: Polite.Grammars.JavaScript.ConstantFunction*
+  name: ConstantFunction
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ConstantFunction_
+  commentId: Overload:Polite.Grammars.JavaScript.ConstantFunction
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.ConstantFunction
+  nameWithType: Grammars.JavaScript.ConstantFunction
+- uid: Polite.Grammars.JavaScript.ConstructorNud(Polite.Token,Polite.Parser)
+  name: ConstructorNud(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ConstructorNud_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.ConstructorNud(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.ConstructorNud(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.ConstructorNud(Token, Parser)
+- uid: Polite.Grammars.JavaScript.ConstructorNud*
+  name: ConstructorNud
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ConstructorNud_
+  commentId: Overload:Polite.Grammars.JavaScript.ConstructorNud
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.ConstructorNud
+  nameWithType: Grammars.JavaScript.ConstructorNud
+- uid: Polite.Grammars.JavaScript.FunctionNud(Polite.Token,Polite.Parser)
+  name: FunctionNud(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_FunctionNud_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.FunctionNud(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.FunctionNud(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.FunctionNud(Token, Parser)
+- uid: Polite.Grammars.JavaScript.FunctionNud*
+  name: FunctionNud
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_FunctionNud_
+  commentId: Overload:Polite.Grammars.JavaScript.FunctionNud
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.FunctionNud
+  nameWithType: Grammars.JavaScript.FunctionNud
+- uid: Polite.Grammars.JavaScript.IfStad(Polite.Token,Polite.Parser)
+  name: IfStad(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_IfStad_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.IfStad(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.IfStad(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.IfStad(Token, Parser)
+- uid: Polite.Grammars.JavaScript.IfStad*
+  name: IfStad
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_IfStad_
+  commentId: Overload:Polite.Grammars.JavaScript.IfStad
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.IfStad
+  nameWithType: Grammars.JavaScript.IfStad
+- uid: Polite.Grammars.JavaScript.IndexerLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: IndexerLed(Token, Token, Int32, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_IndexerLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.IndexerLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.IndexerLed(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: Grammars.JavaScript.IndexerLed(Token, Token, Int32, Parser)
+- uid: Polite.Grammars.JavaScript.IndexerLed*
+  name: IndexerLed
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_IndexerLed_
+  commentId: Overload:Polite.Grammars.JavaScript.IndexerLed
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.IndexerLed
+  nameWithType: Grammars.JavaScript.IndexerLed
+- uid: Polite.Grammars.JavaScript.IndexerNud(Polite.Token,Polite.Parser)
+  name: IndexerNud(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_IndexerNud_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.IndexerNud(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.IndexerNud(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.IndexerNud(Token, Parser)
+- uid: Polite.Grammars.JavaScript.IndexerNud*
+  name: IndexerNud
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_IndexerNud_
+  commentId: Overload:Polite.Grammars.JavaScript.IndexerNud
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.IndexerNud
+  nameWithType: Grammars.JavaScript.IndexerNud
+- uid: Polite.Grammars.JavaScript.OpenCurlyStad(Polite.Token,Polite.Parser)
+  name: OpenCurlyStad(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_OpenCurlyStad_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.OpenCurlyStad(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.OpenCurlyStad(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.OpenCurlyStad(Token, Parser)
+- uid: Polite.Grammars.JavaScript.OpenCurlyStad*
+  name: OpenCurlyStad
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_OpenCurlyStad_
+  commentId: Overload:Polite.Grammars.JavaScript.OpenCurlyStad
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.OpenCurlyStad
+  nameWithType: Grammars.JavaScript.OpenCurlyStad
+- uid: Polite.Grammars.JavaScript.OpenParenLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: OpenParenLed(Token, Token, Int32, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_OpenParenLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.OpenParenLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.OpenParenLed(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: Grammars.JavaScript.OpenParenLed(Token, Token, Int32, Parser)
+- uid: Polite.Grammars.JavaScript.OpenParenLed*
+  name: OpenParenLed
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_OpenParenLed_
+  commentId: Overload:Polite.Grammars.JavaScript.OpenParenLed
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.OpenParenLed
+  nameWithType: Grammars.JavaScript.OpenParenLed
+- uid: Polite.Grammars.JavaScript.OpenParenNud(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: OpenParenNud(Token, Token, Int32, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_OpenParenNud_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.OpenParenNud(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.OpenParenNud(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: Grammars.JavaScript.OpenParenNud(Token, Token, Int32, Parser)
+- uid: Polite.Grammars.JavaScript.OpenParenNud*
+  name: OpenParenNud
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_OpenParenNud_
+  commentId: Overload:Polite.Grammars.JavaScript.OpenParenNud
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.OpenParenNud
+  nameWithType: Grammars.JavaScript.OpenParenNud
+- uid: Polite.Grammars.JavaScript.ReferenceStad(Polite.Token,Polite.Parser)
+  name: ReferenceStad(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ReferenceStad_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.ReferenceStad(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.ReferenceStad(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.ReferenceStad(Token, Parser)
+- uid: Polite.Grammars.JavaScript.ReferenceStad*
+  name: ReferenceStad
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ReferenceStad_
+  commentId: Overload:Polite.Grammars.JavaScript.ReferenceStad
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.ReferenceStad
+  nameWithType: Grammars.JavaScript.ReferenceStad
+- uid: Polite.Grammars.JavaScript.ReturnStad(Polite.Token,Polite.Parser)
+  name: ReturnStad(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ReturnStad_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.ReturnStad(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.ReturnStad(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.ReturnStad(Token, Parser)
+- uid: Polite.Grammars.JavaScript.ReturnStad*
+  name: ReturnStad
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ReturnStad_
+  commentId: Overload:Polite.Grammars.JavaScript.ReturnStad
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.ReturnStad
+  nameWithType: Grammars.JavaScript.ReturnStad
+- uid: Polite.Grammars.JavaScript.StatementFunction(Polite.Parser)
+  name: StatementFunction(Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_StatementFunction_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.StatementFunction(Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.StatementFunction(Polite.Parser)
+  nameWithType: Grammars.JavaScript.StatementFunction(Parser)
+- uid: Polite.Grammars.JavaScript.StatementFunction*
+  name: StatementFunction
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_StatementFunction_
+  commentId: Overload:Polite.Grammars.JavaScript.StatementFunction
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.StatementFunction
+  nameWithType: Grammars.JavaScript.StatementFunction
+- uid: Polite.Grammars.JavaScript.StatementsFunction(Polite.Parser)
+  name: StatementsFunction(Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_StatementsFunction_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.StatementsFunction(Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.StatementsFunction(Polite.Parser)
+  nameWithType: Grammars.JavaScript.StatementsFunction(Parser)
+- uid: Polite.Grammars.JavaScript.StatementsFunction*
+  name: StatementsFunction
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_StatementsFunction_
+  commentId: Overload:Polite.Grammars.JavaScript.StatementsFunction
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.StatementsFunction
+  nameWithType: Grammars.JavaScript.StatementsFunction
+- uid: Polite.Grammars.JavaScript.ThisNud(Polite.Token,Polite.Parser)
+  name: ThisNud(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ThisNud_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.ThisNud(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.ThisNud(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.ThisNud(Token, Parser)
+- uid: Polite.Grammars.JavaScript.ThisNud*
+  name: ThisNud
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_ThisNud_
+  commentId: Overload:Polite.Grammars.JavaScript.ThisNud
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.ThisNud
+  nameWithType: Grammars.JavaScript.ThisNud
+- uid: Polite.Grammars.JavaScript.VariableDeclarationStad(Polite.Token,Polite.Parser)
+  name: VariableDeclarationStad(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_VariableDeclarationStad_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.VariableDeclarationStad(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.VariableDeclarationStad(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.VariableDeclarationStad(Token, Parser)
+- uid: Polite.Grammars.JavaScript.VariableDeclarationStad*
+  name: VariableDeclarationStad
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_VariableDeclarationStad_
+  commentId: Overload:Polite.Grammars.JavaScript.VariableDeclarationStad
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.VariableDeclarationStad
+  nameWithType: Grammars.JavaScript.VariableDeclarationStad
+- uid: Polite.Grammars.JavaScript.WhileStad(Polite.Token,Polite.Parser)
+  name: WhileStad(Token, Parser)
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_WhileStad_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Grammars.JavaScript.WhileStad(Polite.Token,Polite.Parser)
+  fullName: Polite.Grammars.JavaScript.WhileStad(Polite.Token, Polite.Parser)
+  nameWithType: Grammars.JavaScript.WhileStad(Token, Parser)
+- uid: Polite.Grammars.JavaScript.WhileStad*
+  name: WhileStad
+  href: api/Polite.Grammars.JavaScript.html#Polite_Grammars_JavaScript_WhileStad_
+  commentId: Overload:Polite.Grammars.JavaScript.WhileStad
+  isSpec: "True"
+  fullName: Polite.Grammars.JavaScript.WhileStad
+  nameWithType: Grammars.JavaScript.WhileStad
+- uid: Polite.IdentifierChecker
+  name: IdentifierChecker
+  href: api/Polite.IdentifierChecker.html
+  commentId: T:Polite.IdentifierChecker
+  fullName: Polite.IdentifierChecker
+  nameWithType: IdentifierChecker
+- uid: Polite.Initializer
+  name: Initializer
+  href: api/Polite.Initializer.html
+  commentId: T:Polite.Initializer
+  fullName: Polite.Initializer
+  nameWithType: Initializer
+- uid: Polite.JavaScriptRuntime
+  name: JavaScriptRuntime
+  href: api/Polite.JavaScriptRuntime.html
+  commentId: T:Polite.JavaScriptRuntime
+  fullName: Polite.JavaScriptRuntime
+  nameWithType: JavaScriptRuntime
+- uid: Polite.JavaScriptRuntime.#ctor(System.Type[])
+  name: JavaScriptRuntime(Type[])
+  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime__ctor_System_Type___
+  commentId: M:Polite.JavaScriptRuntime.#ctor(System.Type[])
+  name.vb: JavaScriptRuntime(Type())
+  fullName: Polite.JavaScriptRuntime.JavaScriptRuntime(System.Type[])
+  fullName.vb: Polite.JavaScriptRuntime.JavaScriptRuntime(System.Type())
+  nameWithType: JavaScriptRuntime.JavaScriptRuntime(Type[])
+  nameWithType.vb: JavaScriptRuntime.JavaScriptRuntime(Type())
+- uid: Polite.JavaScriptRuntime.#ctor*
+  name: JavaScriptRuntime
+  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime__ctor_
+  commentId: Overload:Polite.JavaScriptRuntime.#ctor
+  isSpec: "True"
+  fullName: Polite.JavaScriptRuntime.JavaScriptRuntime
+  nameWithType: JavaScriptRuntime.JavaScriptRuntime
+- uid: Polite.JavaScriptRuntime.DefaultParser
+  name: DefaultParser
+  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime_DefaultParser
+  commentId: P:Polite.JavaScriptRuntime.DefaultParser
+  fullName: Polite.JavaScriptRuntime.DefaultParser
+  nameWithType: JavaScriptRuntime.DefaultParser
+- uid: Polite.JavaScriptRuntime.DefaultParser*
+  name: DefaultParser
+  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime_DefaultParser_
+  commentId: Overload:Polite.JavaScriptRuntime.DefaultParser
+  isSpec: "True"
+  fullName: Polite.JavaScriptRuntime.DefaultParser
+  nameWithType: JavaScriptRuntime.DefaultParser
+- uid: Polite.JavaScriptRuntime.IllegalDuplicates
+  name: IllegalDuplicates
+  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime_IllegalDuplicates
+  commentId: F:Polite.JavaScriptRuntime.IllegalDuplicates
+  fullName: Polite.JavaScriptRuntime.IllegalDuplicates
+  nameWithType: JavaScriptRuntime.IllegalDuplicates
+- uid: Polite.LeftDenotation
+  name: LeftDenotation
+  href: api/Polite.LeftDenotation.html
+  commentId: T:Polite.LeftDenotation
+  fullName: Polite.LeftDenotation
+  nameWithType: LeftDenotation
+- uid: Polite.Lexer
+  name: Lexer
+  href: api/Polite.Lexer.html
+  commentId: T:Polite.Lexer
+  fullName: Polite.Lexer
+  nameWithType: Lexer
+- uid: Polite.Lexer.#ctor
+  name: Lexer()
+  href: api/Polite.Lexer.html#Polite_Lexer__ctor
+  commentId: M:Polite.Lexer.#ctor
+  fullName: Polite.Lexer.Lexer()
+  nameWithType: Lexer.Lexer()
+- uid: Polite.Lexer.#ctor(Polite.Lexicon,Polite.IdentifierChecker,Polite.LiteralSniffer,System.Int16[])
+  name: Lexer(Lexicon, IdentifierChecker, LiteralSniffer, Int16[])
+  href: api/Polite.Lexer.html#Polite_Lexer__ctor_Polite_Lexicon_Polite_IdentifierChecker_Polite_LiteralSniffer_System_Int16___
+  commentId: M:Polite.Lexer.#ctor(Polite.Lexicon,Polite.IdentifierChecker,Polite.LiteralSniffer,System.Int16[])
+  name.vb: Lexer(Lexicon, IdentifierChecker, LiteralSniffer, Int16())
+  fullName: Polite.Lexer.Lexer(Polite.Lexicon, Polite.IdentifierChecker, Polite.LiteralSniffer, System.Int16[])
+  fullName.vb: Polite.Lexer.Lexer(Polite.Lexicon, Polite.IdentifierChecker, Polite.LiteralSniffer, System.Int16())
+  nameWithType: Lexer.Lexer(Lexicon, IdentifierChecker, LiteralSniffer, Int16[])
+  nameWithType.vb: Lexer.Lexer(Lexicon, IdentifierChecker, LiteralSniffer, Int16())
+- uid: Polite.Lexer.#ctor(Polite.Lexicon,Polite.IdentifierChecker,Polite.LiteralSniffer,System.String,System.Int16[])
+  name: Lexer(Lexicon, IdentifierChecker, LiteralSniffer, String, Int16[])
+  href: api/Polite.Lexer.html#Polite_Lexer__ctor_Polite_Lexicon_Polite_IdentifierChecker_Polite_LiteralSniffer_System_String_System_Int16___
+  commentId: M:Polite.Lexer.#ctor(Polite.Lexicon,Polite.IdentifierChecker,Polite.LiteralSniffer,System.String,System.Int16[])
+  name.vb: Lexer(Lexicon, IdentifierChecker, LiteralSniffer, String, Int16())
+  fullName: Polite.Lexer.Lexer(Polite.Lexicon, Polite.IdentifierChecker, Polite.LiteralSniffer, System.String, System.Int16[])
+  fullName.vb: Polite.Lexer.Lexer(Polite.Lexicon, Polite.IdentifierChecker, Polite.LiteralSniffer, System.String, System.Int16())
+  nameWithType: Lexer.Lexer(Lexicon, IdentifierChecker, LiteralSniffer, String, Int16[])
+  nameWithType.vb: Lexer.Lexer(Lexicon, IdentifierChecker, LiteralSniffer, String, Int16())
+- uid: Polite.Lexer.#ctor*
+  name: Lexer
+  href: api/Polite.Lexer.html#Polite_Lexer__ctor_
+  commentId: Overload:Polite.Lexer.#ctor
+  isSpec: "True"
+  fullName: Polite.Lexer.Lexer
+  nameWithType: Lexer.Lexer
+- uid: Polite.Lexer.IsIdentifier
+  name: IsIdentifier
+  href: api/Polite.Lexer.html#Polite_Lexer_IsIdentifier
+  commentId: F:Polite.Lexer.IsIdentifier
+  fullName: Polite.Lexer.IsIdentifier
+  nameWithType: Lexer.IsIdentifier
+- uid: Polite.Lexer.Lexicon
+  name: Lexicon
+  href: api/Polite.Lexer.html#Polite_Lexer_Lexicon
+  commentId: F:Polite.Lexer.Lexicon
+  fullName: Polite.Lexer.Lexicon
+  nameWithType: Lexer.Lexicon
+- uid: Polite.Lexer.SniffLiterals
+  name: SniffLiterals
+  href: api/Polite.Lexer.html#Polite_Lexer_SniffLiterals
+  commentId: F:Polite.Lexer.SniffLiterals
+  fullName: Polite.Lexer.SniffLiterals
+  nameWithType: Lexer.SniffLiterals
+- uid: Polite.Lexer.Tokenize(System.String)
+  name: Tokenize(String)
+  href: api/Polite.Lexer.html#Polite_Lexer_Tokenize_System_String_
+  commentId: M:Polite.Lexer.Tokenize(System.String)
+  fullName: Polite.Lexer.Tokenize(System.String)
+  nameWithType: Lexer.Tokenize(String)
+- uid: Polite.Lexer.Tokenize*
+  name: Tokenize
+  href: api/Polite.Lexer.html#Polite_Lexer_Tokenize_
+  commentId: Overload:Polite.Lexer.Tokenize
+  isSpec: "True"
+  fullName: Polite.Lexer.Tokenize
+  nameWithType: Lexer.Tokenize
+- uid: Polite.Lexer.Tokenized(System.String)
+  name: Tokenized(String)
+  href: api/Polite.Lexer.html#Polite_Lexer_Tokenized_System_String_
+  commentId: M:Polite.Lexer.Tokenized(System.String)
+  fullName: Polite.Lexer.Tokenized(System.String)
+  nameWithType: Lexer.Tokenized(String)
+- uid: Polite.Lexer.Tokenized*
+  name: Tokenized
+  href: api/Polite.Lexer.html#Polite_Lexer_Tokenized_
+  commentId: Overload:Polite.Lexer.Tokenized
+  isSpec: "True"
+  fullName: Polite.Lexer.Tokenized
+  nameWithType: Lexer.Tokenized
+- uid: Polite.Lexer.Tokens
+  name: Tokens
+  href: api/Polite.Lexer.html#Polite_Lexer_Tokens
+  commentId: F:Polite.Lexer.Tokens
+  fullName: Polite.Lexer.Tokens
+  nameWithType: Lexer.Tokens
+- uid: Polite.Lexicon
+  name: Lexicon
+  href: api/Polite.Lexicon.html
+  commentId: T:Polite.Lexicon
+  fullName: Polite.Lexicon
+  nameWithType: Lexicon
+- uid: Polite.Lexicon.#ctor
+  name: Lexicon()
+  href: api/Polite.Lexicon.html#Polite_Lexicon__ctor
+  commentId: M:Polite.Lexicon.#ctor
+  fullName: Polite.Lexicon.Lexicon()
+  nameWithType: Lexicon.Lexicon()
+- uid: Polite.Lexicon.#ctor(Polite.TokenTable)
+  name: Lexicon(TokenTable)
+  href: api/Polite.Lexicon.html#Polite_Lexicon__ctor_Polite_TokenTable_
+  commentId: M:Polite.Lexicon.#ctor(Polite.TokenTable)
+  fullName: Polite.Lexicon.Lexicon(Polite.TokenTable)
+  nameWithType: Lexicon.Lexicon(TokenTable)
+- uid: Polite.Lexicon.#ctor*
+  name: Lexicon
+  href: api/Polite.Lexicon.html#Polite_Lexicon__ctor_
+  commentId: Overload:Polite.Lexicon.#ctor
+  isSpec: "True"
+  fullName: Polite.Lexicon.Lexicon
+  nameWithType: Lexicon.Lexicon
+- uid: Polite.Lexicon.Defaults
+  name: Lexicon.Defaults
+  href: api/Polite.Lexicon.Defaults.html
+  commentId: T:Polite.Lexicon.Defaults
+  fullName: Polite.Lexicon.Defaults
+  nameWithType: Lexicon.Defaults
+- uid: Polite.Lexicon.Defaults.JavaScript
+  name: Lexicon.Defaults.JavaScript
+  href: api/Polite.Lexicon.Defaults.JavaScript.html
+  commentId: T:Polite.Lexicon.Defaults.JavaScript
+  fullName: Polite.Lexicon.Defaults.JavaScript
+  nameWithType: Lexicon.Defaults.JavaScript
+- uid: Polite.Lexicon.Defaults.JavaScript.IsBooleanLiteral(System.String)
+  name: IsBooleanLiteral(String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsBooleanLiteral_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsBooleanLiteral(System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsBooleanLiteral(System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsBooleanLiteral(String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsBooleanLiteral*
+  name: IsBooleanLiteral
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsBooleanLiteral_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.IsBooleanLiteral
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsBooleanLiteral
+  nameWithType: Lexicon.Defaults.JavaScript.IsBooleanLiteral
+- uid: Polite.Lexicon.Defaults.JavaScript.IsDoubleLiteral(System.String)
+  name: IsDoubleLiteral(String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsDoubleLiteral_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsDoubleLiteral(System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsDoubleLiteral(System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsDoubleLiteral(String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsDoubleLiteral*
+  name: IsDoubleLiteral
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsDoubleLiteral_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.IsDoubleLiteral
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsDoubleLiteral
+  nameWithType: Lexicon.Defaults.JavaScript.IsDoubleLiteral
+- uid: Polite.Lexicon.Defaults.JavaScript.IsIdentifier(System.String)
+  name: IsIdentifier(String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsIdentifier_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsIdentifier(System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsIdentifier(System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsIdentifier(String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsIdentifier*
+  name: IsIdentifier
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsIdentifier_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.IsIdentifier
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsIdentifier
+  nameWithType: Lexicon.Defaults.JavaScript.IsIdentifier
+- uid: Polite.Lexicon.Defaults.JavaScript.IsIntegerLiteral(System.String)
+  name: IsIntegerLiteral(String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsIntegerLiteral_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsIntegerLiteral(System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsIntegerLiteral(System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsIntegerLiteral(String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsIntegerLiteral*
+  name: IsIntegerLiteral
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsIntegerLiteral_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.IsIntegerLiteral
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsIntegerLiteral
+  nameWithType: Lexicon.Defaults.JavaScript.IsIntegerLiteral
+- uid: Polite.Lexicon.Defaults.JavaScript.IsLiteral(System.String)
+  name: IsLiteral(String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsLiteral_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsLiteral(System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsLiteral(System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsLiteral(String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsLiteral*
+  name: IsLiteral
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsLiteral_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.IsLiteral
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsLiteral
+  nameWithType: Lexicon.Defaults.JavaScript.IsLiteral
+- uid: Polite.Lexicon.Defaults.JavaScript.IsStringLiteral(System.String)
+  name: IsStringLiteral(String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsStringLiteral_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsStringLiteral(System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsStringLiteral(System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsStringLiteral(String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsStringLiteral(System.String,System.String)
+  name: IsStringLiteral(String, String)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsStringLiteral_System_String_System_String_
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.IsStringLiteral(System.String,System.String)
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsStringLiteral(System.String, System.String)
+  nameWithType: Lexicon.Defaults.JavaScript.IsStringLiteral(String, String)
+- uid: Polite.Lexicon.Defaults.JavaScript.IsStringLiteral*
+  name: IsStringLiteral
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_IsStringLiteral_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.IsStringLiteral
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.IsStringLiteral
+  nameWithType: Lexicon.Defaults.JavaScript.IsStringLiteral
+- uid: Polite.Lexicon.Defaults.JavaScript.SniffLiterals(System.String,Polite.TokenTable,System.Collections.BitArray@)
+  name: SniffLiterals(String, TokenTable, ref BitArray)
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_SniffLiterals_System_String_Polite_TokenTable_System_Collections_BitArray__
+  commentId: M:Polite.Lexicon.Defaults.JavaScript.SniffLiterals(System.String,Polite.TokenTable,System.Collections.BitArray@)
+  name.vb: SniffLiterals(String, TokenTable, ByRef BitArray)
+  fullName: Polite.Lexicon.Defaults.JavaScript.SniffLiterals(System.String, Polite.TokenTable, ref System.Collections.BitArray)
+  fullName.vb: Polite.Lexicon.Defaults.JavaScript.SniffLiterals(System.String, Polite.TokenTable, ByRef System.Collections.BitArray)
+  nameWithType: Lexicon.Defaults.JavaScript.SniffLiterals(String, TokenTable, ref BitArray)
+  nameWithType.vb: Lexicon.Defaults.JavaScript.SniffLiterals(String, TokenTable, ByRef BitArray)
+- uid: Polite.Lexicon.Defaults.JavaScript.SniffLiterals*
+  name: SniffLiterals
+  href: api/Polite.Lexicon.Defaults.JavaScript.html#Polite_Lexicon_Defaults_JavaScript_SniffLiterals_
+  commentId: Overload:Polite.Lexicon.Defaults.JavaScript.SniffLiterals
+  isSpec: "True"
+  fullName: Polite.Lexicon.Defaults.JavaScript.SniffLiterals
+  nameWithType: Lexicon.Defaults.JavaScript.SniffLiterals
+- uid: Polite.Lexicon.Ignored
+  name: Ignored
+  href: api/Polite.Lexicon.html#Polite_Lexicon_Ignored
+  commentId: P:Polite.Lexicon.Ignored
+  fullName: Polite.Lexicon.Ignored
+  nameWithType: Lexicon.Ignored
+- uid: Polite.Lexicon.Ignored*
+  name: Ignored
+  href: api/Polite.Lexicon.html#Polite_Lexicon_Ignored_
+  commentId: Overload:Polite.Lexicon.Ignored
+  isSpec: "True"
+  fullName: Polite.Lexicon.Ignored
+  nameWithType: Lexicon.Ignored
+- uid: Polite.Lexicon.IgnoredDelimiters
+  name: IgnoredDelimiters
+  href: api/Polite.Lexicon.html#Polite_Lexicon_IgnoredDelimiters
+  commentId: P:Polite.Lexicon.IgnoredDelimiters
+  fullName: Polite.Lexicon.IgnoredDelimiters
+  nameWithType: Lexicon.IgnoredDelimiters
+- uid: Polite.Lexicon.IgnoredDelimiters*
+  name: IgnoredDelimiters
+  href: api/Polite.Lexicon.html#Polite_Lexicon_IgnoredDelimiters_
+  commentId: Overload:Polite.Lexicon.IgnoredDelimiters
+  isSpec: "True"
+  fullName: Polite.Lexicon.IgnoredDelimiters
+  nameWithType: Lexicon.IgnoredDelimiters
+- uid: Polite.Lexicon.Operators
+  name: Operators
+  href: api/Polite.Lexicon.html#Polite_Lexicon_Operators
+  commentId: P:Polite.Lexicon.Operators
+  fullName: Polite.Lexicon.Operators
+  nameWithType: Lexicon.Operators
+- uid: Polite.Lexicon.Operators*
+  name: Operators
+  href: api/Polite.Lexicon.html#Polite_Lexicon_Operators_
+  commentId: Overload:Polite.Lexicon.Operators
+  isSpec: "True"
+  fullName: Polite.Lexicon.Operators
+  nameWithType: Lexicon.Operators
+- uid: Polite.Lexicon.TokensOfType(System.Int16)
+  name: TokensOfType(Int16)
+  href: api/Polite.Lexicon.html#Polite_Lexicon_TokensOfType_System_Int16_
+  commentId: M:Polite.Lexicon.TokensOfType(System.Int16)
+  fullName: Polite.Lexicon.TokensOfType(System.Int16)
+  nameWithType: Lexicon.TokensOfType(Int16)
+- uid: Polite.Lexicon.TokensOfType*
+  name: TokensOfType
+  href: api/Polite.Lexicon.html#Polite_Lexicon_TokensOfType_
+  commentId: Overload:Polite.Lexicon.TokensOfType
+  isSpec: "True"
+  fullName: Polite.Lexicon.TokensOfType
+  nameWithType: Lexicon.TokensOfType
+- uid: Polite.Lexicon.TokenTable
+  name: TokenTable
+  href: api/Polite.Lexicon.html#Polite_Lexicon_TokenTable
+  commentId: F:Polite.Lexicon.TokenTable
+  fullName: Polite.Lexicon.TokenTable
+  nameWithType: Lexicon.TokenTable
+- uid: Polite.Lexicons
+  name: Lexicons
+  href: api/Polite.Lexicons.html
+  commentId: T:Polite.Lexicons
+  fullName: Polite.Lexicons
+  nameWithType: Lexicons
+- uid: Polite.Lexicons.JavaScript
+  name: Lexicons.JavaScript
+  href: api/Polite.Lexicons.JavaScript.html
+  commentId: T:Polite.Lexicons.JavaScript
+  fullName: Polite.Lexicons.JavaScript
+  nameWithType: Lexicons.JavaScript
+- uid: Polite.Lexicons.JavaScript.#ctor
+  name: JavaScript()
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript__ctor
+  commentId: M:Polite.Lexicons.JavaScript.#ctor
+  fullName: Polite.Lexicons.JavaScript.JavaScript()
+  nameWithType: Lexicons.JavaScript.JavaScript()
+- uid: Polite.Lexicons.JavaScript.#ctor*
+  name: JavaScript
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript__ctor_
+  commentId: Overload:Polite.Lexicons.JavaScript.#ctor
+  isSpec: "True"
+  fullName: Polite.Lexicons.JavaScript.JavaScript
+  nameWithType: Lexicons.JavaScript.JavaScript
+- uid: Polite.Lexicons.JavaScript.DefaultTokens
+  name: DefaultTokens
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript_DefaultTokens
+  commentId: P:Polite.Lexicons.JavaScript.DefaultTokens
+  fullName: Polite.Lexicons.JavaScript.DefaultTokens
+  nameWithType: Lexicons.JavaScript.DefaultTokens
+- uid: Polite.Lexicons.JavaScript.DefaultTokens*
+  name: DefaultTokens
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript_DefaultTokens_
+  commentId: Overload:Polite.Lexicons.JavaScript.DefaultTokens
+  isSpec: "True"
+  fullName: Polite.Lexicons.JavaScript.DefaultTokens
+  nameWithType: Lexicons.JavaScript.DefaultTokens
+- uid: Polite.Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+  name: IdentifierLiteralOrIgnoredDelimiter
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript_IdentifierLiteralOrIgnoredDelimiter
+  commentId: P:Polite.Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+  fullName: Polite.Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+  nameWithType: Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+- uid: Polite.Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter*
+  name: IdentifierLiteralOrIgnoredDelimiter
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript_IdentifierLiteralOrIgnoredDelimiter_
+  commentId: Overload:Polite.Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+  isSpec: "True"
+  fullName: Polite.Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+  nameWithType: Lexicons.JavaScript.IdentifierLiteralOrIgnoredDelimiter
+- uid: Polite.Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+  name: OperatorEndlineOrIgnoredDelimiter
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript_OperatorEndlineOrIgnoredDelimiter
+  commentId: P:Polite.Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+  fullName: Polite.Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+  nameWithType: Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+- uid: Polite.Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter*
+  name: OperatorEndlineOrIgnoredDelimiter
+  href: api/Polite.Lexicons.JavaScript.html#Polite_Lexicons_JavaScript_OperatorEndlineOrIgnoredDelimiter_
+  commentId: Overload:Polite.Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+  isSpec: "True"
+  fullName: Polite.Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+  nameWithType: Lexicons.JavaScript.OperatorEndlineOrIgnoredDelimiter
+- uid: Polite.LiteralSniffer
+  name: LiteralSniffer
+  href: api/Polite.LiteralSniffer.html
+  commentId: T:Polite.LiteralSniffer
+  fullName: Polite.LiteralSniffer
+  nameWithType: LiteralSniffer
+- uid: Polite.MethodInvoker
+  name: MethodInvoker
+  href: api/Polite.MethodInvoker.html
+  commentId: T:Polite.MethodInvoker
+  fullName: Polite.MethodInvoker
+  nameWithType: MethodInvoker
+- uid: Polite.MethodInvoker.#ctor
+  name: MethodInvoker()
+  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker__ctor
+  commentId: M:Polite.MethodInvoker.#ctor
+  fullName: Polite.MethodInvoker.MethodInvoker()
+  nameWithType: MethodInvoker.MethodInvoker()
+- uid: Polite.MethodInvoker.#ctor*
+  name: MethodInvoker
+  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker__ctor_
+  commentId: Overload:Polite.MethodInvoker.#ctor
+  isSpec: "True"
+  fullName: Polite.MethodInvoker.MethodInvoker
+  nameWithType: MethodInvoker.MethodInvoker
+- uid: Polite.MethodInvoker.Value
+  name: Value
+  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker_Value
+  commentId: P:Polite.MethodInvoker.Value
+  fullName: Polite.MethodInvoker.Value
+  nameWithType: MethodInvoker.Value
+- uid: Polite.MethodInvoker.Value*
+  name: Value
+  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker_Value_
+  commentId: Overload:Polite.MethodInvoker.Value
+  isSpec: "True"
+  fullName: Polite.MethodInvoker.Value
+  nameWithType: MethodInvoker.Value
+- uid: Polite.NullDenotion
+  name: NullDenotion
+  href: api/Polite.NullDenotion.html
+  commentId: T:Polite.NullDenotion
+  fullName: Polite.NullDenotion
+  nameWithType: NullDenotion
+- uid: Polite.Parser
+  name: Parser
+  href: api/Polite.Parser.html
+  commentId: T:Polite.Parser
+  fullName: Polite.Parser
+  nameWithType: Parser
+- uid: Polite.Parser.#ctor(Polite.Lexer)
+  name: Parser(Lexer)
+  href: api/Polite.Parser.html#Polite_Parser__ctor_Polite_Lexer_
+  commentId: M:Polite.Parser.#ctor(Polite.Lexer)
+  fullName: Polite.Parser.Parser(Polite.Lexer)
+  nameWithType: Parser.Parser(Lexer)
+- uid: Polite.Parser.#ctor(Polite.Lexer,System.Collections.Generic.List{Polite.Token})
+  name: Parser(Lexer, List<Token>)
+  href: api/Polite.Parser.html#Polite_Parser__ctor_Polite_Lexer_System_Collections_Generic_List_Polite_Token__
+  commentId: M:Polite.Parser.#ctor(Polite.Lexer,System.Collections.Generic.List{Polite.Token})
+  name.vb: Parser(Lexer, List(Of Token))
+  fullName: Polite.Parser.Parser(Polite.Lexer, System.Collections.Generic.List<Polite.Token>)
+  fullName.vb: Polite.Parser.Parser(Polite.Lexer, System.Collections.Generic.List(Of Polite.Token))
+  nameWithType: Parser.Parser(Lexer, List<Token>)
+  nameWithType.vb: Parser.Parser(Lexer, List(Of Token))
+- uid: Polite.Parser.#ctor*
+  name: Parser
+  href: api/Polite.Parser.html#Polite_Parser__ctor_
+  commentId: Overload:Polite.Parser.#ctor
+  isSpec: "True"
+  fullName: Polite.Parser.Parser
+  nameWithType: Parser.Parser
+- uid: Polite.Parser.Advance(System.String)
+  name: Advance(String)
+  href: api/Polite.Parser.html#Polite_Parser_Advance_System_String_
+  commentId: M:Polite.Parser.Advance(System.String)
+  fullName: Polite.Parser.Advance(System.String)
+  nameWithType: Parser.Advance(String)
+- uid: Polite.Parser.Advance*
+  name: Advance
+  href: api/Polite.Parser.html#Polite_Parser_Advance_
+  commentId: Overload:Polite.Parser.Advance
+  isSpec: "True"
+  fullName: Polite.Parser.Advance
+  nameWithType: Parser.Advance
+- uid: Polite.Parser.CurrentScope
+  name: CurrentScope
+  href: api/Polite.Parser.html#Polite_Parser_CurrentScope
+  commentId: F:Polite.Parser.CurrentScope
+  fullName: Polite.Parser.CurrentScope
+  nameWithType: Parser.CurrentScope
+- uid: Polite.Parser.CurrentToken
+  name: CurrentToken
+  href: api/Polite.Parser.html#Polite_Parser_CurrentToken
+  commentId: F:Polite.Parser.CurrentToken
+  fullName: Polite.Parser.CurrentToken
+  nameWithType: Parser.CurrentToken
+- uid: Polite.Parser.Expression(System.Int32)
+  name: Expression(Int32)
+  href: api/Polite.Parser.html#Polite_Parser_Expression_System_Int32_
+  commentId: M:Polite.Parser.Expression(System.Int32)
+  fullName: Polite.Parser.Expression(System.Int32)
+  nameWithType: Parser.Expression(Int32)
+- uid: Polite.Parser.Expression*
+  name: Expression
+  href: api/Polite.Parser.html#Polite_Parser_Expression_
+  commentId: Overload:Polite.Parser.Expression
+  isSpec: "True"
+  fullName: Polite.Parser.Expression
+  nameWithType: Parser.Expression
+- uid: Polite.Parser.Lexer
+  name: Lexer
+  href: api/Polite.Parser.html#Polite_Parser_Lexer
+  commentId: F:Polite.Parser.Lexer
+  fullName: Polite.Parser.Lexer
+  nameWithType: Parser.Lexer
+- uid: Polite.Parser.NewScope
+  name: NewScope()
+  href: api/Polite.Parser.html#Polite_Parser_NewScope
+  commentId: M:Polite.Parser.NewScope
+  fullName: Polite.Parser.NewScope()
+  nameWithType: Parser.NewScope()
+- uid: Polite.Parser.NewScope*
+  name: NewScope
+  href: api/Polite.Parser.html#Polite_Parser_NewScope_
+  commentId: Overload:Polite.Parser.NewScope
+  isSpec: "True"
+  fullName: Polite.Parser.NewScope
+  nameWithType: Parser.NewScope
+- uid: Polite.Parser.Parse(System.Collections.Generic.List{Polite.Token})
+  name: Parse(List<Token>)
+  href: api/Polite.Parser.html#Polite_Parser_Parse_System_Collections_Generic_List_Polite_Token__
+  commentId: M:Polite.Parser.Parse(System.Collections.Generic.List{Polite.Token})
+  name.vb: Parse(List(Of Token))
+  fullName: Polite.Parser.Parse(System.Collections.Generic.List<Polite.Token>)
+  fullName.vb: Polite.Parser.Parse(System.Collections.Generic.List(Of Polite.Token))
+  nameWithType: Parser.Parse(List<Token>)
+  nameWithType.vb: Parser.Parse(List(Of Token))
+- uid: Polite.Parser.Parse(System.String)
+  name: Parse(String)
+  href: api/Polite.Parser.html#Polite_Parser_Parse_System_String_
+  commentId: M:Polite.Parser.Parse(System.String)
+  fullName: Polite.Parser.Parse(System.String)
+  nameWithType: Parser.Parse(String)
+- uid: Polite.Parser.Parse*
+  name: Parse
+  href: api/Polite.Parser.html#Polite_Parser_Parse_
+  commentId: Overload:Polite.Parser.Parse
+  isSpec: "True"
+  fullName: Polite.Parser.Parse
+  nameWithType: Parser.Parse
+- uid: Polite.Parser.PopScope
+  name: PopScope()
+  href: api/Polite.Parser.html#Polite_Parser_PopScope
+  commentId: M:Polite.Parser.PopScope
+  fullName: Polite.Parser.PopScope()
+  nameWithType: Parser.PopScope()
+- uid: Polite.Parser.PopScope*
+  name: PopScope
+  href: api/Polite.Parser.html#Polite_Parser_PopScope_
+  commentId: Overload:Polite.Parser.PopScope
+  isSpec: "True"
+  fullName: Polite.Parser.PopScope
+  nameWithType: Parser.PopScope
+- uid: Polite.Parser.PrintResults(Polite.Token,Polite.Token,System.Int32)
+  name: PrintResults(Token, Token, Int32)
+  href: api/Polite.Parser.html#Polite_Parser_PrintResults_Polite_Token_Polite_Token_System_Int32_
+  commentId: M:Polite.Parser.PrintResults(Polite.Token,Polite.Token,System.Int32)
+  fullName: Polite.Parser.PrintResults(Polite.Token, Polite.Token, System.Int32)
+  nameWithType: Parser.PrintResults(Token, Token, Int32)
+- uid: Polite.Parser.PrintResults*
+  name: PrintResults
+  href: api/Polite.Parser.html#Polite_Parser_PrintResults_
+  commentId: Overload:Polite.Parser.PrintResults
+  isSpec: "True"
+  fullName: Polite.Parser.PrintResults
+  nameWithType: Parser.PrintResults
+- uid: Polite.Parser.Result
+  name: Result
+  href: api/Polite.Parser.html#Polite_Parser_Result
+  commentId: P:Polite.Parser.Result
+  fullName: Polite.Parser.Result
+  nameWithType: Parser.Result
+- uid: Polite.Parser.Result*
+  name: Result
+  href: api/Polite.Parser.html#Polite_Parser_Result_
+  commentId: Overload:Polite.Parser.Result
+  isSpec: "True"
+  fullName: Polite.Parser.Result
+  nameWithType: Parser.Result
+- uid: Polite.Parser.TryParse(System.Collections.Generic.List{Polite.Token})
+  name: TryParse(List<Token>)
+  href: api/Polite.Parser.html#Polite_Parser_TryParse_System_Collections_Generic_List_Polite_Token__
+  commentId: M:Polite.Parser.TryParse(System.Collections.Generic.List{Polite.Token})
+  name.vb: TryParse(List(Of Token))
+  fullName: Polite.Parser.TryParse(System.Collections.Generic.List<Polite.Token>)
+  fullName.vb: Polite.Parser.TryParse(System.Collections.Generic.List(Of Polite.Token))
+  nameWithType: Parser.TryParse(List<Token>)
+  nameWithType.vb: Parser.TryParse(List(Of Token))
+- uid: Polite.Parser.TryParse(System.String)
+  name: TryParse(String)
+  href: api/Polite.Parser.html#Polite_Parser_TryParse_System_String_
+  commentId: M:Polite.Parser.TryParse(System.String)
+  fullName: Polite.Parser.TryParse(System.String)
+  nameWithType: Parser.TryParse(String)
+- uid: Polite.Parser.TryParse*
+  name: TryParse
+  href: api/Polite.Parser.html#Polite_Parser_TryParse_
+  commentId: Overload:Polite.Parser.TryParse
+  isSpec: "True"
+  fullName: Polite.Parser.TryParse
+  nameWithType: Parser.TryParse
+- uid: Polite.RefContainer
+  name: RefContainer
+  href: api/Polite.RefContainer.html
+  commentId: T:Polite.RefContainer
+  fullName: Polite.RefContainer
+  nameWithType: RefContainer
+- uid: Polite.RefContainer.#ctor
+  name: RefContainer()
+  href: api/Polite.RefContainer.html#Polite_RefContainer__ctor
+  commentId: M:Polite.RefContainer.#ctor
+  fullName: Polite.RefContainer.RefContainer()
+  nameWithType: RefContainer.RefContainer()
+- uid: Polite.RefContainer.#ctor(Polite.Runtime.Operation,System.Action{System.Object})
+  name: RefContainer(Runtime.Operation, Action<Object>)
+  href: api/Polite.RefContainer.html#Polite_RefContainer__ctor_Polite_Runtime_Operation_System_Action_System_Object__
+  commentId: M:Polite.RefContainer.#ctor(Polite.Runtime.Operation,System.Action{System.Object})
+  name.vb: RefContainer(Runtime.Operation, Action(Of Object))
+  fullName: Polite.RefContainer.RefContainer(Polite.Runtime.Operation, System.Action<System.Object>)
+  fullName.vb: Polite.RefContainer.RefContainer(Polite.Runtime.Operation, System.Action(Of System.Object))
+  nameWithType: RefContainer.RefContainer(Runtime.Operation, Action<Object>)
+  nameWithType.vb: RefContainer.RefContainer(Runtime.Operation, Action(Of Object))
+- uid: Polite.RefContainer.#ctor*
+  name: RefContainer
+  href: api/Polite.RefContainer.html#Polite_RefContainer__ctor_
+  commentId: Overload:Polite.RefContainer.#ctor
+  isSpec: "True"
+  fullName: Polite.RefContainer.RefContainer
+  nameWithType: RefContainer.RefContainer
+- uid: Polite.RefContainer.Get
+  name: Get
+  href: api/Polite.RefContainer.html#Polite_RefContainer_Get
+  commentId: P:Polite.RefContainer.Get
+  fullName: Polite.RefContainer.Get
+  nameWithType: RefContainer.Get
+- uid: Polite.RefContainer.Get*
+  name: Get
+  href: api/Polite.RefContainer.html#Polite_RefContainer_Get_
+  commentId: Overload:Polite.RefContainer.Get
+  isSpec: "True"
+  fullName: Polite.RefContainer.Get
+  nameWithType: RefContainer.Get
+- uid: Polite.RefContainer.Set
+  name: Set
+  href: api/Polite.RefContainer.html#Polite_RefContainer_Set
+  commentId: P:Polite.RefContainer.Set
+  fullName: Polite.RefContainer.Set
+  nameWithType: RefContainer.Set
+- uid: Polite.RefContainer.Set*
+  name: Set
+  href: api/Polite.RefContainer.html#Polite_RefContainer_Set_
+  commentId: Overload:Polite.RefContainer.Set
+  isSpec: "True"
+  fullName: Polite.RefContainer.Set
+  nameWithType: RefContainer.Set
+- uid: Polite.RefContainer.Value
+  name: Value
+  href: api/Polite.RefContainer.html#Polite_RefContainer_Value
+  commentId: P:Polite.RefContainer.Value
+  fullName: Polite.RefContainer.Value
+  nameWithType: RefContainer.Value
+- uid: Polite.RefContainer.Value*
+  name: Value
+  href: api/Polite.RefContainer.html#Polite_RefContainer_Value_
+  commentId: Overload:Polite.RefContainer.Value
+  isSpec: "True"
+  fullName: Polite.RefContainer.Value
+  nameWithType: RefContainer.Value
+- uid: Polite.Runtime
+  name: Runtime
+  href: api/Polite.Runtime.html
+  commentId: T:Polite.Runtime
+  fullName: Polite.Runtime
+  nameWithType: Runtime
+- uid: Polite.Runtime.#ctor(Polite.Parser,System.Type[])
+  name: Runtime(Parser, Type[])
+  href: api/Polite.Runtime.html#Polite_Runtime__ctor_Polite_Parser_System_Type___
+  commentId: M:Polite.Runtime.#ctor(Polite.Parser,System.Type[])
+  name.vb: Runtime(Parser, Type())
+  fullName: Polite.Runtime.Runtime(Polite.Parser, System.Type[])
+  fullName.vb: Polite.Runtime.Runtime(Polite.Parser, System.Type())
+  nameWithType: Runtime.Runtime(Parser, Type[])
+  nameWithType.vb: Runtime.Runtime(Parser, Type())
+- uid: Polite.Runtime.#ctor*
+  name: Runtime
+  href: api/Polite.Runtime.html#Polite_Runtime__ctor_
+  commentId: Overload:Polite.Runtime.#ctor
+  isSpec: "True"
+  fullName: Polite.Runtime.Runtime
+  nameWithType: Runtime.Runtime
+- uid: Polite.Runtime.Execute
+  name: Execute()
+  href: api/Polite.Runtime.html#Polite_Runtime_Execute
+  commentId: M:Polite.Runtime.Execute
+  fullName: Polite.Runtime.Execute()
+  nameWithType: Runtime.Execute()
+- uid: Polite.Runtime.Execute(Polite.Token)
+  name: Execute(Token)
+  href: api/Polite.Runtime.html#Polite_Runtime_Execute_Polite_Token_
+  commentId: M:Polite.Runtime.Execute(Polite.Token)
+  fullName: Polite.Runtime.Execute(Polite.Token)
+  nameWithType: Runtime.Execute(Token)
+- uid: Polite.Runtime.Execute(System.String)
+  name: Execute(String)
+  href: api/Polite.Runtime.html#Polite_Runtime_Execute_System_String_
+  commentId: M:Polite.Runtime.Execute(System.String)
+  fullName: Polite.Runtime.Execute(System.String)
+  nameWithType: Runtime.Execute(String)
+- uid: Polite.Runtime.Execute*
+  name: Execute
+  href: api/Polite.Runtime.html#Polite_Runtime_Execute_
+  commentId: Overload:Polite.Runtime.Execute
+  isSpec: "True"
+  fullName: Polite.Runtime.Execute
+  nameWithType: Runtime.Execute
+- uid: Polite.Runtime.GlobalDepth
+  name: GlobalDepth
+  href: api/Polite.Runtime.html#Polite_Runtime_GlobalDepth
+  commentId: P:Polite.Runtime.GlobalDepth
+  fullName: Polite.Runtime.GlobalDepth
+  nameWithType: Runtime.GlobalDepth
+- uid: Polite.Runtime.GlobalDepth*
+  name: GlobalDepth
+  href: api/Polite.Runtime.html#Polite_Runtime_GlobalDepth_
+  commentId: Overload:Polite.Runtime.GlobalDepth
+  isSpec: "True"
+  fullName: Polite.Runtime.GlobalDepth
+  nameWithType: Runtime.GlobalDepth
+- uid: Polite.Runtime.GlobalReferences
+  name: GlobalReferences
+  href: api/Polite.Runtime.html#Polite_Runtime_GlobalReferences
+  commentId: F:Polite.Runtime.GlobalReferences
+  fullName: Polite.Runtime.GlobalReferences
+  nameWithType: Runtime.GlobalReferences
+- uid: Polite.Runtime.Instructions
+  name: Instructions
+  href: api/Polite.Runtime.html#Polite_Runtime_Instructions
+  commentId: F:Polite.Runtime.Instructions
+  fullName: Polite.Runtime.Instructions
+  nameWithType: Runtime.Instructions
+- uid: Polite.Runtime.Operation
+  name: Runtime.Operation
+  href: api/Polite.Runtime.Operation.html
+  commentId: T:Polite.Runtime.Operation
+  fullName: Polite.Runtime.Operation
+  nameWithType: Runtime.Operation
+- uid: Polite.Runtime.OperationFactory
+  name: Runtime.OperationFactory
+  href: api/Polite.Runtime.OperationFactory.html
+  commentId: T:Polite.Runtime.OperationFactory
+  fullName: Polite.Runtime.OperationFactory
+  nameWithType: Runtime.OperationFactory
+- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  name: Arithmetic(Runtime.Operation, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Arithmetic(Runtime.Operation, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  name: Arithmetic(Runtime.Operation, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Runtime_Operation_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Arithmetic(Runtime.Operation, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  name: Arithmetic(Variable, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Variable_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Arithmetic(Variable, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Variable)
+  name: Arithmetic(Variable, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Variable_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Arithmetic(Variable, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Arithmetic*
+  name: Arithmetic
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_
+  commentId: Overload:Polite.Runtime.OperationFactory.Arithmetic
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Arithmetic
+  nameWithType: Runtime.OperationFactory.Arithmetic
+- uid: Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32)
+  name: Assignment(Variable, Int16, Runtime.Operation, Int32)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Assignment_Polite_Variable_System_Int16_Polite_Runtime_Operation_System_Int32_
+  commentId: M:Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32)
+  fullName: Polite.Runtime.OperationFactory.Assignment(Polite.Variable, System.Int16, Polite.Runtime.Operation, System.Int32)
+  nameWithType: Runtime.OperationFactory.Assignment(Variable, Int16, Runtime.Operation, Int32)
+- uid: Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Variable,System.Int32)
+  name: Assignment(Variable, Int16, Variable, Int32)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Assignment_Polite_Variable_System_Int16_Polite_Variable_System_Int32_
+  commentId: M:Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Variable,System.Int32)
+  fullName: Polite.Runtime.OperationFactory.Assignment(Polite.Variable, System.Int16, Polite.Variable, System.Int32)
+  nameWithType: Runtime.OperationFactory.Assignment(Variable, Int16, Variable, Int32)
+- uid: Polite.Runtime.OperationFactory.Assignment*
+  name: Assignment
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Assignment_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignment
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignment
+  nameWithType: Runtime.OperationFactory.Assignment
+- uid: Polite.Runtime.OperationFactory.Assignments
+  name: Runtime.OperationFactory.Assignments
+  href: api/Polite.Runtime.OperationFactory.Assignments.html
+  commentId: T:Polite.Runtime.OperationFactory.Assignments
+  fullName: Polite.Runtime.OperationFactory.Assignments
+  nameWithType: Runtime.OperationFactory.Assignments
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll
+  name: Runtime.OperationFactory.Assignments.RefAll
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html
+  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefAll
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Runtime.Operation)
+  name: Addition(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Addition_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Addition(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Variable)
+  name: Addition(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Addition_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Addition(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition*
+  name: Addition
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Addition_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Addition
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Addition
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Runtime.Operation)
+  name: Basic(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Basic_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Basic(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Variable)
+  name: Basic(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Basic_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Basic(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic*
+  name: Basic
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Basic_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Basic
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Basic
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Runtime.Operation)
+  name: Division(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Division_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Division(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Variable)
+  name: Division(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Division_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Division(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Division*
+  name: Division
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Division_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Division
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Division
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Division
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  name: Multiplication(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Multiplication_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Multiplication(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Variable)
+  name: Multiplication(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Multiplication_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Multiplication(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication*
+  name: Multiplication
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Multiplication_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Multiplication
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  name: Subtraction(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Subtraction_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Subtraction(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Variable)
+  name: Subtraction(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Subtraction_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Subtraction(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction*
+  name: Subtraction
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Subtraction_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction
+  nameWithType: Runtime.OperationFactory.Assignments.RefAll.Subtraction
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone
+  name: Runtime.OperationFactory.Assignments.RefNone
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html
+  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefNone
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Runtime.Operation)
+  name: Addition(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Addition_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Addition(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Variable)
+  name: Addition(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Addition_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Addition(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition*
+  name: Addition
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Addition_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Addition
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Addition
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Runtime.Operation)
+  name: Basic(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Basic_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Basic(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Variable)
+  name: Basic(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Basic_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Basic(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic*
+  name: Basic
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Basic_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Basic
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Basic
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Runtime.Operation)
+  name: Division(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Division_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Division(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Variable)
+  name: Division(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Division_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Division(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Division*
+  name: Division
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Division_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Division
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Division
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Division
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  name: Multiplication(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Multiplication_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Multiplication(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Variable)
+  name: Multiplication(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Multiplication_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Multiplication(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication*
+  name: Multiplication
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Multiplication_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Multiplication
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  name: Subtraction(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Subtraction_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Subtraction(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Variable)
+  name: Subtraction(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Subtraction_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Subtraction(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction*
+  name: Subtraction
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Subtraction_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction
+  nameWithType: Runtime.OperationFactory.Assignments.RefNone.Subtraction
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject
+  name: Runtime.OperationFactory.Assignments.RefObject
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html
+  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefObject
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Runtime.Operation)
+  name: Addition(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Addition_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Addition(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Variable)
+  name: Addition(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Addition_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Addition(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition*
+  name: Addition
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Addition_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Addition
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Addition
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Runtime.Operation)
+  name: Basic(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Basic_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Basic(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Variable)
+  name: Basic(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Basic_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Basic(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic*
+  name: Basic
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Basic_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Basic
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Basic
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Runtime.Operation)
+  name: Division(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Division_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Division(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Variable)
+  name: Division(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Division_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Division(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Division*
+  name: Division
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Division_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Division
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Division
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Division
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  name: Multiplication(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Multiplication_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Multiplication(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Variable)
+  name: Multiplication(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Multiplication_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Multiplication(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication*
+  name: Multiplication
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Multiplication_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Multiplication
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  name: Subtraction(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Subtraction_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Subtraction(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Variable)
+  name: Subtraction(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Subtraction_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Subtraction(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction*
+  name: Subtraction
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Subtraction_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction
+  nameWithType: Runtime.OperationFactory.Assignments.RefObject.Subtraction
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue
+  name: Runtime.OperationFactory.Assignments.RefValue
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html
+  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefValue
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Runtime.Operation)
+  name: Addition(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Addition_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Addition(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Variable)
+  name: Addition(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Addition_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Addition(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition*
+  name: Addition
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Addition_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Addition
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Addition
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Runtime.Operation)
+  name: Basic(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Basic_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Basic(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Variable)
+  name: Basic(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Basic_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Basic(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic*
+  name: Basic
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Basic_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Basic
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Basic
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Runtime.Operation)
+  name: Division(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Division_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Division(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Variable)
+  name: Division(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Division_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Division(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Division*
+  name: Division
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Division_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Division
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Division
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Division
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  name: Multiplication(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Multiplication_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Multiplication(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Variable)
+  name: Multiplication(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Multiplication_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Multiplication(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication*
+  name: Multiplication
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Multiplication_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Multiplication
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  name: Subtraction(Variable, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Subtraction_Polite_Variable_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Subtraction(Variable, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Variable)
+  name: Subtraction(Variable, Variable)
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Subtraction_Polite_Variable_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Subtraction(Variable, Variable)
+- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction*
+  name: Subtraction
+  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Subtraction_
+  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction
+  nameWithType: Runtime.OperationFactory.Assignments.RefValue.Subtraction
+- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  name: Bitwise(Runtime.Operation, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Bitwise(Runtime.Operation, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  name: Bitwise(Runtime.Operation, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Runtime_Operation_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Bitwise(Runtime.Operation, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  name: Bitwise(Variable, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Variable_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Bitwise(Variable, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Variable)
+  name: Bitwise(Variable, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Variable_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Bitwise(Variable, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Bitwise*
+  name: Bitwise
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_
+  commentId: Overload:Polite.Runtime.OperationFactory.Bitwise
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Bitwise
+  nameWithType: Runtime.OperationFactory.Bitwise
+- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  name: Comparison(Runtime.Operation, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Comparison(Runtime.Operation, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  name: Comparison(Runtime.Operation, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Runtime_Operation_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Comparison(Runtime.Operation, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  name: Comparison(Variable, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Variable_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Comparison(Variable, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Variable)
+  name: Comparison(Variable, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Variable_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Variable, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Comparison(Variable, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Comparison*
+  name: Comparison
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_
+  commentId: Overload:Polite.Runtime.OperationFactory.Comparison
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Comparison
+  nameWithType: Runtime.OperationFactory.Comparison
+- uid: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  name: Condition(Runtime.Operation, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Condition(Runtime.Operation, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  name: Condition(Runtime.Operation, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Runtime_Operation_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Condition(Runtime.Operation, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  name: Condition(Variable, Int16, Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Variable_System_Int16_Polite_Runtime_Operation_
+  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.Condition(Variable, Int16, Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Variable)
+  name: Condition(Variable, Int16, Variable)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Variable_System_Int16_Polite_Variable_
+  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Variable)
+  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Variable, System.Int16, Polite.Variable)
+  nameWithType: Runtime.OperationFactory.Condition(Variable, Int16, Variable)
+- uid: Polite.Runtime.OperationFactory.Condition*
+  name: Condition
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_
+  commentId: Overload:Polite.Runtime.OperationFactory.Condition
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.Condition
+  nameWithType: Runtime.OperationFactory.Condition
+- uid: Polite.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)
+  name: RequiresOperation(Int16, Int16)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_RequiresOperation_System_Int16_System_Int16_
+  commentId: M:Polite.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)
+  fullName: Polite.Runtime.OperationFactory.RequiresOperation(System.Int16, System.Int16)
+  nameWithType: Runtime.OperationFactory.RequiresOperation(Int16, Int16)
+- uid: Polite.Runtime.OperationFactory.RequiresOperation*
+  name: RequiresOperation
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_RequiresOperation_
+  commentId: Overload:Polite.Runtime.OperationFactory.RequiresOperation
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.RequiresOperation
+  nameWithType: Runtime.OperationFactory.RequiresOperation
+- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+  name: TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, out Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_System_Int32_Polite_Runtime_Operation__
+  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+  name.vb: TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation, System.Int32, out Polite.Runtime.Operation)
+  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation, System.Int32, ByRef Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, out Runtime.Operation)
+  nameWithType.vb: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+  name: TryCreate(Runtime.Operation, Int16, Variable, Int32, out Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Runtime_Operation_System_Int16_Polite_Variable_System_Int32_Polite_Runtime_Operation__
+  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+  name.vb: TryCreate(Runtime.Operation, Int16, Variable, Int32, ByRef Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Variable, System.Int32, out Polite.Runtime.Operation)
+  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Variable, System.Int32, ByRef Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Variable, Int32, out Runtime.Operation)
+  nameWithType.vb: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Variable, Int32, ByRef Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+  name: TryCreate(Variable, Int16, Runtime.Operation, Int32, out Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Variable_System_Int16_Polite_Runtime_Operation_System_Int32_Polite_Runtime_Operation__
+  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+  name.vb: TryCreate(Variable, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Runtime.Operation, System.Int32, out Polite.Runtime.Operation)
+  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Runtime.Operation, System.Int32, ByRef Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.TryCreate(Variable, Int16, Runtime.Operation, Int32, out Runtime.Operation)
+  nameWithType.vb: Runtime.OperationFactory.TryCreate(Variable, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+  name: TryCreate(Variable, Int16, Variable, Int32, out Runtime.Operation)
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Variable_System_Int16_Polite_Variable_System_Int32_Polite_Runtime_Operation__
+  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+  name.vb: TryCreate(Variable, Int16, Variable, Int32, ByRef Runtime.Operation)
+  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Variable, System.Int32, out Polite.Runtime.Operation)
+  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Variable, System.Int32, ByRef Polite.Runtime.Operation)
+  nameWithType: Runtime.OperationFactory.TryCreate(Variable, Int16, Variable, Int32, out Runtime.Operation)
+  nameWithType.vb: Runtime.OperationFactory.TryCreate(Variable, Int16, Variable, Int32, ByRef Runtime.Operation)
+- uid: Polite.Runtime.OperationFactory.TryCreate*
+  name: TryCreate
+  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_
+  commentId: Overload:Polite.Runtime.OperationFactory.TryCreate
+  isSpec: "True"
+  fullName: Polite.Runtime.OperationFactory.TryCreate
+  nameWithType: Runtime.OperationFactory.TryCreate
+- uid: Polite.Runtime.Parser
+  name: Parser
+  href: api/Polite.Runtime.html#Polite_Runtime_Parser
+  commentId: P:Polite.Runtime.Parser
+  fullName: Polite.Runtime.Parser
+  nameWithType: Runtime.Parser
+- uid: Polite.Runtime.Parser*
+  name: Parser
+  href: api/Polite.Runtime.html#Polite_Runtime_Parser_
+  commentId: Overload:Polite.Runtime.Parser
+  isSpec: "True"
+  fullName: Polite.Runtime.Parser
+  nameWithType: Runtime.Parser
+- uid: Polite.Runtime.Populate(Polite.Token)
+  name: Populate(Token)
+  href: api/Polite.Runtime.html#Polite_Runtime_Populate_Polite_Token_
+  commentId: M:Polite.Runtime.Populate(Polite.Token)
+  fullName: Polite.Runtime.Populate(Polite.Token)
+  nameWithType: Runtime.Populate(Token)
+- uid: Polite.Runtime.Populate(System.String)
+  name: Populate(String)
+  href: api/Polite.Runtime.html#Polite_Runtime_Populate_System_String_
+  commentId: M:Polite.Runtime.Populate(System.String)
+  fullName: Polite.Runtime.Populate(System.String)
+  nameWithType: Runtime.Populate(String)
+- uid: Polite.Runtime.Populate*
+  name: Populate
+  href: api/Polite.Runtime.html#Polite_Runtime_Populate_
+  commentId: Overload:Polite.Runtime.Populate
+  isSpec: "True"
+  fullName: Polite.Runtime.Populate
+  nameWithType: Runtime.Populate
+- uid: Polite.Runtime.Reset
+  name: Reset()
+  href: api/Polite.Runtime.html#Polite_Runtime_Reset
+  commentId: M:Polite.Runtime.Reset
+  fullName: Polite.Runtime.Reset()
+  nameWithType: Runtime.Reset()
+- uid: Polite.Runtime.Reset*
+  name: Reset
+  href: api/Polite.Runtime.html#Polite_Runtime_Reset_
+  commentId: Overload:Polite.Runtime.Reset
+  isSpec: "True"
+  fullName: Polite.Runtime.Reset
+  nameWithType: Runtime.Reset
+- uid: Polite.Runtime.RuntimeSettings
+  name: RuntimeSettings
+  href: api/Polite.Runtime.html#Polite_Runtime_RuntimeSettings
+  commentId: P:Polite.Runtime.RuntimeSettings
+  fullName: Polite.Runtime.RuntimeSettings
+  nameWithType: Runtime.RuntimeSettings
+- uid: Polite.Runtime.RuntimeSettings*
+  name: RuntimeSettings
+  href: api/Polite.Runtime.html#Polite_Runtime_RuntimeSettings_
+  commentId: Overload:Polite.Runtime.RuntimeSettings
+  isSpec: "True"
+  fullName: Polite.Runtime.RuntimeSettings
+  nameWithType: Runtime.RuntimeSettings
+- uid: Polite.Runtime.VariableStack
+  name: VariableStack
+  href: api/Polite.Runtime.html#Polite_Runtime_VariableStack
+  commentId: P:Polite.Runtime.VariableStack
+  fullName: Polite.Runtime.VariableStack
+  nameWithType: Runtime.VariableStack
+- uid: Polite.Runtime.VariableStack*
+  name: VariableStack
+  href: api/Polite.Runtime.html#Polite_Runtime_VariableStack_
+  commentId: Overload:Polite.Runtime.VariableStack
+  isSpec: "True"
+  fullName: Polite.Runtime.VariableStack
+  nameWithType: Runtime.VariableStack
+- uid: Polite.RuntimeSettings
+  name: RuntimeSettings
+  href: api/Polite.RuntimeSettings.html
+  commentId: T:Polite.RuntimeSettings
+  fullName: Polite.RuntimeSettings
+  nameWithType: RuntimeSettings
+- uid: Polite.RuntimeSettings.Contains(System.Int32,System.Int32)
+  name: Contains(Int32, Int32)
+  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_Contains_System_Int32_System_Int32_
+  commentId: M:Polite.RuntimeSettings.Contains(System.Int32,System.Int32)
+  fullName: Polite.RuntimeSettings.Contains(System.Int32, System.Int32)
+  nameWithType: RuntimeSettings.Contains(Int32, Int32)
+- uid: Polite.RuntimeSettings.Contains*
+  name: Contains
+  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_Contains_
+  commentId: Overload:Polite.RuntimeSettings.Contains
+  isSpec: "True"
+  fullName: Polite.RuntimeSettings.Contains
+  nameWithType: RuntimeSettings.Contains
+- uid: Polite.RuntimeSettings.ObjectTypes
+  name: RuntimeSettings.ObjectTypes
+  href: api/Polite.RuntimeSettings.ObjectTypes.html
+  commentId: T:Polite.RuntimeSettings.ObjectTypes
+  fullName: Polite.RuntimeSettings.ObjectTypes
+  nameWithType: RuntimeSettings.ObjectTypes
+- uid: Polite.RuntimeSettings.ObjectTypes.AssignByRef
+  name: AssignByRef
+  href: api/Polite.RuntimeSettings.ObjectTypes.html#Polite_RuntimeSettings_ObjectTypes_AssignByRef
+  commentId: F:Polite.RuntimeSettings.ObjectTypes.AssignByRef
+  fullName: Polite.RuntimeSettings.ObjectTypes.AssignByRef
+  nameWithType: RuntimeSettings.ObjectTypes.AssignByRef
+- uid: Polite.RuntimeSettings.ObjectTypes.PassByRef
+  name: PassByRef
+  href: api/Polite.RuntimeSettings.ObjectTypes.html#Polite_RuntimeSettings_ObjectTypes_PassByRef
+  commentId: F:Polite.RuntimeSettings.ObjectTypes.PassByRef
+  fullName: Polite.RuntimeSettings.ObjectTypes.PassByRef
+  nameWithType: RuntimeSettings.ObjectTypes.PassByRef
+- uid: Polite.RuntimeSettings.ToBitMask(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: ToBitMask(Boolean, Boolean, Boolean, Boolean)
+  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_ToBitMask_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Polite.RuntimeSettings.ToBitMask(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Polite.RuntimeSettings.ToBitMask(System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: RuntimeSettings.ToBitMask(Boolean, Boolean, Boolean, Boolean)
+- uid: Polite.RuntimeSettings.ToBitMask*
+  name: ToBitMask
+  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_ToBitMask_
+  commentId: Overload:Polite.RuntimeSettings.ToBitMask
+  isSpec: "True"
+  fullName: Polite.RuntimeSettings.ToBitMask
+  nameWithType: RuntimeSettings.ToBitMask
+- uid: Polite.RuntimeSettings.ValueTypes
+  name: RuntimeSettings.ValueTypes
+  href: api/Polite.RuntimeSettings.ValueTypes.html
+  commentId: T:Polite.RuntimeSettings.ValueTypes
+  fullName: Polite.RuntimeSettings.ValueTypes
+  nameWithType: RuntimeSettings.ValueTypes
+- uid: Polite.RuntimeSettings.ValueTypes.AssignByRef
+  name: AssignByRef
+  href: api/Polite.RuntimeSettings.ValueTypes.html#Polite_RuntimeSettings_ValueTypes_AssignByRef
+  commentId: F:Polite.RuntimeSettings.ValueTypes.AssignByRef
+  fullName: Polite.RuntimeSettings.ValueTypes.AssignByRef
+  nameWithType: RuntimeSettings.ValueTypes.AssignByRef
+- uid: Polite.RuntimeSettings.ValueTypes.PassByRef
+  name: PassByRef
+  href: api/Polite.RuntimeSettings.ValueTypes.html#Polite_RuntimeSettings_ValueTypes_PassByRef
+  commentId: F:Polite.RuntimeSettings.ValueTypes.PassByRef
+  fullName: Polite.RuntimeSettings.ValueTypes.PassByRef
+  nameWithType: RuntimeSettings.ValueTypes.PassByRef
+- uid: Polite.Scope
+  name: Scope
+  href: api/Polite.Scope.html
+  commentId: T:Polite.Scope
+  fullName: Polite.Scope
+  nameWithType: Scope
+- uid: Polite.Scope.Define(Polite.Token)
+  name: Define(Token)
+  href: api/Polite.Scope.html#Polite_Scope_Define_Polite_Token_
+  commentId: M:Polite.Scope.Define(Polite.Token)
+  fullName: Polite.Scope.Define(Polite.Token)
+  nameWithType: Scope.Define(Token)
+- uid: Polite.Scope.Define*
+  name: Define
+  href: api/Polite.Scope.html#Polite_Scope_Define_
+  commentId: Overload:Polite.Scope.Define
+  isSpec: "True"
+  fullName: Polite.Scope.Define
+  nameWithType: Scope.Define
+- uid: Polite.Scope.Definitions
+  name: Definitions
+  href: api/Polite.Scope.html#Polite_Scope_Definitions
+  commentId: F:Polite.Scope.Definitions
+  fullName: Polite.Scope.Definitions
+  nameWithType: Scope.Definitions
+- uid: Polite.Scope.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Polite.Scope.html#Polite_Scope_Equals_System_Object_
+  commentId: M:Polite.Scope.Equals(System.Object)
+  fullName: Polite.Scope.Equals(System.Object)
+  nameWithType: Scope.Equals(Object)
+- uid: Polite.Scope.Equals*
+  name: Equals
+  href: api/Polite.Scope.html#Polite_Scope_Equals_
+  commentId: Overload:Polite.Scope.Equals
+  isSpec: "True"
+  fullName: Polite.Scope.Equals
+  nameWithType: Scope.Equals
+- uid: Polite.Scope.Find(Polite.Token,Polite.Parser)
+  name: Find(Token, Parser)
+  href: api/Polite.Scope.html#Polite_Scope_Find_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Scope.Find(Polite.Token,Polite.Parser)
+  fullName: Polite.Scope.Find(Polite.Token, Polite.Parser)
+  nameWithType: Scope.Find(Token, Parser)
+- uid: Polite.Scope.Find*
+  name: Find
+  href: api/Polite.Scope.html#Polite_Scope_Find_
+  commentId: Overload:Polite.Scope.Find
+  isSpec: "True"
+  fullName: Polite.Scope.Find
+  nameWithType: Scope.Find
+- uid: Polite.Scope.GetHashCode
+  name: GetHashCode()
+  href: api/Polite.Scope.html#Polite_Scope_GetHashCode
+  commentId: M:Polite.Scope.GetHashCode
+  fullName: Polite.Scope.GetHashCode()
+  nameWithType: Scope.GetHashCode()
+- uid: Polite.Scope.GetHashCode*
+  name: GetHashCode
+  href: api/Polite.Scope.html#Polite_Scope_GetHashCode_
+  commentId: Overload:Polite.Scope.GetHashCode
+  isSpec: "True"
+  fullName: Polite.Scope.GetHashCode
+  nameWithType: Scope.GetHashCode
+- uid: Polite.Scope.ID
+  name: ID
+  href: api/Polite.Scope.html#Polite_Scope_ID
+  commentId: P:Polite.Scope.ID
+  fullName: Polite.Scope.ID
+  nameWithType: Scope.ID
+- uid: Polite.Scope.ID*
+  name: ID
+  href: api/Polite.Scope.html#Polite_Scope_ID_
+  commentId: Overload:Polite.Scope.ID
+  isSpec: "True"
+  fullName: Polite.Scope.ID
+  nameWithType: Scope.ID
+- uid: Polite.Scope.op_Equality(Polite.Scope,Polite.Scope)
+  name: Equality(Scope, Scope)
+  href: api/Polite.Scope.html#Polite_Scope_op_Equality_Polite_Scope_Polite_Scope_
+  commentId: M:Polite.Scope.op_Equality(Polite.Scope,Polite.Scope)
+  fullName: Polite.Scope.Equality(Polite.Scope, Polite.Scope)
+  nameWithType: Scope.Equality(Scope, Scope)
+- uid: Polite.Scope.op_Equality*
+  name: Equality
+  href: api/Polite.Scope.html#Polite_Scope_op_Equality_
+  commentId: Overload:Polite.Scope.op_Equality
+  isSpec: "True"
+  fullName: Polite.Scope.Equality
+  nameWithType: Scope.Equality
+- uid: Polite.Scope.op_Inequality(Polite.Scope,Polite.Scope)
+  name: Inequality(Scope, Scope)
+  href: api/Polite.Scope.html#Polite_Scope_op_Inequality_Polite_Scope_Polite_Scope_
+  commentId: M:Polite.Scope.op_Inequality(Polite.Scope,Polite.Scope)
+  fullName: Polite.Scope.Inequality(Polite.Scope, Polite.Scope)
+  nameWithType: Scope.Inequality(Scope, Scope)
+- uid: Polite.Scope.op_Inequality*
+  name: Inequality
+  href: api/Polite.Scope.html#Polite_Scope_op_Inequality_
+  commentId: Overload:Polite.Scope.op_Inequality
+  isSpec: "True"
+  fullName: Polite.Scope.Inequality
+  nameWithType: Scope.Inequality
+- uid: Polite.Scope.Parent
+  name: Parent
+  href: api/Polite.Scope.html#Polite_Scope_Parent
+  commentId: F:Polite.Scope.Parent
+  fullName: Polite.Scope.Parent
+  nameWithType: Scope.Parent
+- uid: Polite.Scope.Reserve(Polite.Token)
+  name: Reserve(Token)
+  href: api/Polite.Scope.html#Polite_Scope_Reserve_Polite_Token_
+  commentId: M:Polite.Scope.Reserve(Polite.Token)
+  fullName: Polite.Scope.Reserve(Polite.Token)
+  nameWithType: Scope.Reserve(Token)
+- uid: Polite.Scope.Reserve*
+  name: Reserve
+  href: api/Polite.Scope.html#Polite_Scope_Reserve_
+  commentId: Overload:Polite.Scope.Reserve
+  isSpec: "True"
+  fullName: Polite.Scope.Reserve
+  nameWithType: Scope.Reserve
+- uid: Polite.Stack
+  name: Stack
+  href: api/Polite.Stack.html
+  commentId: T:Polite.Stack
+  fullName: Polite.Stack
+  nameWithType: Stack
+- uid: Polite.Stack.#ctor
+  name: Stack()
+  href: api/Polite.Stack.html#Polite_Stack__ctor
+  commentId: M:Polite.Stack.#ctor
+  fullName: Polite.Stack.Stack()
+  nameWithType: Stack.Stack()
+- uid: Polite.Stack.#ctor*
+  name: Stack
+  href: api/Polite.Stack.html#Polite_Stack__ctor_
+  commentId: Overload:Polite.Stack.#ctor
+  isSpec: "True"
+  fullName: Polite.Stack.Stack
+  nameWithType: Stack.Stack
+- uid: Polite.Stack.Bottom
+  name: Bottom
+  href: api/Polite.Stack.html#Polite_Stack_Bottom
+  commentId: P:Polite.Stack.Bottom
+  fullName: Polite.Stack.Bottom
+  nameWithType: Stack.Bottom
+- uid: Polite.Stack.Bottom*
+  name: Bottom
+  href: api/Polite.Stack.html#Polite_Stack_Bottom_
+  commentId: Overload:Polite.Stack.Bottom
+  isSpec: "True"
+  fullName: Polite.Stack.Bottom
+  nameWithType: Stack.Bottom
+- uid: Polite.Stack.Pop
+  name: Pop()
+  href: api/Polite.Stack.html#Polite_Stack_Pop
+  commentId: M:Polite.Stack.Pop
+  fullName: Polite.Stack.Pop()
+  nameWithType: Stack.Pop()
+- uid: Polite.Stack.Pop*
+  name: Pop
+  href: api/Polite.Stack.html#Polite_Stack_Pop_
+  commentId: Overload:Polite.Stack.Pop
+  isSpec: "True"
+  fullName: Polite.Stack.Pop
+  nameWithType: Stack.Pop
+- uid: Polite.Stack.Push
+  name: Push()
+  href: api/Polite.Stack.html#Polite_Stack_Push
+  commentId: M:Polite.Stack.Push
+  fullName: Polite.Stack.Push()
+  nameWithType: Stack.Push()
+- uid: Polite.Stack.Push*
+  name: Push
+  href: api/Polite.Stack.html#Polite_Stack_Push_
+  commentId: Overload:Polite.Stack.Push
+  isSpec: "True"
+  fullName: Polite.Stack.Push
+  nameWithType: Stack.Push
+- uid: Polite.Stack.Reset
+  name: Reset()
+  href: api/Polite.Stack.html#Polite_Stack_Reset
+  commentId: M:Polite.Stack.Reset
+  fullName: Polite.Stack.Reset()
+  nameWithType: Stack.Reset()
+- uid: Polite.Stack.Reset*
+  name: Reset
+  href: api/Polite.Stack.html#Polite_Stack_Reset_
+  commentId: Overload:Polite.Stack.Reset
+  isSpec: "True"
+  fullName: Polite.Stack.Reset
+  nameWithType: Stack.Reset
+- uid: Polite.Stack.Top
+  name: Top
+  href: api/Polite.Stack.html#Polite_Stack_Top
+  commentId: P:Polite.Stack.Top
+  fullName: Polite.Stack.Top
+  nameWithType: Stack.Top
+- uid: Polite.Stack.Top*
+  name: Top
+  href: api/Polite.Stack.html#Polite_Stack_Top_
+  commentId: Overload:Polite.Stack.Top
+  isSpec: "True"
+  fullName: Polite.Stack.Top
+  nameWithType: Stack.Top
+- uid: Polite.StatementDenotation
+  name: StatementDenotation
+  href: api/Polite.StatementDenotation.html
+  commentId: T:Polite.StatementDenotation
+  fullName: Polite.StatementDenotation
+  nameWithType: StatementDenotation
+- uid: Polite.Token
+  name: Token
+  href: api/Polite.Token.html
+  commentId: T:Polite.Token
+  fullName: Polite.Token
+  nameWithType: Token
+- uid: Polite.Token.#ctor(System.Int16,System.Int16,System.Int32,System.String,Polite.NullDenotion,Polite.LeftDenotation,Polite.StatementDenotation)
+  name: Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation)
+  href: api/Polite.Token.html#Polite_Token__ctor_System_Int16_System_Int16_System_Int32_System_String_Polite_NullDenotion_Polite_LeftDenotation_Polite_StatementDenotation_
+  commentId: M:Polite.Token.#ctor(System.Int16,System.Int16,System.Int32,System.String,Polite.NullDenotion,Polite.LeftDenotation,Polite.StatementDenotation)
+  fullName: Polite.Token.Token(System.Int16, System.Int16, System.Int32, System.String, Polite.NullDenotion, Polite.LeftDenotation, Polite.StatementDenotation)
+  nameWithType: Token.Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation)
+- uid: Polite.Token.#ctor(System.Int16,System.Int16,System.Int32,System.String,Polite.NullDenotion,Polite.LeftDenotation,Polite.StatementDenotation,System.Int16[])
+  name: Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation, Int16[])
+  href: api/Polite.Token.html#Polite_Token__ctor_System_Int16_System_Int16_System_Int32_System_String_Polite_NullDenotion_Polite_LeftDenotation_Polite_StatementDenotation_System_Int16___
+  commentId: M:Polite.Token.#ctor(System.Int16,System.Int16,System.Int32,System.String,Polite.NullDenotion,Polite.LeftDenotation,Polite.StatementDenotation,System.Int16[])
+  name.vb: Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation, Int16())
+  fullName: Polite.Token.Token(System.Int16, System.Int16, System.Int32, System.String, Polite.NullDenotion, Polite.LeftDenotation, Polite.StatementDenotation, System.Int16[])
+  fullName.vb: Polite.Token.Token(System.Int16, System.Int16, System.Int32, System.String, Polite.NullDenotion, Polite.LeftDenotation, Polite.StatementDenotation, System.Int16())
+  nameWithType: Token.Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation, Int16[])
+  nameWithType.vb: Token.Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation, Int16())
+- uid: Polite.Token.#ctor(System.Int16,System.Int16,System.String,System.Int32)
+  name: Token(Int16, Int16, String, Int32)
+  href: api/Polite.Token.html#Polite_Token__ctor_System_Int16_System_Int16_System_String_System_Int32_
+  commentId: M:Polite.Token.#ctor(System.Int16,System.Int16,System.String,System.Int32)
+  fullName: Polite.Token.Token(System.Int16, System.Int16, System.String, System.Int32)
+  nameWithType: Token.Token(Int16, Int16, String, Int32)
+- uid: Polite.Token.#ctor(System.Int16,System.Int32,System.String)
+  name: Token(Int16, Int32, String)
+  href: api/Polite.Token.html#Polite_Token__ctor_System_Int16_System_Int32_System_String_
+  commentId: M:Polite.Token.#ctor(System.Int16,System.Int32,System.String)
+  fullName: Polite.Token.Token(System.Int16, System.Int32, System.String)
+  nameWithType: Token.Token(Int16, Int32, String)
+- uid: Polite.Token.#ctor*
+  name: Token
+  href: api/Polite.Token.html#Polite_Token__ctor_
+  commentId: Overload:Polite.Token.#ctor
+  isSpec: "True"
+  fullName: Polite.Token.Token
+  nameWithType: Token.Token
+- uid: Polite.Token.Arities
+  name: Token.Arities
+  href: api/Polite.Token.Arities.html
+  commentId: T:Polite.Token.Arities
+  fullName: Polite.Token.Arities
+  nameWithType: Token.Arities
+- uid: Polite.Token.Arities.Binary
+  name: Binary
+  href: api/Polite.Token.Arities.html#Polite_Token_Arities_Binary
+  commentId: F:Polite.Token.Arities.Binary
+  fullName: Polite.Token.Arities.Binary
+  nameWithType: Token.Arities.Binary
+- uid: Polite.Token.Arities.Ternary
+  name: Ternary
+  href: api/Polite.Token.Arities.html#Polite_Token_Arities_Ternary
+  commentId: F:Polite.Token.Arities.Ternary
+  fullName: Polite.Token.Arities.Ternary
+  nameWithType: Token.Arities.Ternary
+- uid: Polite.Token.Arities.Unary
+  name: Unary
+  href: api/Polite.Token.Arities.html#Polite_Token_Arities_Unary
+  commentId: F:Polite.Token.Arities.Unary
+  fullName: Polite.Token.Arities.Unary
+  nameWithType: Token.Arities.Unary
+- uid: Polite.Token.Arity
+  name: Arity
+  href: api/Polite.Token.html#Polite_Token_Arity
+  commentId: F:Polite.Token.Arity
+  fullName: Polite.Token.Arity
+  nameWithType: Token.Arity
+- uid: Polite.Token.Children
+  name: Children
+  href: api/Polite.Token.html#Polite_Token_Children
+  commentId: F:Polite.Token.Children
+  fullName: Polite.Token.Children
+  nameWithType: Token.Children
+- uid: Polite.Token.Clone
+  name: Clone()
+  href: api/Polite.Token.html#Polite_Token_Clone
+  commentId: M:Polite.Token.Clone
+  fullName: Polite.Token.Clone()
+  nameWithType: Token.Clone()
+- uid: Polite.Token.Clone*
+  name: Clone
+  href: api/Polite.Token.html#Polite_Token_Clone_
+  commentId: Overload:Polite.Token.Clone
+  isSpec: "True"
+  fullName: Polite.Token.Clone
+  nameWithType: Token.Clone
+- uid: Polite.Token.End
+  name: End
+  href: api/Polite.Token.html#Polite_Token_End
+  commentId: F:Polite.Token.End
+  fullName: Polite.Token.End
+  nameWithType: Token.End
+- uid: Polite.Token.First
+  name: First
+  href: api/Polite.Token.html#Polite_Token_First
+  commentId: P:Polite.Token.First
+  fullName: Polite.Token.First
+  nameWithType: Token.First
+- uid: Polite.Token.First*
+  name: First
+  href: api/Polite.Token.html#Polite_Token_First_
+  commentId: Overload:Polite.Token.First
+  isSpec: "True"
+  fullName: Polite.Token.First
+  nameWithType: Token.First
+- uid: Polite.Token.HasChildren
+  name: HasChildren
+  href: api/Polite.Token.html#Polite_Token_HasChildren
+  commentId: P:Polite.Token.HasChildren
+  fullName: Polite.Token.HasChildren
+  nameWithType: Token.HasChildren
+- uid: Polite.Token.HasChildren*
+  name: HasChildren
+  href: api/Polite.Token.html#Polite_Token_HasChildren_
+  commentId: Overload:Polite.Token.HasChildren
+  isSpec: "True"
+  fullName: Polite.Token.HasChildren
+  nameWithType: Token.HasChildren
+- uid: Polite.Token.HasMembers
+  name: HasMembers
+  href: api/Polite.Token.html#Polite_Token_HasMembers
+  commentId: P:Polite.Token.HasMembers
+  fullName: Polite.Token.HasMembers
+  nameWithType: Token.HasMembers
+- uid: Polite.Token.HasMembers*
+  name: HasMembers
+  href: api/Polite.Token.html#Polite_Token_HasMembers_
+  commentId: Overload:Polite.Token.HasMembers
+  isSpec: "True"
+  fullName: Polite.Token.HasMembers
+  nameWithType: Token.HasMembers
+- uid: Polite.Token.IsTypeOf(Polite.Token,System.Int16)
+  name: IsTypeOf(Token, Int16)
+  href: api/Polite.Token.html#Polite_Token_IsTypeOf_Polite_Token_System_Int16_
+  commentId: M:Polite.Token.IsTypeOf(Polite.Token,System.Int16)
+  fullName: Polite.Token.IsTypeOf(Polite.Token, System.Int16)
+  nameWithType: Token.IsTypeOf(Token, Int16)
+- uid: Polite.Token.IsTypeOf*
+  name: IsTypeOf
+  href: api/Polite.Token.html#Polite_Token_IsTypeOf_
+  commentId: Overload:Polite.Token.IsTypeOf
+  isSpec: "True"
+  fullName: Polite.Token.IsTypeOf
+  nameWithType: Token.IsTypeOf
+- uid: Polite.Token.Itself(Polite.Token,Polite.Parser)
+  name: Itself(Token, Parser)
+  href: api/Polite.Token.html#Polite_Token_Itself_Polite_Token_Polite_Parser_
+  commentId: M:Polite.Token.Itself(Polite.Token,Polite.Parser)
+  fullName: Polite.Token.Itself(Polite.Token, Polite.Parser)
+  nameWithType: Token.Itself(Token, Parser)
+- uid: Polite.Token.Itself*
+  name: Itself
+  href: api/Polite.Token.html#Polite_Token_Itself_
+  commentId: Overload:Polite.Token.Itself
+  isSpec: "True"
+  fullName: Polite.Token.Itself
+  nameWithType: Token.Itself
+- uid: Polite.Token.Name
+  name: Name
+  href: api/Polite.Token.html#Polite_Token_Name
+  commentId: F:Polite.Token.Name
+  fullName: Polite.Token.Name
+  nameWithType: Token.Name
+- uid: Polite.Token.Next
+  name: Next
+  href: api/Polite.Token.html#Polite_Token_Next
+  commentId: F:Polite.Token.Next
+  fullName: Polite.Token.Next
+  nameWithType: Token.Next
+- uid: Polite.Token.Preceeds(System.Int16)
+  name: Preceeds(Int16)
+  href: api/Polite.Token.html#Polite_Token_Preceeds_System_Int16_
+  commentId: M:Polite.Token.Preceeds(System.Int16)
+  fullName: Polite.Token.Preceeds(System.Int16)
+  nameWithType: Token.Preceeds(Int16)
+- uid: Polite.Token.Preceeds*
+  name: Preceeds
+  href: api/Polite.Token.html#Polite_Token_Preceeds_
+  commentId: Overload:Polite.Token.Preceeds
+  isSpec: "True"
+  fullName: Polite.Token.Preceeds
+  nameWithType: Token.Preceeds
+- uid: Polite.Token.PrimaryType
+  name: PrimaryType
+  href: api/Polite.Token.html#Polite_Token_PrimaryType
+  commentId: F:Polite.Token.PrimaryType
+  fullName: Polite.Token.PrimaryType
+  nameWithType: Token.PrimaryType
+- uid: Polite.Token.Reserved
+  name: Reserved
+  href: api/Polite.Token.html#Polite_Token_Reserved
+  commentId: F:Polite.Token.Reserved
+  fullName: Polite.Token.Reserved
+  nameWithType: Token.Reserved
+- uid: Polite.Token.Scope
+  name: Scope
+  href: api/Polite.Token.html#Polite_Token_Scope
+  commentId: F:Polite.Token.Scope
+  fullName: Polite.Token.Scope
+  nameWithType: Token.Scope
+- uid: Polite.Token.Second
+  name: Second
+  href: api/Polite.Token.html#Polite_Token_Second
+  commentId: P:Polite.Token.Second
+  fullName: Polite.Token.Second
+  nameWithType: Token.Second
+- uid: Polite.Token.Second*
+  name: Second
+  href: api/Polite.Token.html#Polite_Token_Second_
+  commentId: Overload:Polite.Token.Second
+  isSpec: "True"
+  fullName: Polite.Token.Second
+  nameWithType: Token.Second
+- uid: Polite.Token.SecondaryType
+  name: SecondaryType
+  href: api/Polite.Token.html#Polite_Token_SecondaryType
+  commentId: F:Polite.Token.SecondaryType
+  fullName: Polite.Token.SecondaryType
+  nameWithType: Token.SecondaryType
+- uid: Polite.Token.Start
+  name: Start
+  href: api/Polite.Token.html#Polite_Token_Start
+  commentId: F:Polite.Token.Start
+  fullName: Polite.Token.Start
+  nameWithType: Token.Start
+- uid: Polite.Token.Third
+  name: Third
+  href: api/Polite.Token.html#Polite_Token_Third
+  commentId: P:Polite.Token.Third
+  fullName: Polite.Token.Third
+  nameWithType: Token.Third
+- uid: Polite.Token.Third*
+  name: Third
+  href: api/Polite.Token.html#Polite_Token_Third_
+  commentId: Overload:Polite.Token.Third
+  isSpec: "True"
+  fullName: Polite.Token.Third
+  nameWithType: Token.Third
+- uid: Polite.Token.ToString
+  name: ToString()
+  href: api/Polite.Token.html#Polite_Token_ToString
+  commentId: M:Polite.Token.ToString
+  fullName: Polite.Token.ToString()
+  nameWithType: Token.ToString()
+- uid: Polite.Token.ToString*
+  name: ToString
+  href: api/Polite.Token.html#Polite_Token_ToString_
+  commentId: Overload:Polite.Token.ToString
+  isSpec: "True"
+  fullName: Polite.Token.ToString
+  nameWithType: Token.ToString
+- uid: Polite.Token.Types
+  name: Token.Types
+  href: api/Polite.Token.Types.html
+  commentId: T:Polite.Token.Types
+  fullName: Polite.Token.Types
+  nameWithType: Token.Types
+- uid: Polite.Token.Types.Primary
+  name: Token.Types.Primary
+  href: api/Polite.Token.Types.Primary.html
+  commentId: T:Polite.Token.Types.Primary
+  fullName: Polite.Token.Types.Primary
+  nameWithType: Token.Types.Primary
+- uid: Polite.Token.Types.Primary.Block
+  name: Block
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Block
+  commentId: F:Polite.Token.Types.Primary.Block
+  fullName: Polite.Token.Types.Primary.Block
+  nameWithType: Token.Types.Primary.Block
+- uid: Polite.Token.Types.Primary.Constant
+  name: Constant
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Constant
+  commentId: F:Polite.Token.Types.Primary.Constant
+  fullName: Polite.Token.Types.Primary.Constant
+  nameWithType: Token.Types.Primary.Constant
+- uid: Polite.Token.Types.Primary.End
+  name: End
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_End
+  commentId: F:Polite.Token.Types.Primary.End
+  fullName: Polite.Token.Types.Primary.End
+  nameWithType: Token.Types.Primary.End
+- uid: Polite.Token.Types.Primary.EndLine
+  name: EndLine
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_EndLine
+  commentId: F:Polite.Token.Types.Primary.EndLine
+  fullName: Polite.Token.Types.Primary.EndLine
+  nameWithType: Token.Types.Primary.EndLine
+- uid: Polite.Token.Types.Primary.Function
+  name: Function
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Function
+  commentId: F:Polite.Token.Types.Primary.Function
+  fullName: Polite.Token.Types.Primary.Function
+  nameWithType: Token.Types.Primary.Function
+- uid: Polite.Token.Types.Primary.Identifier
+  name: Identifier
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Identifier
+  commentId: F:Polite.Token.Types.Primary.Identifier
+  fullName: Polite.Token.Types.Primary.Identifier
+  nameWithType: Token.Types.Primary.Identifier
+- uid: Polite.Token.Types.Primary.Ignored
+  name: Ignored
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Ignored
+  commentId: F:Polite.Token.Types.Primary.Ignored
+  fullName: Polite.Token.Types.Primary.Ignored
+  nameWithType: Token.Types.Primary.Ignored
+- uid: Polite.Token.Types.Primary.IgnoredDelimiter
+  name: IgnoredDelimiter
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_IgnoredDelimiter
+  commentId: F:Polite.Token.Types.Primary.IgnoredDelimiter
+  fullName: Polite.Token.Types.Primary.IgnoredDelimiter
+  nameWithType: Token.Types.Primary.IgnoredDelimiter
+- uid: Polite.Token.Types.Primary.Literal
+  name: Literal
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Literal
+  commentId: F:Polite.Token.Types.Primary.Literal
+  fullName: Polite.Token.Types.Primary.Literal
+  nameWithType: Token.Types.Primary.Literal
+- uid: Polite.Token.Types.Primary.Operator
+  name: Operator
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Operator
+  commentId: F:Polite.Token.Types.Primary.Operator
+  fullName: Polite.Token.Types.Primary.Operator
+  nameWithType: Token.Types.Primary.Operator
+- uid: Polite.Token.Types.Primary.Scope
+  name: Scope
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Scope
+  commentId: F:Polite.Token.Types.Primary.Scope
+  fullName: Polite.Token.Types.Primary.Scope
+  nameWithType: Token.Types.Primary.Scope
+- uid: Polite.Token.Types.Primary.Statement
+  name: Statement
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Statement
+  commentId: F:Polite.Token.Types.Primary.Statement
+  fullName: Polite.Token.Types.Primary.Statement
+  nameWithType: Token.Types.Primary.Statement
+- uid: Polite.Token.Types.Primary.ToPUA(System.Int16)
+  name: ToPUA(Int16)
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_ToPUA_System_Int16_
+  commentId: M:Polite.Token.Types.Primary.ToPUA(System.Int16)
+  fullName: Polite.Token.Types.Primary.ToPUA(System.Int16)
+  nameWithType: Token.Types.Primary.ToPUA(Int16)
+- uid: Polite.Token.Types.Primary.ToPUA*
+  name: ToPUA
+  href: api/Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_ToPUA_
+  commentId: Overload:Polite.Token.Types.Primary.ToPUA
+  isSpec: "True"
+  fullName: Polite.Token.Types.Primary.ToPUA
+  nameWithType: Token.Types.Primary.ToPUA
+- uid: Polite.Token.Types.Secondary
+  name: Token.Types.Secondary
+  href: api/Polite.Token.Types.Secondary.html
+  commentId: T:Polite.Token.Types.Secondary
+  fullName: Polite.Token.Types.Secondary
+  nameWithType: Token.Types.Secondary
+- uid: Polite.Token.Types.Secondary.Assignments
+  name: Token.Types.Secondary.Assignments
+  href: api/Polite.Token.Types.Secondary.Assignments.html
+  commentId: T:Polite.Token.Types.Secondary.Assignments
+  fullName: Polite.Token.Types.Secondary.Assignments
+  nameWithType: Token.Types.Secondary.Assignments
+- uid: Polite.Token.Types.Secondary.Assignments.Addition
+  name: Addition
+  href: api/Polite.Token.Types.Secondary.Assignments.html#Polite_Token_Types_Secondary_Assignments_Addition
+  commentId: F:Polite.Token.Types.Secondary.Assignments.Addition
+  fullName: Polite.Token.Types.Secondary.Assignments.Addition
+  nameWithType: Token.Types.Secondary.Assignments.Addition
+- uid: Polite.Token.Types.Secondary.Assignments.Basic
+  name: Basic
+  href: api/Polite.Token.Types.Secondary.Assignments.html#Polite_Token_Types_Secondary_Assignments_Basic
+  commentId: F:Polite.Token.Types.Secondary.Assignments.Basic
+  fullName: Polite.Token.Types.Secondary.Assignments.Basic
+  nameWithType: Token.Types.Secondary.Assignments.Basic
+- uid: Polite.Token.Types.Secondary.Assignments.Division
+  name: Division
+  href: api/Polite.Token.Types.Secondary.Assignments.html#Polite_Token_Types_Secondary_Assignments_Division
+  commentId: F:Polite.Token.Types.Secondary.Assignments.Division
+  fullName: Polite.Token.Types.Secondary.Assignments.Division
+  nameWithType: Token.Types.Secondary.Assignments.Division
+- uid: Polite.Token.Types.Secondary.Assignments.Multiplication
+  name: Multiplication
+  href: api/Polite.Token.Types.Secondary.Assignments.html#Polite_Token_Types_Secondary_Assignments_Multiplication
+  commentId: F:Polite.Token.Types.Secondary.Assignments.Multiplication
+  fullName: Polite.Token.Types.Secondary.Assignments.Multiplication
+  nameWithType: Token.Types.Secondary.Assignments.Multiplication
+- uid: Polite.Token.Types.Secondary.Assignments.Subtraction
+  name: Subtraction
+  href: api/Polite.Token.Types.Secondary.Assignments.html#Polite_Token_Types_Secondary_Assignments_Subtraction
+  commentId: F:Polite.Token.Types.Secondary.Assignments.Subtraction
+  fullName: Polite.Token.Types.Secondary.Assignments.Subtraction
+  nameWithType: Token.Types.Secondary.Assignments.Subtraction
+- uid: Polite.Token.Types.Secondary.Bitwise
+  name: Token.Types.Secondary.Bitwise
+  href: api/Polite.Token.Types.Secondary.Bitwise.html
+  commentId: T:Polite.Token.Types.Secondary.Bitwise
+  fullName: Polite.Token.Types.Secondary.Bitwise
+  nameWithType: Token.Types.Secondary.Bitwise
+- uid: Polite.Token.Types.Secondary.Bitwise.And
+  name: And
+  href: api/Polite.Token.Types.Secondary.Bitwise.html#Polite_Token_Types_Secondary_Bitwise_And
+  commentId: F:Polite.Token.Types.Secondary.Bitwise.And
+  fullName: Polite.Token.Types.Secondary.Bitwise.And
+  nameWithType: Token.Types.Secondary.Bitwise.And
+- uid: Polite.Token.Types.Secondary.Bitwise.Complement
+  name: Complement
+  href: api/Polite.Token.Types.Secondary.Bitwise.html#Polite_Token_Types_Secondary_Bitwise_Complement
+  commentId: F:Polite.Token.Types.Secondary.Bitwise.Complement
+  fullName: Polite.Token.Types.Secondary.Bitwise.Complement
+  nameWithType: Token.Types.Secondary.Bitwise.Complement
+- uid: Polite.Token.Types.Secondary.Bitwise.Or
+  name: Or
+  href: api/Polite.Token.Types.Secondary.Bitwise.html#Polite_Token_Types_Secondary_Bitwise_Or
+  commentId: F:Polite.Token.Types.Secondary.Bitwise.Or
+  fullName: Polite.Token.Types.Secondary.Bitwise.Or
+  nameWithType: Token.Types.Secondary.Bitwise.Or
+- uid: Polite.Token.Types.Secondary.Bitwise.ShiftLeft
+  name: ShiftLeft
+  href: api/Polite.Token.Types.Secondary.Bitwise.html#Polite_Token_Types_Secondary_Bitwise_ShiftLeft
+  commentId: F:Polite.Token.Types.Secondary.Bitwise.ShiftLeft
+  fullName: Polite.Token.Types.Secondary.Bitwise.ShiftLeft
+  nameWithType: Token.Types.Secondary.Bitwise.ShiftLeft
+- uid: Polite.Token.Types.Secondary.Bitwise.ShiftRight
+  name: ShiftRight
+  href: api/Polite.Token.Types.Secondary.Bitwise.html#Polite_Token_Types_Secondary_Bitwise_ShiftRight
+  commentId: F:Polite.Token.Types.Secondary.Bitwise.ShiftRight
+  fullName: Polite.Token.Types.Secondary.Bitwise.ShiftRight
+  nameWithType: Token.Types.Secondary.Bitwise.ShiftRight
+- uid: Polite.Token.Types.Secondary.Bitwise.XOr
+  name: XOr
+  href: api/Polite.Token.Types.Secondary.Bitwise.html#Polite_Token_Types_Secondary_Bitwise_XOr
+  commentId: F:Polite.Token.Types.Secondary.Bitwise.XOr
+  fullName: Polite.Token.Types.Secondary.Bitwise.XOr
+  nameWithType: Token.Types.Secondary.Bitwise.XOr
+- uid: Polite.Token.Types.Secondary.Comparers
+  name: Token.Types.Secondary.Comparers
+  href: api/Polite.Token.Types.Secondary.Comparers.html
+  commentId: T:Polite.Token.Types.Secondary.Comparers
+  fullName: Polite.Token.Types.Secondary.Comparers
+  nameWithType: Token.Types.Secondary.Comparers
+- uid: Polite.Token.Types.Secondary.Comparers.EqualTo
+  name: EqualTo
+  href: api/Polite.Token.Types.Secondary.Comparers.html#Polite_Token_Types_Secondary_Comparers_EqualTo
+  commentId: F:Polite.Token.Types.Secondary.Comparers.EqualTo
+  fullName: Polite.Token.Types.Secondary.Comparers.EqualTo
+  nameWithType: Token.Types.Secondary.Comparers.EqualTo
+- uid: Polite.Token.Types.Secondary.Comparers.GreaterThan
+  name: GreaterThan
+  href: api/Polite.Token.Types.Secondary.Comparers.html#Polite_Token_Types_Secondary_Comparers_GreaterThan
+  commentId: F:Polite.Token.Types.Secondary.Comparers.GreaterThan
+  fullName: Polite.Token.Types.Secondary.Comparers.GreaterThan
+  nameWithType: Token.Types.Secondary.Comparers.GreaterThan
+- uid: Polite.Token.Types.Secondary.Comparers.GreaterThanOrEqualTo
+  name: GreaterThanOrEqualTo
+  href: api/Polite.Token.Types.Secondary.Comparers.html#Polite_Token_Types_Secondary_Comparers_GreaterThanOrEqualTo
+  commentId: F:Polite.Token.Types.Secondary.Comparers.GreaterThanOrEqualTo
+  fullName: Polite.Token.Types.Secondary.Comparers.GreaterThanOrEqualTo
+  nameWithType: Token.Types.Secondary.Comparers.GreaterThanOrEqualTo
+- uid: Polite.Token.Types.Secondary.Comparers.LessThan
+  name: LessThan
+  href: api/Polite.Token.Types.Secondary.Comparers.html#Polite_Token_Types_Secondary_Comparers_LessThan
+  commentId: F:Polite.Token.Types.Secondary.Comparers.LessThan
+  fullName: Polite.Token.Types.Secondary.Comparers.LessThan
+  nameWithType: Token.Types.Secondary.Comparers.LessThan
+- uid: Polite.Token.Types.Secondary.Comparers.LessThanOrEqualTo
+  name: LessThanOrEqualTo
+  href: api/Polite.Token.Types.Secondary.Comparers.html#Polite_Token_Types_Secondary_Comparers_LessThanOrEqualTo
+  commentId: F:Polite.Token.Types.Secondary.Comparers.LessThanOrEqualTo
+  fullName: Polite.Token.Types.Secondary.Comparers.LessThanOrEqualTo
+  nameWithType: Token.Types.Secondary.Comparers.LessThanOrEqualTo
+- uid: Polite.Token.Types.Secondary.Comparers.UnequalTo
+  name: UnequalTo
+  href: api/Polite.Token.Types.Secondary.Comparers.html#Polite_Token_Types_Secondary_Comparers_UnequalTo
+  commentId: F:Polite.Token.Types.Secondary.Comparers.UnequalTo
+  fullName: Polite.Token.Types.Secondary.Comparers.UnequalTo
+  nameWithType: Token.Types.Secondary.Comparers.UnequalTo
+- uid: Polite.Token.Types.Secondary.Conditionals
+  name: Token.Types.Secondary.Conditionals
+  href: api/Polite.Token.Types.Secondary.Conditionals.html
+  commentId: T:Polite.Token.Types.Secondary.Conditionals
+  fullName: Polite.Token.Types.Secondary.Conditionals
+  nameWithType: Token.Types.Secondary.Conditionals
+- uid: Polite.Token.Types.Secondary.Conditionals.And
+  name: And
+  href: api/Polite.Token.Types.Secondary.Conditionals.html#Polite_Token_Types_Secondary_Conditionals_And
+  commentId: F:Polite.Token.Types.Secondary.Conditionals.And
+  fullName: Polite.Token.Types.Secondary.Conditionals.And
+  nameWithType: Token.Types.Secondary.Conditionals.And
+- uid: Polite.Token.Types.Secondary.Conditionals.Or
+  name: Or
+  href: api/Polite.Token.Types.Secondary.Conditionals.html#Polite_Token_Types_Secondary_Conditionals_Or
+  commentId: F:Polite.Token.Types.Secondary.Conditionals.Or
+  fullName: Polite.Token.Types.Secondary.Conditionals.Or
+  nameWithType: Token.Types.Secondary.Conditionals.Or
+- uid: Polite.Token.Types.Secondary.Function
+  name: Token.Types.Secondary.Function
+  href: api/Polite.Token.Types.Secondary.Function.html
+  commentId: T:Polite.Token.Types.Secondary.Function
+  fullName: Polite.Token.Types.Secondary.Function
+  nameWithType: Token.Types.Secondary.Function
+- uid: Polite.Token.Types.Secondary.Function.Invoker
+  name: Invoker
+  href: api/Polite.Token.Types.Secondary.Function.html#Polite_Token_Types_Secondary_Function_Invoker
+  commentId: F:Polite.Token.Types.Secondary.Function.Invoker
+  fullName: Polite.Token.Types.Secondary.Function.Invoker
+  nameWithType: Token.Types.Secondary.Function.Invoker
+- uid: Polite.Token.Types.Secondary.IsArithmeticOperator(Polite.Token)
+  name: IsArithmeticOperator(Token)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsArithmeticOperator_Polite_Token_
+  commentId: M:Polite.Token.Types.Secondary.IsArithmeticOperator(Polite.Token)
+  fullName: Polite.Token.Types.Secondary.IsArithmeticOperator(Polite.Token)
+  nameWithType: Token.Types.Secondary.IsArithmeticOperator(Token)
+- uid: Polite.Token.Types.Secondary.IsArithmeticOperator*
+  name: IsArithmeticOperator
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsArithmeticOperator_
+  commentId: Overload:Polite.Token.Types.Secondary.IsArithmeticOperator
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsArithmeticOperator
+  nameWithType: Token.Types.Secondary.IsArithmeticOperator
+- uid: Polite.Token.Types.Secondary.IsArithmeticType(System.Int16)
+  name: IsArithmeticType(Int16)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsArithmeticType_System_Int16_
+  commentId: M:Polite.Token.Types.Secondary.IsArithmeticType(System.Int16)
+  fullName: Polite.Token.Types.Secondary.IsArithmeticType(System.Int16)
+  nameWithType: Token.Types.Secondary.IsArithmeticType(Int16)
+- uid: Polite.Token.Types.Secondary.IsArithmeticType*
+  name: IsArithmeticType
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsArithmeticType_
+  commentId: Overload:Polite.Token.Types.Secondary.IsArithmeticType
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsArithmeticType
+  nameWithType: Token.Types.Secondary.IsArithmeticType
+- uid: Polite.Token.Types.Secondary.IsAssignmentOperator(Polite.Token)
+  name: IsAssignmentOperator(Token)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsAssignmentOperator_Polite_Token_
+  commentId: M:Polite.Token.Types.Secondary.IsAssignmentOperator(Polite.Token)
+  fullName: Polite.Token.Types.Secondary.IsAssignmentOperator(Polite.Token)
+  nameWithType: Token.Types.Secondary.IsAssignmentOperator(Token)
+- uid: Polite.Token.Types.Secondary.IsAssignmentOperator*
+  name: IsAssignmentOperator
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsAssignmentOperator_
+  commentId: Overload:Polite.Token.Types.Secondary.IsAssignmentOperator
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsAssignmentOperator
+  nameWithType: Token.Types.Secondary.IsAssignmentOperator
+- uid: Polite.Token.Types.Secondary.IsAssignmentType(System.Int16)
+  name: IsAssignmentType(Int16)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsAssignmentType_System_Int16_
+  commentId: M:Polite.Token.Types.Secondary.IsAssignmentType(System.Int16)
+  fullName: Polite.Token.Types.Secondary.IsAssignmentType(System.Int16)
+  nameWithType: Token.Types.Secondary.IsAssignmentType(Int16)
+- uid: Polite.Token.Types.Secondary.IsAssignmentType*
+  name: IsAssignmentType
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsAssignmentType_
+  commentId: Overload:Polite.Token.Types.Secondary.IsAssignmentType
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsAssignmentType
+  nameWithType: Token.Types.Secondary.IsAssignmentType
+- uid: Polite.Token.Types.Secondary.IsBitwiseOperator(Polite.Token)
+  name: IsBitwiseOperator(Token)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsBitwiseOperator_Polite_Token_
+  commentId: M:Polite.Token.Types.Secondary.IsBitwiseOperator(Polite.Token)
+  fullName: Polite.Token.Types.Secondary.IsBitwiseOperator(Polite.Token)
+  nameWithType: Token.Types.Secondary.IsBitwiseOperator(Token)
+- uid: Polite.Token.Types.Secondary.IsBitwiseOperator*
+  name: IsBitwiseOperator
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsBitwiseOperator_
+  commentId: Overload:Polite.Token.Types.Secondary.IsBitwiseOperator
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsBitwiseOperator
+  nameWithType: Token.Types.Secondary.IsBitwiseOperator
+- uid: Polite.Token.Types.Secondary.IsBitwiseType(System.Int16)
+  name: IsBitwiseType(Int16)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsBitwiseType_System_Int16_
+  commentId: M:Polite.Token.Types.Secondary.IsBitwiseType(System.Int16)
+  fullName: Polite.Token.Types.Secondary.IsBitwiseType(System.Int16)
+  nameWithType: Token.Types.Secondary.IsBitwiseType(Int16)
+- uid: Polite.Token.Types.Secondary.IsBitwiseType*
+  name: IsBitwiseType
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsBitwiseType_
+  commentId: Overload:Polite.Token.Types.Secondary.IsBitwiseType
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsBitwiseType
+  nameWithType: Token.Types.Secondary.IsBitwiseType
+- uid: Polite.Token.Types.Secondary.IsComparisonOperator(Polite.Token)
+  name: IsComparisonOperator(Token)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsComparisonOperator_Polite_Token_
+  commentId: M:Polite.Token.Types.Secondary.IsComparisonOperator(Polite.Token)
+  fullName: Polite.Token.Types.Secondary.IsComparisonOperator(Polite.Token)
+  nameWithType: Token.Types.Secondary.IsComparisonOperator(Token)
+- uid: Polite.Token.Types.Secondary.IsComparisonOperator*
+  name: IsComparisonOperator
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsComparisonOperator_
+  commentId: Overload:Polite.Token.Types.Secondary.IsComparisonOperator
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsComparisonOperator
+  nameWithType: Token.Types.Secondary.IsComparisonOperator
+- uid: Polite.Token.Types.Secondary.IsComparisonType(System.Int16)
+  name: IsComparisonType(Int16)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsComparisonType_System_Int16_
+  commentId: M:Polite.Token.Types.Secondary.IsComparisonType(System.Int16)
+  fullName: Polite.Token.Types.Secondary.IsComparisonType(System.Int16)
+  nameWithType: Token.Types.Secondary.IsComparisonType(Int16)
+- uid: Polite.Token.Types.Secondary.IsComparisonType*
+  name: IsComparisonType
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsComparisonType_
+  commentId: Overload:Polite.Token.Types.Secondary.IsComparisonType
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsComparisonType
+  nameWithType: Token.Types.Secondary.IsComparisonType
+- uid: Polite.Token.Types.Secondary.IsConditionOperator(Polite.Token)
+  name: IsConditionOperator(Token)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsConditionOperator_Polite_Token_
+  commentId: M:Polite.Token.Types.Secondary.IsConditionOperator(Polite.Token)
+  fullName: Polite.Token.Types.Secondary.IsConditionOperator(Polite.Token)
+  nameWithType: Token.Types.Secondary.IsConditionOperator(Token)
+- uid: Polite.Token.Types.Secondary.IsConditionOperator*
+  name: IsConditionOperator
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsConditionOperator_
+  commentId: Overload:Polite.Token.Types.Secondary.IsConditionOperator
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsConditionOperator
+  nameWithType: Token.Types.Secondary.IsConditionOperator
+- uid: Polite.Token.Types.Secondary.IsConditionType(System.Int16)
+  name: IsConditionType(Int16)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsConditionType_System_Int16_
+  commentId: M:Polite.Token.Types.Secondary.IsConditionType(System.Int16)
+  fullName: Polite.Token.Types.Secondary.IsConditionType(System.Int16)
+  nameWithType: Token.Types.Secondary.IsConditionType(Int16)
+- uid: Polite.Token.Types.Secondary.IsConditionType*
+  name: IsConditionType
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_IsConditionType_
+  commentId: Overload:Polite.Token.Types.Secondary.IsConditionType
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.IsConditionType
+  nameWithType: Token.Types.Secondary.IsConditionType
+- uid: Polite.Token.Types.Secondary.Literals
+  name: Token.Types.Secondary.Literals
+  href: api/Polite.Token.Types.Secondary.Literals.html
+  commentId: T:Polite.Token.Types.Secondary.Literals
+  fullName: Polite.Token.Types.Secondary.Literals
+  nameWithType: Token.Types.Secondary.Literals
+- uid: Polite.Token.Types.Secondary.Literals.Array
+  name: Array
+  href: api/Polite.Token.Types.Secondary.Literals.html#Polite_Token_Types_Secondary_Literals_Array
+  commentId: F:Polite.Token.Types.Secondary.Literals.Array
+  fullName: Polite.Token.Types.Secondary.Literals.Array
+  nameWithType: Token.Types.Secondary.Literals.Array
+- uid: Polite.Token.Types.Secondary.Literals.Boolean
+  name: Boolean
+  href: api/Polite.Token.Types.Secondary.Literals.html#Polite_Token_Types_Secondary_Literals_Boolean
+  commentId: F:Polite.Token.Types.Secondary.Literals.Boolean
+  fullName: Polite.Token.Types.Secondary.Literals.Boolean
+  nameWithType: Token.Types.Secondary.Literals.Boolean
+- uid: Polite.Token.Types.Secondary.Literals.Double
+  name: Double
+  href: api/Polite.Token.Types.Secondary.Literals.html#Polite_Token_Types_Secondary_Literals_Double
+  commentId: F:Polite.Token.Types.Secondary.Literals.Double
+  fullName: Polite.Token.Types.Secondary.Literals.Double
+  nameWithType: Token.Types.Secondary.Literals.Double
+- uid: Polite.Token.Types.Secondary.Literals.Integer
+  name: Integer
+  href: api/Polite.Token.Types.Secondary.Literals.html#Polite_Token_Types_Secondary_Literals_Integer
+  commentId: F:Polite.Token.Types.Secondary.Literals.Integer
+  fullName: Polite.Token.Types.Secondary.Literals.Integer
+  nameWithType: Token.Types.Secondary.Literals.Integer
+- uid: Polite.Token.Types.Secondary.Literals.String
+  name: String
+  href: api/Polite.Token.Types.Secondary.Literals.html#Polite_Token_Types_Secondary_Literals_String
+  commentId: F:Polite.Token.Types.Secondary.Literals.String
+  fullName: Polite.Token.Types.Secondary.Literals.String
+  nameWithType: Token.Types.Secondary.Literals.String
+- uid: Polite.Token.Types.Secondary.Operations
+  name: Token.Types.Secondary.Operations
+  href: api/Polite.Token.Types.Secondary.Operations.html
+  commentId: T:Polite.Token.Types.Secondary.Operations
+  fullName: Polite.Token.Types.Secondary.Operations
+  nameWithType: Token.Types.Secondary.Operations
+- uid: Polite.Token.Types.Secondary.Operations.Addition
+  name: Addition
+  href: api/Polite.Token.Types.Secondary.Operations.html#Polite_Token_Types_Secondary_Operations_Addition
+  commentId: F:Polite.Token.Types.Secondary.Operations.Addition
+  fullName: Polite.Token.Types.Secondary.Operations.Addition
+  nameWithType: Token.Types.Secondary.Operations.Addition
+- uid: Polite.Token.Types.Secondary.Operations.Division
+  name: Division
+  href: api/Polite.Token.Types.Secondary.Operations.html#Polite_Token_Types_Secondary_Operations_Division
+  commentId: F:Polite.Token.Types.Secondary.Operations.Division
+  fullName: Polite.Token.Types.Secondary.Operations.Division
+  nameWithType: Token.Types.Secondary.Operations.Division
+- uid: Polite.Token.Types.Secondary.Operations.Multiplication
+  name: Multiplication
+  href: api/Polite.Token.Types.Secondary.Operations.html#Polite_Token_Types_Secondary_Operations_Multiplication
+  commentId: F:Polite.Token.Types.Secondary.Operations.Multiplication
+  fullName: Polite.Token.Types.Secondary.Operations.Multiplication
+  nameWithType: Token.Types.Secondary.Operations.Multiplication
+- uid: Polite.Token.Types.Secondary.Operations.Subtraction
+  name: Subtraction
+  href: api/Polite.Token.Types.Secondary.Operations.html#Polite_Token_Types_Secondary_Operations_Subtraction
+  commentId: F:Polite.Token.Types.Secondary.Operations.Subtraction
+  fullName: Polite.Token.Types.Secondary.Operations.Subtraction
+  nameWithType: Token.Types.Secondary.Operations.Subtraction
+- uid: Polite.Token.Types.Secondary.Orders
+  name: Token.Types.Secondary.Orders
+  href: api/Polite.Token.Types.Secondary.Orders.html
+  commentId: T:Polite.Token.Types.Secondary.Orders
+  fullName: Polite.Token.Types.Secondary.Orders
+  nameWithType: Token.Types.Secondary.Orders
+- uid: Polite.Token.Types.Secondary.Orders.Condition
+  name: Condition
+  href: api/Polite.Token.Types.Secondary.Orders.html#Polite_Token_Types_Secondary_Orders_Condition
+  commentId: F:Polite.Token.Types.Secondary.Orders.Condition
+  fullName: Polite.Token.Types.Secondary.Orders.Condition
+  nameWithType: Token.Types.Secondary.Orders.Condition
+- uid: Polite.Token.Types.Secondary.Orders.Loop
+  name: Loop
+  href: api/Polite.Token.Types.Secondary.Orders.html#Polite_Token_Types_Secondary_Orders_Loop
+  commentId: F:Polite.Token.Types.Secondary.Orders.Loop
+  fullName: Polite.Token.Types.Secondary.Orders.Loop
+  nameWithType: Token.Types.Secondary.Orders.Loop
+- uid: Polite.Token.Types.Secondary.ToPUA(System.Int16)
+  name: ToPUA(Int16)
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_ToPUA_System_Int16_
+  commentId: M:Polite.Token.Types.Secondary.ToPUA(System.Int16)
+  fullName: Polite.Token.Types.Secondary.ToPUA(System.Int16)
+  nameWithType: Token.Types.Secondary.ToPUA(Int16)
+- uid: Polite.Token.Types.Secondary.ToPUA*
+  name: ToPUA
+  href: api/Polite.Token.Types.Secondary.html#Polite_Token_Types_Secondary_ToPUA_
+  commentId: Overload:Polite.Token.Types.Secondary.ToPUA
+  isSpec: "True"
+  fullName: Polite.Token.Types.Secondary.ToPUA
+  nameWithType: Token.Types.Secondary.ToPUA
+- uid: Polite.Token.Types.Secondary.Variable
+  name: Token.Types.Secondary.Variable
+  href: api/Polite.Token.Types.Secondary.Variable.html
+  commentId: T:Polite.Token.Types.Secondary.Variable
+  fullName: Polite.Token.Types.Secondary.Variable
+  nameWithType: Token.Types.Secondary.Variable
+- uid: Polite.Token.Types.Secondary.Variable.Addresser
+  name: Addresser
+  href: api/Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Addresser
+  commentId: F:Polite.Token.Types.Secondary.Variable.Addresser
+  fullName: Polite.Token.Types.Secondary.Variable.Addresser
+  nameWithType: Token.Types.Secondary.Variable.Addresser
+- uid: Polite.Token.Types.Secondary.Variable.Constructor
+  name: Constructor
+  href: api/Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Constructor
+  commentId: F:Polite.Token.Types.Secondary.Variable.Constructor
+  fullName: Polite.Token.Types.Secondary.Variable.Constructor
+  nameWithType: Token.Types.Secondary.Variable.Constructor
+- uid: Polite.Token.Types.Secondary.Variable.Declaration
+  name: Declaration
+  href: api/Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Declaration
+  commentId: F:Polite.Token.Types.Secondary.Variable.Declaration
+  fullName: Polite.Token.Types.Secondary.Variable.Declaration
+  nameWithType: Token.Types.Secondary.Variable.Declaration
+- uid: Polite.Token.Types.Secondary.Variable.Indexer
+  name: Indexer
+  href: api/Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Indexer
+  commentId: F:Polite.Token.Types.Secondary.Variable.Indexer
+  fullName: Polite.Token.Types.Secondary.Variable.Indexer
+  nameWithType: Token.Types.Secondary.Variable.Indexer
+- uid: Polite.Token.Types.Secondary.Variable.Referencer
+  name: Referencer
+  href: api/Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Referencer
+  commentId: F:Polite.Token.Types.Secondary.Variable.Referencer
+  fullName: Polite.Token.Types.Secondary.Variable.Referencer
+  nameWithType: Token.Types.Secondary.Variable.Referencer
+- uid: Polite.Token.Types.Undefined
+  name: Undefined
+  href: api/Polite.Token.Types.html#Polite_Token_Types_Undefined
+  commentId: F:Polite.Token.Types.Undefined
+  fullName: Polite.Token.Types.Undefined
+  nameWithType: Token.Types.Undefined
+- uid: Polite.Token.Value
+  name: Value
+  href: api/Polite.Token.html#Polite_Token_Value
+  commentId: F:Polite.Token.Value
+  fullName: Polite.Token.Value
+  nameWithType: Token.Value
+- uid: Polite.TokenBase
+  name: TokenBase
+  href: api/Polite.TokenBase.html
+  commentId: T:Polite.TokenBase
+  fullName: Polite.TokenBase
+  nameWithType: TokenBase
+- uid: Polite.TokenBase.LBP
+  name: LBP
+  href: api/Polite.TokenBase.html#Polite_TokenBase_LBP
+  commentId: F:Polite.TokenBase.LBP
+  fullName: Polite.TokenBase.LBP
+  nameWithType: TokenBase.LBP
+- uid: Polite.TokenBase.Led
+  name: Led
+  href: api/Polite.TokenBase.html#Polite_TokenBase_Led
+  commentId: F:Polite.TokenBase.Led
+  fullName: Polite.TokenBase.Led
+  nameWithType: TokenBase.Led
+- uid: Polite.TokenBase.LedError(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  name: LedError(Token, Token, Int32, Parser)
+  href: api/Polite.TokenBase.html#Polite_TokenBase_LedError_Polite_Token_Polite_Token_System_Int32_Polite_Parser_
+  commentId: M:Polite.TokenBase.LedError(Polite.Token,Polite.Token,System.Int32,Polite.Parser)
+  fullName: Polite.TokenBase.LedError(Polite.Token, Polite.Token, System.Int32, Polite.Parser)
+  nameWithType: TokenBase.LedError(Token, Token, Int32, Parser)
+- uid: Polite.TokenBase.LedError*
+  name: LedError
+  href: api/Polite.TokenBase.html#Polite_TokenBase_LedError_
+  commentId: Overload:Polite.TokenBase.LedError
+  isSpec: "True"
+  fullName: Polite.TokenBase.LedError
+  nameWithType: TokenBase.LedError
+- uid: Polite.TokenBase.Nud
+  name: Nud
+  href: api/Polite.TokenBase.html#Polite_TokenBase_Nud
+  commentId: F:Polite.TokenBase.Nud
+  fullName: Polite.TokenBase.Nud
+  nameWithType: TokenBase.Nud
+- uid: Polite.TokenBase.NudError(Polite.Token,Polite.Parser)
+  name: NudError(Token, Parser)
+  href: api/Polite.TokenBase.html#Polite_TokenBase_NudError_Polite_Token_Polite_Parser_
+  commentId: M:Polite.TokenBase.NudError(Polite.Token,Polite.Parser)
+  fullName: Polite.TokenBase.NudError(Polite.Token, Polite.Parser)
+  nameWithType: TokenBase.NudError(Token, Parser)
+- uid: Polite.TokenBase.NudError*
+  name: NudError
+  href: api/Polite.TokenBase.html#Polite_TokenBase_NudError_
+  commentId: Overload:Polite.TokenBase.NudError
+  isSpec: "True"
+  fullName: Polite.TokenBase.NudError
+  nameWithType: TokenBase.NudError
+- uid: Polite.TokenBase.Stad
+  name: Stad
+  href: api/Polite.TokenBase.html#Polite_TokenBase_Stad
+  commentId: F:Polite.TokenBase.Stad
+  fullName: Polite.TokenBase.Stad
+  nameWithType: TokenBase.Stad
+- uid: Polite.TokenBase.ThrowException(System.String)
+  name: ThrowException(String)
+  href: api/Polite.TokenBase.html#Polite_TokenBase_ThrowException_System_String_
+  commentId: M:Polite.TokenBase.ThrowException(System.String)
+  fullName: Polite.TokenBase.ThrowException(System.String)
+  nameWithType: TokenBase.ThrowException(String)
+- uid: Polite.TokenBase.ThrowException*
+  name: ThrowException
+  href: api/Polite.TokenBase.html#Polite_TokenBase_ThrowException_
+  commentId: Overload:Polite.TokenBase.ThrowException
+  isSpec: "True"
+  fullName: Polite.TokenBase.ThrowException
+  nameWithType: TokenBase.ThrowException
+- uid: Polite.TokenTable
+  name: TokenTable
+  href: api/Polite.TokenTable.html
+  commentId: T:Polite.TokenTable
+  fullName: Polite.TokenTable
+  nameWithType: TokenTable
+- uid: Polite.TokenTable.#ctor
+  name: TokenTable()
+  href: api/Polite.TokenTable.html#Polite_TokenTable__ctor
+  commentId: M:Polite.TokenTable.#ctor
+  fullName: Polite.TokenTable.TokenTable()
+  nameWithType: TokenTable.TokenTable()
+- uid: Polite.TokenTable.#ctor(System.Collections.Generic.Dictionary{System.String,Polite.Token})
+  name: TokenTable(Dictionary<String, Token>)
+  href: api/Polite.TokenTable.html#Polite_TokenTable__ctor_System_Collections_Generic_Dictionary_System_String_Polite_Token__
+  commentId: M:Polite.TokenTable.#ctor(System.Collections.Generic.Dictionary{System.String,Polite.Token})
+  name.vb: TokenTable(Dictionary(Of String, Token))
+  fullName: Polite.TokenTable.TokenTable(System.Collections.Generic.Dictionary<System.String, Polite.Token>)
+  fullName.vb: Polite.TokenTable.TokenTable(System.Collections.Generic.Dictionary(Of System.String, Polite.Token))
+  nameWithType: TokenTable.TokenTable(Dictionary<String, Token>)
+  nameWithType.vb: TokenTable.TokenTable(Dictionary(Of String, Token))
+- uid: Polite.TokenTable.#ctor*
+  name: TokenTable
+  href: api/Polite.TokenTable.html#Polite_TokenTable__ctor_
+  commentId: Overload:Polite.TokenTable.#ctor
+  isSpec: "True"
+  fullName: Polite.TokenTable.TokenTable
+  nameWithType: TokenTable.TokenTable
+- uid: Polite.TokenTable.Add(Polite.Token)
+  name: Add(Token)
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Add_Polite_Token_
+  commentId: M:Polite.TokenTable.Add(Polite.Token)
+  fullName: Polite.TokenTable.Add(Polite.Token)
+  nameWithType: TokenTable.Add(Token)
+- uid: Polite.TokenTable.Add*
+  name: Add
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Add_
+  commentId: Overload:Polite.TokenTable.Add
+  isSpec: "True"
+  fullName: Polite.TokenTable.Add
+  nameWithType: TokenTable.Add
+- uid: Polite.TokenTable.Contains(System.String)
+  name: Contains(String)
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Contains_System_String_
+  commentId: M:Polite.TokenTable.Contains(System.String)
+  fullName: Polite.TokenTable.Contains(System.String)
+  nameWithType: TokenTable.Contains(String)
+- uid: Polite.TokenTable.Contains*
+  name: Contains
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Contains_
+  commentId: Overload:Polite.TokenTable.Contains
+  isSpec: "True"
+  fullName: Polite.TokenTable.Contains
+  nameWithType: TokenTable.Contains
+- uid: Polite.TokenTable.GetEnumerator
+  name: GetEnumerator()
+  href: api/Polite.TokenTable.html#Polite_TokenTable_GetEnumerator
+  commentId: M:Polite.TokenTable.GetEnumerator
+  fullName: Polite.TokenTable.GetEnumerator()
+  nameWithType: TokenTable.GetEnumerator()
+- uid: Polite.TokenTable.GetEnumerator*
+  name: GetEnumerator
+  href: api/Polite.TokenTable.html#Polite_TokenTable_GetEnumerator_
+  commentId: Overload:Polite.TokenTable.GetEnumerator
+  isSpec: "True"
+  fullName: Polite.TokenTable.GetEnumerator
+  nameWithType: TokenTable.GetEnumerator
+- uid: Polite.TokenTable.Item(System.Char)
+  name: Item[Char]
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Item_System_Char_
+  commentId: P:Polite.TokenTable.Item(System.Char)
+  name.vb: Item(Char)
+  fullName: Polite.TokenTable.Item[System.Char]
+  fullName.vb: Polite.TokenTable.Item(System.Char)
+  nameWithType: TokenTable.Item[Char]
+  nameWithType.vb: TokenTable.Item(Char)
+- uid: Polite.TokenTable.Item(System.String)
+  name: Item[String]
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Item_System_String_
+  commentId: P:Polite.TokenTable.Item(System.String)
+  name.vb: Item(String)
+  fullName: Polite.TokenTable.Item[System.String]
+  fullName.vb: Polite.TokenTable.Item(System.String)
+  nameWithType: TokenTable.Item[String]
+  nameWithType.vb: TokenTable.Item(String)
+- uid: Polite.TokenTable.Item*
+  name: Item
+  href: api/Polite.TokenTable.html#Polite_TokenTable_Item_
+  commentId: Overload:Polite.TokenTable.Item
+  isSpec: "True"
+  fullName: Polite.TokenTable.Item
+  nameWithType: TokenTable.Item
+- uid: Polite.TokenTable.TryGet(System.String,Polite.Token@)
+  name: TryGet(String, out Token)
+  href: api/Polite.TokenTable.html#Polite_TokenTable_TryGet_System_String_Polite_Token__
+  commentId: M:Polite.TokenTable.TryGet(System.String,Polite.Token@)
+  name.vb: TryGet(String, ByRef Token)
+  fullName: Polite.TokenTable.TryGet(System.String, out Polite.Token)
+  fullName.vb: Polite.TokenTable.TryGet(System.String, ByRef Polite.Token)
+  nameWithType: TokenTable.TryGet(String, out Token)
+  nameWithType.vb: TokenTable.TryGet(String, ByRef Token)
+- uid: Polite.TokenTable.TryGet*
+  name: TryGet
+  href: api/Polite.TokenTable.html#Polite_TokenTable_TryGet_
+  commentId: Overload:Polite.TokenTable.TryGet
+  isSpec: "True"
+  fullName: Polite.TokenTable.TryGet
+  nameWithType: TokenTable.TryGet
+- uid: Polite.Variable
+  name: Variable
+  href: api/Polite.Variable.html
+  commentId: T:Polite.Variable
+  fullName: Polite.Variable
+  nameWithType: Variable
+- uid: Polite.Variable.#ctor(System.String)
+  name: Variable(String)
+  href: api/Polite.Variable.html#Polite_Variable__ctor_System_String_
+  commentId: M:Polite.Variable.#ctor(System.String)
+  fullName: Polite.Variable.Variable(System.String)
+  nameWithType: Variable.Variable(String)
+- uid: Polite.Variable.#ctor*
+  name: Variable
+  href: api/Polite.Variable.html#Polite_Variable__ctor_
+  commentId: Overload:Polite.Variable.#ctor
+  isSpec: "True"
+  fullName: Polite.Variable.Variable
+  nameWithType: Variable.Variable
+- uid: Polite.Variable.Alias
+  name: Alias
+  href: api/Polite.Variable.html#Polite_Variable_Alias
+  commentId: P:Polite.Variable.Alias
+  fullName: Polite.Variable.Alias
+  nameWithType: Variable.Alias
+- uid: Polite.Variable.Alias*
+  name: Alias
+  href: api/Polite.Variable.html#Polite_Variable_Alias_
+  commentId: Overload:Polite.Variable.Alias
+  isSpec: "True"
+  fullName: Polite.Variable.Alias
+  nameWithType: Variable.Alias
+- uid: Polite.Variable.Container
+  name: Container
+  href: api/Polite.Variable.html#Polite_Variable_Container
+  commentId: P:Polite.Variable.Container
+  fullName: Polite.Variable.Container
+  nameWithType: Variable.Container
+- uid: Polite.Variable.Container*
+  name: Container
+  href: api/Polite.Variable.html#Polite_Variable_Container_
+  commentId: Overload:Polite.Variable.Container
+  isSpec: "True"
+  fullName: Polite.Variable.Container
+  nameWithType: Variable.Container
+- uid: Polite.Variable.Initialize
+  name: Initialize
+  href: api/Polite.Variable.html#Polite_Variable_Initialize
+  commentId: P:Polite.Variable.Initialize
+  fullName: Polite.Variable.Initialize
+  nameWithType: Variable.Initialize
+- uid: Polite.Variable.Initialize*
+  name: Initialize
+  href: api/Polite.Variable.html#Polite_Variable_Initialize_
+  commentId: Overload:Polite.Variable.Initialize
+  isSpec: "True"
+  fullName: Polite.Variable.Initialize
+  nameWithType: Variable.Initialize
+- uid: Polite.Variable.Name
+  name: Name
+  href: api/Polite.Variable.html#Polite_Variable_Name
+  commentId: P:Polite.Variable.Name
+  fullName: Polite.Variable.Name
+  nameWithType: Variable.Name
+- uid: Polite.Variable.Name*
+  name: Name
+  href: api/Polite.Variable.html#Polite_Variable_Name_
+  commentId: Overload:Polite.Variable.Name
+  isSpec: "True"
+  fullName: Polite.Variable.Name
+  nameWithType: Variable.Name
+- uid: Polite.Variable.ToString
+  name: ToString()
+  href: api/Polite.Variable.html#Polite_Variable_ToString
+  commentId: M:Polite.Variable.ToString
+  fullName: Polite.Variable.ToString()
+  nameWithType: Variable.ToString()
+- uid: Polite.Variable.ToString*
+  name: ToString
+  href: api/Polite.Variable.html#Polite_Variable_ToString_
+  commentId: Overload:Polite.Variable.ToString
+  isSpec: "True"
+  fullName: Polite.Variable.ToString
+  nameWithType: Variable.ToString

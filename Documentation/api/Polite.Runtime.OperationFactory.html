@@ -1,0 +1,1514 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Runtime.OperationFactory
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Runtime.OperationFactory
+   ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Polite.Runtime.OperationFactory">
+  
+  
+  <h1 id="Polite_Runtime_OperationFactory" data-uid="Polite.Runtime.OperationFactory" class="text-break">Class Runtime.OperationFactory
+  </h1>
+  <div class="markdown level0 summary"><p>The master class that creates an <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> from a defined expression.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Runtime.OperationFactory</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_Runtime_OperationFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class OperationFactory</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Arithmetic_" data-uid="Polite.Runtime.OperationFactory.Arithmetic*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Arithmetic_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)">Arithmetic(Runtime.Operation, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates an arithmetic <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Arithmetic(Runtime.Operation x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Arithmetic_" data-uid="Polite.Runtime.OperationFactory.Arithmetic*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Arithmetic_Polite_Runtime_Operation_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Variable)">Arithmetic(Runtime.Operation, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates an arithmetic <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Arithmetic(Runtime.Operation x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Arithmetic_" data-uid="Polite.Runtime.OperationFactory.Arithmetic*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Arithmetic_Polite_Variable_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Runtime.Operation)">Arithmetic(Variable, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates an arithmetic <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Arithmetic(Variable x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Arithmetic_" data-uid="Polite.Runtime.OperationFactory.Arithmetic*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Arithmetic_Polite_Variable_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Variable)">Arithmetic(Variable, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates an arithmetic <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Arithmetic(Variable x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Assignment_" data-uid="Polite.Runtime.OperationFactory.Assignment*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Assignment_Polite_Variable_System_Int16_Polite_Runtime_Operation_System_Int32_" data-uid="Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32)">Assignment(Variable, Int16, Runtime.Operation, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates an assignment <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Assignments.html">Token.Types.Secondary.Assignments</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Assignment(Variable x, short operator_type, Runtime.Operation y, int settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Assignment_" data-uid="Polite.Runtime.OperationFactory.Assignment*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Assignment_Polite_Variable_System_Int16_Polite_Variable_System_Int32_" data-uid="Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Variable,System.Int32)">Assignment(Variable, Int16, Variable, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates an assignment <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Assignments.html">Token.Types.Secondary.Assignments</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Assignment(Variable x, short operator_type, Variable y, int settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Bitwise_" data-uid="Polite.Runtime.OperationFactory.Bitwise*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Bitwise_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)">Bitwise(Runtime.Operation, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates a bitwise <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Bitwise.html">Token.Types.Secondary.Bitwise</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Bitwise(Runtime.Operation x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Bitwise_" data-uid="Polite.Runtime.OperationFactory.Bitwise*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Bitwise_Polite_Runtime_Operation_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Variable)">Bitwise(Runtime.Operation, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates a bitwise <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Bitwise.html">Token.Types.Secondary.Bitwise</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Bitwise(Runtime.Operation x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Bitwise_" data-uid="Polite.Runtime.OperationFactory.Bitwise*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Bitwise_Polite_Variable_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Runtime.Operation)">Bitwise(Variable, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates a bitwise <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Bitwise.html">Token.Types.Secondary.Bitwise</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Bitwise(Variable x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Bitwise_" data-uid="Polite.Runtime.OperationFactory.Bitwise*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Bitwise_Polite_Variable_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Variable)">Bitwise(Variable, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates a bitwise <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Bitwise.html">Token.Types.Secondary.Bitwise</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Bitwise(Variable x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Comparison_" data-uid="Polite.Runtime.OperationFactory.Comparison*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Comparison_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)">Comparison(Runtime.Operation, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates a comparison <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Comparers.html">Token.Types.Secondary.Comparers</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Comparison(Runtime.Operation x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Comparison_" data-uid="Polite.Runtime.OperationFactory.Comparison*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Comparison_Polite_Runtime_Operation_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Variable)">Comparison(Runtime.Operation, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates a comparison <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Comparers.html">Token.Types.Secondary.Comparers</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Comparison(Runtime.Operation x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Comparison_" data-uid="Polite.Runtime.OperationFactory.Comparison*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Comparison_Polite_Variable_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Runtime.Operation)">Comparison(Variable, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates a comparison <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Comparers.html">Token.Types.Secondary.Comparers</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Comparison(Variable x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Comparison_" data-uid="Polite.Runtime.OperationFactory.Comparison*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Comparison_Polite_Variable_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Variable)">Comparison(Variable, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates a comparison <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Comparers.html">Token.Types.Secondary.Comparers</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Comparison(Variable x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Condition_" data-uid="Polite.Runtime.OperationFactory.Condition*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Condition_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)">Condition(Runtime.Operation, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates a conditional <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Conditionals.html">Token.Types.Secondary.Conditionals</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Condition(Runtime.Operation x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Condition_" data-uid="Polite.Runtime.OperationFactory.Condition*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Condition_Polite_Runtime_Operation_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Variable)">Condition(Runtime.Operation, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates a conditional <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Conditionals.html">Token.Types.Secondary.Conditionals</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Condition(Runtime.Operation x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Condition_" data-uid="Polite.Runtime.OperationFactory.Condition*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Condition_Polite_Variable_System_Int16_Polite_Runtime_Operation_" data-uid="Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Runtime.Operation)">Condition(Variable, Int16, Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Creates a conditional <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Conditionals.html">Token.Types.Secondary.Conditionals</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Condition(Variable x, short operator_type, Runtime.Operation y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_Condition_" data-uid="Polite.Runtime.OperationFactory.Condition*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_Condition_Polite_Variable_System_Int16_Polite_Variable_" data-uid="Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Variable)">Condition(Variable, Int16, Variable)</h4>
+  <div class="markdown level1 summary"><p>Creates a conditional <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using x and y, given a <a class="xref" href="Polite.Token.Types.Secondary.Conditionals.html">Token.Types.Secondary.Conditionals</a> operator_type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Runtime.Operation Condition(Variable x, short operator_type, Variable y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> defining which of the <a class="xref" href="Polite.Token.Types.Secondary.Operations.html">Token.Types.Secondary.Operations</a> to create.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><p>An <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> representing that which was passed as arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_RequiresOperation_" data-uid="Polite.Runtime.OperationFactory.RequiresOperation*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_RequiresOperation_System_Int16_System_Int16_" data-uid="Polite.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)">RequiresOperation(Int16, Int16)</h4>
+  <div class="markdown level1 summary"><p>Determines if a <a class="xref" href="Polite.Token.html#Polite_Token_PrimaryType">PrimaryType</a> and <a class="xref" href="Polite.Token.html#Polite_Token_SecondaryType">SecondaryType</a> require and operation to process its instruction. See <a class="xref" href="Polite.Token.Types.html">Token.Types</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RequiresOperation(short primary_type, short secondary_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">primary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">secondary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if the <a class="xref" href="Polite.Token.html">Token</a> that contains these <a class="xref" href="Polite.Token.Types.html">Token.Types</a> requires an operation to process it instruction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_TryCreate_" data-uid="Polite.Runtime.OperationFactory.TryCreate*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_TryCreate_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_System_Int32_Polite_Runtime_Operation__" data-uid="Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)">TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, out Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Attempts to create an <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using the given parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreate(Runtime.Operation x, short operator_type, Runtime.Operation y, int runtime_settings, out Runtime.Operation result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> of the operator that the operation is being made on behalf of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">runtime_settings</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.html#Polite_Runtime_RuntimeSettings">RuntimeSettings</a> used to properly create the intended <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The resulting <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>, if creation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if creation was successful, and otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_TryCreate_" data-uid="Polite.Runtime.OperationFactory.TryCreate*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_TryCreate_Polite_Runtime_Operation_System_Int16_Polite_Variable_System_Int32_Polite_Runtime_Operation__" data-uid="Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)">TryCreate(Runtime.Operation, Int16, Variable, Int32, out Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Attempts to create an <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using the given parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreate(Runtime.Operation x, short operator_type, Variable y, int runtime_settings, out Runtime.Operation result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the left side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> of the operator that the operation is being made on behalf of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">runtime_settings</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.html#Polite_Runtime_RuntimeSettings">RuntimeSettings</a> used to properly create the intended <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The resulting <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>, if creation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if creation was successful, and otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_TryCreate_" data-uid="Polite.Runtime.OperationFactory.TryCreate*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_TryCreate_Polite_Variable_System_Int16_Polite_Runtime_Operation_System_Int32_Polite_Runtime_Operation__" data-uid="Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)">TryCreate(Variable, Int16, Runtime.Operation, Int32, out Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Attempts to create an <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using the given parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreate(Variable x, short operator_type, Runtime.Operation y, int runtime_settings, out Runtime.Operation result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> of the operator that the operation is being made on behalf of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> on the right side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">runtime_settings</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.html#Polite_Runtime_RuntimeSettings">RuntimeSettings</a> used to properly create the intended <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The resulting <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>, if creation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if creation was successful, and otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_OperationFactory_TryCreate_" data-uid="Polite.Runtime.OperationFactory.TryCreate*"></a>
+  <h4 id="Polite_Runtime_OperationFactory_TryCreate_Polite_Variable_System_Int16_Polite_Variable_System_Int32_Polite_Runtime_Operation__" data-uid="Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)">TryCreate(Variable, Int16, Variable, Int32, out Runtime.Operation)</h4>
+  <div class="markdown level1 summary"><p>Attempts to create an <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a> using the given parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreate(Variable x, short operator_type, Variable y, int runtime_settings, out Runtime.Operation result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the left side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">operator_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> of the operator that the operation is being made on behalf of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Variable.html">Variable</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The <a class="xref" href="Polite.Variable.html">Variable</a> on the right side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">runtime_settings</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.html#Polite_Runtime_RuntimeSettings">RuntimeSettings</a> used to properly create the intended <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The resulting <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>, if creation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if creation was successful, and otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
