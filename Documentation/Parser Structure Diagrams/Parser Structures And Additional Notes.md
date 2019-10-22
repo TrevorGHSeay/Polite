@@ -54,6 +54,6 @@ x.Length = 0;
 
 ## A Note to the Reader
 
-If yourself, or any one you know, finds confusion in the instructions written here or anywhere within the Polite Framework's documentation, please do not hesitate to let me know. I created this project with the goal in mind to eventually allow anyone to create their own .NET language, and so will naturally mend any ambiguities wherever I see them.
+If yourself, or anyone you know, finds confusion in the instructions written here - or anywhere within the Polite Framework's documentation - please do not hesitate to let me know. I created this project with the goal in mind to eventually allow anyone to create their own .NET language, and so will naturally mend any ambiguities wherever I see them.
 
 Thanks for reading and supporting the Polite Framework!
