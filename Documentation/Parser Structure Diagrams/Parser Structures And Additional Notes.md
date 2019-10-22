@@ -50,7 +50,7 @@ The above will set `y`'s inner `System.Object` to the `System.Int32` that repres
 var x = "Hello, World!";
 x.Length = 0;
 ```
-... the user will receive an error at runtime. This is because .NET `System.Object`s take precedence over Polite members, and so - instead of creating a new member named `Length`, it will attempt to access the inner `System.Object`'s field or property first. This will result in an error because `System.String`s, being immutable, do not have a public `set` accessor. One workaround to be considered is to create a custom string class with a public `set` accessor, reference it in the `Runtime`'s `ReferenceTypes` field, and have all string literal tokens (created during the lexing phase) utilize this new custom class instead.
+... the user will receive an error at runtime. This is because .NET `System.Object`s take precedence over Polite members, and so - instead of creating a new member named `Length`, it will attempt to access the inner `System.String`'s field or property first. This will result in an error because `System.String`s, being immutable, do not have a public `set` accessor. One workaround to be considered is to create a custom string class with a public `set` accessor, reference it in the `Runtime`'s `ReferenceTypes` field, and have all string literal tokens (created during the lexing phase) utilize this new custom class instead.
 
 ## A Note to the Reader
 
