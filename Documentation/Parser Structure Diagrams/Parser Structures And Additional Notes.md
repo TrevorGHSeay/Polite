@@ -36,7 +36,7 @@ var x = new System.Object();
 x.Name = "Obby";
 ```
 
-Even though the `System.Object` class does not define a member 'Name', this operation is still permitted - due to the nature of the interpretation process - and will perform exactly as expected. The reader may find this useful when creating new languages as it adds an entirely new layer to the .NET environment, though it can require a more attentive programmer to manage. For example, if handing off the above variable `x` to another .NET language, such as a C# program, only the inner `System.Object` will be passed so as to prevent type errors.
+Even though the `System.Object` class does not define a member 'Name', this operation is still permitted - due to the nature of the interpretation process - and will perform exactly as expected. The reader may find this useful when creating new languages as it adds an entirely new layer to the .NET environment, though it can require a more attentive programmer to manage. For example, if handing off the above variable `x` to another - Im-Polite - .NET language, such as a C# program, only the inner `System.Object` will be passed so as to prevent type errors.
 
 ### Properties
 Properties in Polite languages utilize a priority system that the reader should be aware of before creating a new language; take the following case:
