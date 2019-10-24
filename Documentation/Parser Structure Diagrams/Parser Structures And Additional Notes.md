@@ -8,7 +8,7 @@ Here I will lay out the fundamentals for understanding the inner logic of the pa
 Operations in the Polite Framework follow a very simple strategy, with two definitive steps.
 
 ### Members
-The runtime begins with the first member of the program, and then continues to that token's first member, and so on, until a bottom is reached. It then performs the operation/expression attributed to that token, its parent, and its sibling members. Once completed, it pops up to the parent's layer, moving onto its siblings in the same way (finding bottom, caching operations/expressions, etc.).
+The runtime begins with the first member of the program, and then continues to that token's first member, and so on, until a bottom is reached. It then caches the operation/expression attributed to that token, its parent, and its sibling members. Once completed, it pops up to the parent's layer, moving onto its siblings in the same way (finding bottom, caching operations/expressions, etc.).
 
 ### Children 
 Once all members have been cached in this fashion, an identical approach is then taken with all children of the program (moving through the first child of the first child, until a bottom is reached). These searches are in fact done simultaneously, but functionally require the knowledge that children are a lower priority than members, and as such will always be performed last. If a token has both members and children then the reader must note that members - in this way - will be treated preferentially, and that if (for example) a return statement is indicated within a token's member, and is reached before its child operations/expressions are called, its child operations/expessions will not be performed.
