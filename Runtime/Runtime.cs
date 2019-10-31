@@ -752,6 +752,7 @@ namespace Polite
                                 p = p.Container.Members[aliasPath[i]];
                             }
 
+                            bool pContainsVariable = p.Container.Members.TryGetValue(variable.Alias, out Variable currentVariable);
                             if (!(p.Container.Value is null))
                             {
                                 Type valType = p.Container.Value.GetType();
@@ -803,13 +804,20 @@ namespace Polite
                                     else
                                         variable.Container = new Container();
 
+                                    if (pContainsVariable)
+                                        p.Container.Members[variable.Alias] = variable;
+                                    else
+                                        p.Container.Members.Add(variable.Alias, variable);
+
+                                    return;
                                 }
-                                else
-                                    variable.Container = new Container();
                             }
 
-                            if (p.Container.Members.ContainsKey(variable.Alias))
-                                p.Container.Members[variable.Alias] = variable;
+                            if (variable.Container is RefContainer)
+                                variable.Container = new Container();
+
+                            if (pContainsVariable)
+                                variable.Container = p.Container.Members[variable.Alias].Container;
                             else
                                 p.Container.Members.Add(variable.Alias, variable);
                         };
