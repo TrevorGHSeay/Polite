@@ -17,7 +17,7 @@ namespace Polite
         public Parser Parser { get; private set; }
 
         /// <summary>
-        /// The <see cref="Polite.Stack"/> containing every currently utilized <see cref="Variable"/> that is not stored on the <see cref="ObjectHeap"/>.
+        /// The <see cref="Polite.Stack"/> containing every currently utilized <see cref="Variable"/>.
         /// </summary>
         public Stack VariableStack { get; private set; }
 
@@ -31,15 +31,13 @@ namespace Polite
         /// </summary>
         public Type[] GlobalReferences;
 
-        public Dictionary<Type, Dictionary<string, Dictionary<Type[], Delegate>>> Methods;
-
         /// <summary>
         /// The destination field for <see cref="Populate(string)"/> and <see cref="Populate(Token)"/> methods.
         /// </summary>
         public Dictionary<int, Operation> Instructions;
 
         /// <summary>
-        /// The maximum <see cref="Frame"/> depth that a global <see cref="Variable"/> may exist at and still be stored on the <see cref="ObjectHeap"/>.
+        /// The maximum <see cref="Frame"/> depth that a global <see cref="Variable"/> may exist at and still be stored on the Heap (<see cref="Stack.Bottom"/>).
         /// </summary>
         public int GlobalDepth { get; set; }
 
@@ -134,7 +132,7 @@ namespace Polite
         /// Processes and caches the provided source code.
         /// </summary>
         /// <param name="source">The <see cref="Token"/> tree to be processed and cached, which you can later <see cref="Execute()"/>.</param>
-        public void Populate(Token instructions)
+        public void Populate(Token source)
         {
             this.Reset();
             this.Instructions.Clear();
@@ -164,14 +162,14 @@ namespace Polite
                     token.SecondaryType == Token.Types.Secondary.Variable.ParentReference)
             {
                 Variable variable = null;
-                
+
                 List<Variable> address = new List<Variable>();
-                bool isNew = TryCreateNewVariable(token, false, address, globals_cache, locals_cache, out variable);
+                bool isNew = TryCreateNewVariable(token, address, globals_cache, locals_cache, out variable);
 
                 last_variable = variable;
                 last_instruction = null;
                 if (isNew)
-                    result = () => { variable.Initialize(); return variable; };
+                    result = () => { variable.Reinitialize(); return variable; };
                 else
                     result = () => { return variable; };
                 return result;
@@ -358,7 +356,7 @@ namespace Polite
 
             List<Variable> address = new List<Variable>();
             
-            TryCreateNewVariable(left, false, address, globals_cache, locals_cache, out Variable variable);
+            TryCreateNewVariable(left, address, globals_cache, locals_cache, out Variable variable);
 
             Variable[] indices = new Variable[tokenIndices.Count];
             for (int i = 0; i < indices.Length; i += 1)
@@ -367,7 +365,7 @@ namespace Polite
 
                 address.Clear();
                 
-                TryCreateNewVariable(index, false, address, globals_cache, locals_cache, out Variable variableIndexer);
+                TryCreateNewVariable(index, address, globals_cache, locals_cache, out Variable variableIndexer);
 
                 indices[i] = variableIndexer;
             }
@@ -423,7 +421,7 @@ namespace Polite
             for (int i = 0; i < left.Children.Count; i += 1)
             {
                 List<Variable> adr = new List<Variable>();
-                TryCreateNewVariable(left.Children[i], true, adr, globals_cache, innerCache, out Variable param);
+                TryCreateNewVariable(left.Children[i], adr, globals_cache, innerCache, out Variable param);
                 parameters[i] = param;
             }
 
@@ -459,7 +457,7 @@ namespace Polite
                 this.VariableStack.Push();
 
                 for (int j = 0; j < function.Parameters.Length; j += 1)
-                    function.Parameters[j].Initialize();
+                    function.Parameters[j].Reinitialize();
 
                 if (!(function.Parent is null))
                     this.VariableStack.Top.Variables.Add(parentHashCode, function.Parent);
@@ -538,7 +536,7 @@ namespace Polite
 
                     address.Clear();
 
-                    TryCreateNewVariable(left, false, address, globals_cache, locals_cache, out variable);
+                    TryCreateNewVariable(left, address, globals_cache, locals_cache, out variable);
                 }
 
                 Variable resultVariable = new Variable(frAddress);
@@ -616,7 +614,6 @@ namespace Polite
             
             return () => 
             {
-
                 Function function = (Function)functionVariable.Container;
                 
                 int min = function.Parameters.Length < args.Length ? function.Parameters.Length : args.Length;
@@ -653,12 +650,12 @@ namespace Polite
         /// Creates a new instance of <see cref="Variable"/>. Returns true if new, or false if it is known to already exist.
         /// </summary>
         /// <param name="token">The <see cref="Token"/> to use as a template.</param>
-        /// <param name="is_parameter">Is the new <see cref="Variable"/> to be used as a <see cref="Parameter"/>?</param>
         /// <param name="address">The raw address of the new <see cref="Variable"/>.</param>
-        /// <param name="locals_cache">The <see cref="VariableCollection"/> to use for creation.</param>
+        /// <param name="globals_cache">The <see cref="VariableCollection"/> to use for creation of every global <see cref="Variable"/>.</param>
+        /// <param name="locals_cache">The <see cref="VariableCollection"/> to use for creation of every local <see cref="Variable"/>.</param>
         /// <param name="result">The resulting <see cref="Variable"/>.</param>
         /// <returns>True if <see cref="Variable"/> result was newly created. Otherwise, false.</returns>
-        private bool TryCreateNewVariable(Token token, bool is_parameter, List<Variable> address, VariableCollection globals_cache, VariableCollection locals_cache, out Variable result)
+        private bool TryCreateNewVariable(Token token, List<Variable> address, VariableCollection globals_cache, VariableCollection locals_cache, out Variable result)
         {
             if (token.PrimaryType == Token.Types.Primary.Identifier ||
                 token.PrimaryType == Token.Types.Primary.Literal ||
@@ -703,7 +700,7 @@ namespace Polite
                     variable = NewVariable(declaredName, locals_cache);
                     locals_cache.AddParameter(variable);
 
-                    variable.Initialize = () => VariableStack.Top.Variables.Add(variable.Alias, variable);
+                    variable.Reinitialize = () => VariableStack.Top.Variables.Add(variable.Alias, variable);
                 }
                 else if (token.PrimaryType == Token.Types.Primary.Literal || token.PrimaryType == Token.Types.Primary.Constant)
                 {
@@ -723,7 +720,7 @@ namespace Polite
                     isNew = !locals_cache.TryFind(declaredName, out int index);
                     if (isNew)
                     {
-                        variable.Initialize = () => VariableStack.Top.Variables.Add(variable.Alias, variable);
+                        variable.Reinitialize = () => VariableStack.Top.Variables.Add(variable.Alias, variable);
                         locals_cache.AddVariable(variable);
                     }
                 }
@@ -746,79 +743,75 @@ namespace Polite
                     // Add parent to locals_cache if not there already
                     if (isNew)
                     {
-                        variable.Initialize = () =>
+                        variable.Reinitialize = () =>
                         {
-                            Variable v = this.VariableStack.Top.Variables[aliasPath[0]];
+                            Variable p = this.VariableStack.Top.Variables[aliasPath[0]];
                             
                             for (int i = 1; i < aliasPath.Length; i += 1)
                             {
-                                v = v.Container.Members[aliasPath[i]];
+                                p = p.Container.Members[aliasPath[i]];
                             }
 
-                            if (v.Container.Members.ContainsKey(variable.Alias))
+                            if (!(p.Container.Value is null))
                             {
-                                variable.Container = v.Container.Members[variable.Alias].Container;
-                                v.Container.Members[variable.Alias] = variable;
-                            }
-                            else
-                            {
-                                if (v.Container.Value is null)
-                                    v.Container.Members.Add(variable.Alias, variable);
-                                else
+                                Type valType = p.Container.Value.GetType();
+                                MemberInfo[] mis = valType.GetMember(variable.Name);
+
+                                if (mis.Length > 0)
                                 {
-                                    Type valType = ((object)v.Container.Value).GetType();
-                                    MemberInfo[] mis = valType.GetMember(variable.Name);//, BindingFlags.GetField);// BindingFlags.GetProperty | BindingFlags.GetField);
-                                    if (mis.Length == 0)
+                                    bool found = false;
+                                    Operation getter = () => null;
+                                    Action<object> setter = (arg) => { };
+
+                                    for (int i = 0; i < mis.Length; i += 1)
                                     {
-                                        v.Container.Members.Add(variable.Alias, variable);
+                                        MemberInfo mi = mis[i];
+                                        if (mi is FieldInfo fi)
+                                        {
+                                            if (fi.IsPublic)
+                                            {
+                                                found = true;
+                                                getter = () => fi.GetValue(p.Container.Value);
+
+                                                setter = (arg) => fi.SetValue(p.Container.Value, arg);
+                                            }
+                                        }
+                                        else if (mi is PropertyInfo pi)
+                                        {
+                                            MethodInfo metIg = pi.GetMethod;
+                                            if (!(metIg is null) && pi.CanRead)
+                                            {
+                                                found = true;
+                                                getter = () => metIg.Invoke(p.Container.Value, Array.Empty<object>());
+                                            }
+
+                                            MethodInfo metIs = pi.SetMethod;
+                                            if (!(metIs is null) && pi.CanWrite)
+                                            {
+                                                found = true;
+                                                setter = (arg) => metIs.Invoke(p.Container.Value, new object[] { arg });
+                                            }
+                                        }
+                                    }
+
+                                    if (found)
+                                    {
+                                        p.Container.HasInternalMembers = true;
+                                        RefContainer rc = new RefContainer(getter, setter);
+                                        variable.Container = rc;
                                     }
                                     else
-                                    {
-                                        bool found = false;
-                                        Operation getter = () => null;
-                                        Action<object> setter = (arg) => { };
+                                        variable.Container = new Container();
 
-                                        for (int i = 0; i < mis.Length; i += 1)
-                                        {
-                                            MemberInfo mi = mis[i];
-                                            if (mi is FieldInfo fi)
-                                            {
-                                                if (fi.IsPublic)
-                                                {
-                                                    found = true;
-                                                    getter = () => fi.GetValue(v.Container.Value);
-
-                                                    setter = (arg) => fi.SetValue(v.Container.Value, arg);
-                                                }
-                                            }
-                                            else if (mi is PropertyInfo pi) // TODO: Test properties
-                                            {
-                                                MethodInfo metIg = pi.GetMethod;
-                                                if (!(metIg is null) && pi.CanRead)
-                                                {
-                                                    found = true;
-                                                    getter = () => metIg.Invoke(v.Container.Value, Array.Empty<object>());
-                                                }
-
-                                                MethodInfo metIs = pi.SetMethod;
-                                                if (!(metIs is null) && pi.CanWrite)
-                                                {
-                                                    found = true;
-                                                    setter = (arg) => metIs.Invoke(v.Container.Value, new object[] { arg });
-                                                }
-                                            }
-                                        }
-
-                                        if (found)
-                                        {
-                                            RefContainer rc = new RefContainer(getter, setter);
-                                            variable.Container = rc;
-                                        }
-
-                                        v.Container.Members.Add(variable.Alias, variable);
-                                    }
                                 }
+                                else
+                                    variable.Container = new Container();
                             }
+
+                            if (p.Container.Members.ContainsKey(variable.Alias))
+                                p.Container.Members[variable.Alias] = variable;
+                            else
+                                p.Container.Members.Add(variable.Alias, variable);
                         };
 
                         parent.Container.Members.Add(varHashCode, variable);
@@ -832,8 +825,8 @@ namespace Polite
             }
             else if (token.SecondaryType == Token.Types.Secondary.Variable.Addresser)
             {
-                TryCreateNewVariable(token.First, is_parameter, address, globals_cache, locals_cache, out result);
-                TryCreateNewVariable(token.Second, is_parameter, address, globals_cache, locals_cache, out result);
+                TryCreateNewVariable(token.First, address, globals_cache, locals_cache, out result);
+                TryCreateNewVariable(token.Second, address, globals_cache, locals_cache, out result);
                 return !(result is null);
             }
 
