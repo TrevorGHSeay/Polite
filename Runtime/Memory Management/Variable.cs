@@ -32,7 +32,7 @@ namespace Polite
         /// <summary>
         /// Defines the initialization process for this <see cref="Variable"/>.
         /// </summary>
-        public Initializer Initialize { get; internal set; }
+        public Initializer Reinitialize { get; internal set; }
 
         /// <summary>
         /// Creates a new instance of <see cref="Variable"/>.
@@ -45,6 +45,10 @@ namespace Polite
             this.Container = new Container();
         }
 
+        /// <summary>
+        /// Converts a <see cref="Variable"/> into its string representation.
+        /// </summary>
+        /// <returns>Returns the <see cref="Variable"/>'s string representation.</returns>
         public override string ToString()
         {
             return this.ToString(-1);
