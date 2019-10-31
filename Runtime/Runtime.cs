@@ -817,7 +817,7 @@ namespace Polite
                                 variable.Container = new Container();
 
                             if (pContainsVariable)
-                                variable.Container = p.Container.Members[variable.Alias].Container;
+                                variable.Container = currentVariable.Container;
                             else
                                 p.Container.Members.Add(variable.Alias, variable);
                         };
