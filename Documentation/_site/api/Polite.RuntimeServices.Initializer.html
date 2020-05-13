@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate IdentifierChecker
+    <title>Delegate Initializer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate IdentifierChecker
+    <meta name="title" content="Delegate Initializer
    ">
     <meta name="generator" content="docfx 2.53.1.0">
     
@@ -68,54 +68,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Polite.IdentifierChecker">
+            <article class="content wrap" id="_content" data-uid="Polite.RuntimeServices.Initializer">
   
   
-  <h1 id="Polite_IdentifierChecker" data-uid="Polite.IdentifierChecker" class="text-break">Delegate IdentifierChecker
+  <h1 id="Polite_RuntimeServices_Initializer" data-uid="Polite.RuntimeServices.Initializer" class="text-break">Delegate Initializer
   </h1>
-  <div class="markdown level0 summary"><p>Determines if a <span class="xref">System.String</span> meets the criteria to be an identifer (<see cref="!:Variable"></see>, <see cref="!:Function"></see>, etc).</p>
+  <div class="markdown level0 summary"><p>The process by which a particular <a class="xref" href="Polite.RuntimeServices.Variable.html">Variable</a> is initialized at <a class="xref" href="Polite.RuntimeServices.Runtime.html">Runtime</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.RuntimeServices.html">Polite.RuntimeServices</a></h6>
   <h6><strong>Assembly</strong>: Polite.dll</h6>
-  <h5 id="Polite_IdentifierChecker_syntax">Syntax</h5>
+  <h5 id="Polite_RuntimeServices_Initializer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate bool IdentifierChecker(string name);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void Initializer();</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The string to be checked.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns true if the name provided is a valid identifier for the custom language to be tokenized.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(Object, String)</a>

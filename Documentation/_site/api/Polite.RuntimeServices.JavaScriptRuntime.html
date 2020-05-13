@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GeneratedClass
+    <title>Class JavaScriptRuntime
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GeneratedClass
+    <meta name="title" content="Class JavaScriptRuntime
    ">
     <meta name="generator" content="docfx 2.53.1.0">
     
@@ -68,21 +68,58 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Polite.GeneratedClass">
+            <article class="content wrap" id="_content" data-uid="Polite.RuntimeServices.JavaScriptRuntime">
   
   
-  <h1 id="Polite_GeneratedClass" data-uid="Polite.GeneratedClass" class="text-break">Class GeneratedClass
+  <h1 id="Polite_RuntimeServices_JavaScriptRuntime" data-uid="Polite.RuntimeServices.JavaScriptRuntime" class="text-break">Class JavaScriptRuntime
   </h1>
-  <div class="markdown level0 summary"><p>Represents a <a class="xref" href="Polite.RuntimeServices.Variable.html">Variable</a> that has already been transposed into a <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax</span>.</p>
+  <div class="markdown level0 summary"><p>Defines the <a class="xref" href="Polite.RuntimeServices.Runtime.html">Runtime</a> to interpret and operate on simplified <a class="xref" href="Polite.Grammars.JavaScript.html">Grammars.JavaScript</a> syntax.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GeneratedClass</span></div>
+    <div class="level1"><a class="xref" href="Polite.RuntimeServices.Runtime.html">Runtime</a></div>
+    <div class="level2"><span class="xref">JavaScriptRuntime</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Parser">Runtime.Parser</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_VariableStack">Runtime.VariableStack</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_GlobalReferences">Runtime.GlobalReferences</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Instructions">Runtime.Instructions</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_GlobalDepth">Runtime.GlobalDepth</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_RuntimeSettings">Runtime.RuntimeSettings</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Reset">Runtime.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute_System_String_">Runtime.Execute(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute_Polite_Token_">Runtime.Execute(Token)</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute">Runtime.Execute()</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Populate_System_String_">Runtime.Populate(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Populate_Polite_Token_">Runtime.Populate(Token)</a>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -105,24 +142,82 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.RuntimeServices.html">Polite.RuntimeServices</a></h6>
   <h6><strong>Assembly</strong>: Polite.dll</h6>
-  <h5 id="Polite_GeneratedClass_syntax">Syntax</h5>
+  <h5 id="Polite_RuntimeServices_JavaScriptRuntime_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GeneratedClass</code></pre>
+    <pre><code class="lang-csharp hljs">public class JavaScriptRuntime : Runtime</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Polite_RuntimeServices_JavaScriptRuntime__ctor_" data-uid="Polite.RuntimeServices.JavaScriptRuntime.#ctor*"></a>
+  <h4 id="Polite_RuntimeServices_JavaScriptRuntime__ctor_System_Type___" data-uid="Polite.RuntimeServices.JavaScriptRuntime.#ctor(System.Type[])">JavaScriptRuntime(Type[])</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the <a class="xref" href="Polite.RuntimeServices.JavaScriptRuntime.html">JavaScriptRuntime</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JavaScriptRuntime(Type[] reference_types)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">reference_types</span></td>
+        <td><p>Every <span class="xref">System.Type</span> permitted for use at <a class="xref" href="Polite.RuntimeServices.Runtime.html">Runtime</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Polite_RuntimeServices_JavaScriptRuntime_IllegalDuplicates" data-uid="Polite.RuntimeServices.JavaScriptRuntime.IllegalDuplicates">IllegalDuplicates</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> that may never be seen consecutively.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly short[] IllegalDuplicates</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Polite_GeneratedClass_Declaration_" data-uid="Polite.GeneratedClass.Declaration*"></a>
-  <h4 id="Polite_GeneratedClass_Declaration" data-uid="Polite.GeneratedClass.Declaration">Declaration</h4>
-  <div class="markdown level1 summary"><p>The transposed <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax</span>.</p>
+  <a id="Polite_RuntimeServices_JavaScriptRuntime_DefaultParser_" data-uid="Polite.RuntimeServices.JavaScriptRuntime.DefaultParser*"></a>
+  <h4 id="Polite_RuntimeServices_JavaScriptRuntime_DefaultParser" data-uid="Polite.RuntimeServices.JavaScriptRuntime.DefaultParser">DefaultParser</h4>
+  <div class="markdown level1 summary"><p>Constructs a default <a class="xref" href="Polite.Parser.html">Parser</a> for the construction of syntax trees.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ClassDeclarationSyntax Declaration { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Parser DefaultParser { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,126 +229,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax</span></td>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Polite_GeneratedClass_Variable_" data-uid="Polite.GeneratedClass.Variable*"></a>
-  <h4 id="Polite_GeneratedClass_Variable" data-uid="Polite.GeneratedClass.Variable">Variable</h4>
-  <div class="markdown level1 summary"><p>The original <a class="xref" href="Polite.RuntimeServices.Variable.html">Variable</a> from which this <a class="xref" href="Polite.GeneratedClass.html">GeneratedClass</a> was transposed from.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Variable Variable { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.CompilerServices.Variable.html">Variable</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Polite_GeneratedClass_AccountsFor_" data-uid="Polite.GeneratedClass.AccountsFor*"></a>
-  <h4 id="Polite_GeneratedClass_AccountsFor_Polite_CompilerServices_Container_" data-uid="Polite.GeneratedClass.AccountsFor(Polite.CompilerServices.Container)">AccountsFor(Container)</h4>
-  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Polite.GeneratedClass.html">GeneratedClass</a> account for target <a class="xref" href="Polite.CompilerServices.Container.html">Container</a>?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AccountsFor(Container container)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.CompilerServices.Container.html">Container</a></td>
-        <td><span class="parametername">container</span></td>
-        <td><p>The other <a class="xref" href="Polite.GeneratedClass.html">GeneratedClass</a> to check against.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if accounted for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Polite_GeneratedClass_Equals_" data-uid="Polite.GeneratedClass.Equals*"></a>
-  <h4 id="Polite_GeneratedClass_Equals_Polite_GeneratedClass_" data-uid="Polite.GeneratedClass.Equals(Polite.GeneratedClass)">Equals(GeneratedClass)</h4>
-  <div class="markdown level1 summary"><p>Does each <a class="xref" href="Polite.GeneratedClass.html">GeneratedClass</a> represent the same information?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(GeneratedClass other)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.GeneratedClass.html">GeneratedClass</a></td>
-        <td><span class="parametername">other</span></td>
-        <td><p>The other <a class="xref" href="Polite.GeneratedClass.html">GeneratedClass</a> to check against.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if both represent the same information.</p>
-</td>
       </tr>
     </tbody>
   </table>

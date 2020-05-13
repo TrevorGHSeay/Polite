@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate IdentifierChecker
+    <title>Class RuntimeSettings.ObjectTypes
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate IdentifierChecker
+    <meta name="title" content="Class RuntimeSettings.ObjectTypes
    ">
     <meta name="generator" content="docfx 2.53.1.0">
     
@@ -68,39 +68,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Polite.IdentifierChecker">
+            <article class="content wrap" id="_content" data-uid="Polite.RuntimeServices.RuntimeSettings.ObjectTypes">
   
   
-  <h1 id="Polite_IdentifierChecker" data-uid="Polite.IdentifierChecker" class="text-break">Delegate IdentifierChecker
+  <h1 id="Polite_RuntimeServices_RuntimeSettings_ObjectTypes" data-uid="Polite.RuntimeServices.RuntimeSettings.ObjectTypes" class="text-break">Class RuntimeSettings.ObjectTypes
   </h1>
-  <div class="markdown level0 summary"><p>Determines if a <span class="xref">System.String</span> meets the criteria to be an identifer (<see cref="!:Variable"></see>, <see cref="!:Function"></see>, etc).</p>
+  <div class="markdown level0 summary"><p>Defines the passage and assignment of object-types.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">RuntimeSettings.ObjectTypes</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.RuntimeServices.html">Polite.RuntimeServices</a></h6>
   <h6><strong>Assembly</strong>: Polite.dll</h6>
-  <h5 id="Polite_IdentifierChecker_syntax">Syntax</h5>
+  <h5 id="Polite_RuntimeServices_RuntimeSettings_ObjectTypes_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate bool IdentifierChecker(string name);</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ObjectTypes</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The string to be checked.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Polite_RuntimeServices_RuntimeSettings_ObjectTypes_AssignByRef" data-uid="Polite.RuntimeServices.RuntimeSettings.ObjectTypes.AssignByRef">AssignByRef</h4>
+  <div class="markdown level1 summary"><p>Assign object-types by reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AssignByRef = 4</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -110,25 +133,36 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns true if the name provided is a valid identifier for the custom language to be tokenized.</p>
-</td>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(Object, String)</a>
+  
+  
+  <h4 id="Polite_RuntimeServices_RuntimeSettings_ObjectTypes_PassByRef" data-uid="Polite.RuntimeServices.RuntimeSettings.ObjectTypes.PassByRef">PassByRef</h4>
+  <div class="markdown level1 summary"><p>Pass object-types by reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PassByRef = 4</code></pre>
   </div>
-  <div>
-      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetPropertyValue_System_Object_System_String_System_Object__">Extensions.TryGetPropertyValue(Object, String, out Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetFieldValue_System_Object_System_String_">Extensions.GetFieldValue(Object, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetFieldValue_System_Object_System_String_System_Object__">Extensions.TryGetFieldValue(Object, String, out Object)</a>
-  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

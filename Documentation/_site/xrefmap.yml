@@ -2836,70 +2836,6 @@ references:
   isSpec: "True"
   fullName: Polite.CompilerServices.Variable.TryGetReturnType
   nameWithType: Variable.TryGetReturnType
-- uid: Polite.Container
-  name: Container
-  href: api/Polite.Container.html
-  commentId: T:Polite.Container
-  fullName: Polite.Container
-  nameWithType: Container
-- uid: Polite.Container.#ctor
-  name: Container()
-  href: api/Polite.Container.html#Polite_Container__ctor
-  commentId: M:Polite.Container.#ctor
-  fullName: Polite.Container.Container()
-  nameWithType: Container.Container()
-- uid: Polite.Container.#ctor(System.Object)
-  name: Container(Object)
-  href: api/Polite.Container.html#Polite_Container__ctor_System_Object_
-  commentId: M:Polite.Container.#ctor(System.Object)
-  fullName: Polite.Container.Container(System.Object)
-  nameWithType: Container.Container(Object)
-- uid: Polite.Container.#ctor*
-  name: Container
-  href: api/Polite.Container.html#Polite_Container__ctor_
-  commentId: Overload:Polite.Container.#ctor
-  isSpec: "True"
-  fullName: Polite.Container.Container
-  nameWithType: Container.Container
-- uid: Polite.Container.Members
-  name: Members
-  href: api/Polite.Container.html#Polite_Container_Members
-  commentId: P:Polite.Container.Members
-  fullName: Polite.Container.Members
-  nameWithType: Container.Members
-- uid: Polite.Container.Members*
-  name: Members
-  href: api/Polite.Container.html#Polite_Container_Members_
-  commentId: Overload:Polite.Container.Members
-  isSpec: "True"
-  fullName: Polite.Container.Members
-  nameWithType: Container.Members
-- uid: Polite.Container.ToString
-  name: ToString()
-  href: api/Polite.Container.html#Polite_Container_ToString
-  commentId: M:Polite.Container.ToString
-  fullName: Polite.Container.ToString()
-  nameWithType: Container.ToString()
-- uid: Polite.Container.ToString*
-  name: ToString
-  href: api/Polite.Container.html#Polite_Container_ToString_
-  commentId: Overload:Polite.Container.ToString
-  isSpec: "True"
-  fullName: Polite.Container.ToString
-  nameWithType: Container.ToString
-- uid: Polite.Container.Value
-  name: Value
-  href: api/Polite.Container.html#Polite_Container_Value
-  commentId: P:Polite.Container.Value
-  fullName: Polite.Container.Value
-  nameWithType: Container.Value
-- uid: Polite.Container.Value*
-  name: Value
-  href: api/Polite.Container.html#Polite_Container_Value_
-  commentId: Overload:Polite.Container.Value
-  isSpec: "True"
-  fullName: Polite.Container.Value
-  nameWithType: Container.Value
 - uid: Polite.Extensions
   name: Extensions
   href: api/Polite.Extensions.html
@@ -3628,180 +3564,6 @@ references:
   isSpec: "True"
   fullName: Polite.Extensions.WithWhitespace
   nameWithType: Extensions.WithWhitespace
-- uid: Polite.Frame
-  name: Frame
-  href: api/Polite.Frame.html
-  commentId: T:Polite.Frame
-  fullName: Polite.Frame
-  nameWithType: Frame
-- uid: Polite.Frame.#ctor
-  name: Frame()
-  href: api/Polite.Frame.html#Polite_Frame__ctor
-  commentId: M:Polite.Frame.#ctor
-  fullName: Polite.Frame.Frame()
-  nameWithType: Frame.Frame()
-- uid: Polite.Frame.#ctor*
-  name: Frame
-  href: api/Polite.Frame.html#Polite_Frame__ctor_
-  commentId: Overload:Polite.Frame.#ctor
-  isSpec: "True"
-  fullName: Polite.Frame.Frame
-  nameWithType: Frame.Frame
-- uid: Polite.Frame.Clear
-  name: Clear()
-  href: api/Polite.Frame.html#Polite_Frame_Clear
-  commentId: M:Polite.Frame.Clear
-  fullName: Polite.Frame.Clear()
-  nameWithType: Frame.Clear()
-- uid: Polite.Frame.Clear*
-  name: Clear
-  href: api/Polite.Frame.html#Polite_Frame_Clear_
-  commentId: Overload:Polite.Frame.Clear
-  isSpec: "True"
-  fullName: Polite.Frame.Clear
-  nameWithType: Frame.Clear
-- uid: Polite.Frame.GetOrSet(System.Int32,Polite.Variable)
-  name: GetOrSet(Int32, Variable)
-  href: api/Polite.Frame.html#Polite_Frame_GetOrSet_System_Int32_Polite_Variable_
-  commentId: M:Polite.Frame.GetOrSet(System.Int32,Polite.Variable)
-  fullName: Polite.Frame.GetOrSet(System.Int32, Polite.Variable)
-  nameWithType: Frame.GetOrSet(Int32, Variable)
-- uid: Polite.Frame.GetOrSet*
-  name: GetOrSet
-  href: api/Polite.Frame.html#Polite_Frame_GetOrSet_
-  commentId: Overload:Polite.Frame.GetOrSet
-  isSpec: "True"
-  fullName: Polite.Frame.GetOrSet
-  nameWithType: Frame.GetOrSet
-- uid: Polite.Frame.Set(System.Int32,Polite.Variable)
-  name: Set(Int32, Variable)
-  href: api/Polite.Frame.html#Polite_Frame_Set_System_Int32_Polite_Variable_
-  commentId: M:Polite.Frame.Set(System.Int32,Polite.Variable)
-  fullName: Polite.Frame.Set(System.Int32, Polite.Variable)
-  nameWithType: Frame.Set(Int32, Variable)
-- uid: Polite.Frame.Set*
-  name: Set
-  href: api/Polite.Frame.html#Polite_Frame_Set_
-  commentId: Overload:Polite.Frame.Set
-  isSpec: "True"
-  fullName: Polite.Frame.Set
-  nameWithType: Frame.Set
-- uid: Polite.Frame.Variables
-  name: Variables
-  href: api/Polite.Frame.html#Polite_Frame_Variables
-  commentId: P:Polite.Frame.Variables
-  fullName: Polite.Frame.Variables
-  nameWithType: Frame.Variables
-- uid: Polite.Frame.Variables*
-  name: Variables
-  href: api/Polite.Frame.html#Polite_Frame_Variables_
-  commentId: Overload:Polite.Frame.Variables
-  isSpec: "True"
-  fullName: Polite.Frame.Variables
-  nameWithType: Frame.Variables
-- uid: Polite.Function
-  name: Function
-  href: api/Polite.Function.html
-  commentId: T:Polite.Function
-  fullName: Polite.Function
-  nameWithType: Function
-- uid: Polite.Function.Members
-  name: Members
-  href: api/Polite.Function.html#Polite_Function_Members
-  commentId: P:Polite.Function.Members
-  fullName: Polite.Function.Members
-  nameWithType: Function.Members
-- uid: Polite.Function.Members*
-  name: Members
-  href: api/Polite.Function.html#Polite_Function_Members_
-  commentId: Overload:Polite.Function.Members
-  isSpec: "True"
-  fullName: Polite.Function.Members
-  nameWithType: Function.Members
-- uid: Polite.Function.Operation
-  name: Operation
-  href: api/Polite.Function.html#Polite_Function_Operation
-  commentId: P:Polite.Function.Operation
-  fullName: Polite.Function.Operation
-  nameWithType: Function.Operation
-- uid: Polite.Function.Operation*
-  name: Operation
-  href: api/Polite.Function.html#Polite_Function_Operation_
-  commentId: Overload:Polite.Function.Operation
-  isSpec: "True"
-  fullName: Polite.Function.Operation
-  nameWithType: Function.Operation
-- uid: Polite.Function.Parameters
-  name: Parameters
-  href: api/Polite.Function.html#Polite_Function_Parameters
-  commentId: P:Polite.Function.Parameters
-  fullName: Polite.Function.Parameters
-  nameWithType: Function.Parameters
-- uid: Polite.Function.Parameters*
-  name: Parameters
-  href: api/Polite.Function.html#Polite_Function_Parameters_
-  commentId: Overload:Polite.Function.Parameters
-  isSpec: "True"
-  fullName: Polite.Function.Parameters
-  nameWithType: Function.Parameters
-- uid: Polite.Function.Parent
-  name: Parent
-  href: api/Polite.Function.html#Polite_Function_Parent
-  commentId: P:Polite.Function.Parent
-  fullName: Polite.Function.Parent
-  nameWithType: Function.Parent
-- uid: Polite.Function.Parent*
-  name: Parent
-  href: api/Polite.Function.html#Polite_Function_Parent_
-  commentId: Overload:Polite.Function.Parent
-  isSpec: "True"
-  fullName: Polite.Function.Parent
-  nameWithType: Function.Parent
-- uid: Polite.Function.ReturnsNull
-  name: ReturnsNull
-  href: api/Polite.Function.html#Polite_Function_ReturnsNull
-  commentId: P:Polite.Function.ReturnsNull
-  fullName: Polite.Function.ReturnsNull
-  nameWithType: Function.ReturnsNull
-- uid: Polite.Function.ReturnsNull*
-  name: ReturnsNull
-  href: api/Polite.Function.html#Polite_Function_ReturnsNull_
-  commentId: Overload:Polite.Function.ReturnsNull
-  isSpec: "True"
-  fullName: Polite.Function.ReturnsNull
-  nameWithType: Function.ReturnsNull
-- uid: Polite.Function.ToString
-  name: ToString()
-  href: api/Polite.Function.html#Polite_Function_ToString
-  commentId: M:Polite.Function.ToString
-  fullName: Polite.Function.ToString()
-  nameWithType: Function.ToString()
-- uid: Polite.Function.ToString*
-  name: ToString
-  href: api/Polite.Function.html#Polite_Function_ToString_
-  commentId: Overload:Polite.Function.ToString
-  isSpec: "True"
-  fullName: Polite.Function.ToString
-  nameWithType: Function.ToString
-- uid: Polite.Function.Value
-  name: Value
-  href: api/Polite.Function.html#Polite_Function_Value
-  commentId: P:Polite.Function.Value
-  fullName: Polite.Function.Value
-  nameWithType: Function.Value
-- uid: Polite.Function.Value*
-  name: Value
-  href: api/Polite.Function.html#Polite_Function_Value_
-  commentId: Overload:Polite.Function.Value
-  isSpec: "True"
-  fullName: Polite.Function.Value
-  nameWithType: Function.Value
-- uid: Polite.FunctionInvoker
-  name: FunctionInvoker
-  href: api/Polite.FunctionInvoker.html
-  commentId: T:Polite.FunctionInvoker
-  fullName: Polite.FunctionInvoker
-  nameWithType: FunctionInvoker
 - uid: Polite.GeneratedClass
   name: GeneratedClass
   href: api/Polite.GeneratedClass.html
@@ -4203,53 +3965,6 @@ references:
   commentId: T:Polite.IdentifierChecker
   fullName: Polite.IdentifierChecker
   nameWithType: IdentifierChecker
-- uid: Polite.Initializer
-  name: Initializer
-  href: api/Polite.Initializer.html
-  commentId: T:Polite.Initializer
-  fullName: Polite.Initializer
-  nameWithType: Initializer
-- uid: Polite.JavaScriptRuntime
-  name: JavaScriptRuntime
-  href: api/Polite.JavaScriptRuntime.html
-  commentId: T:Polite.JavaScriptRuntime
-  fullName: Polite.JavaScriptRuntime
-  nameWithType: JavaScriptRuntime
-- uid: Polite.JavaScriptRuntime.#ctor(System.Type[])
-  name: JavaScriptRuntime(Type[])
-  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime__ctor_System_Type___
-  commentId: M:Polite.JavaScriptRuntime.#ctor(System.Type[])
-  name.vb: JavaScriptRuntime(Type())
-  fullName: Polite.JavaScriptRuntime.JavaScriptRuntime(System.Type[])
-  fullName.vb: Polite.JavaScriptRuntime.JavaScriptRuntime(System.Type())
-  nameWithType: JavaScriptRuntime.JavaScriptRuntime(Type[])
-  nameWithType.vb: JavaScriptRuntime.JavaScriptRuntime(Type())
-- uid: Polite.JavaScriptRuntime.#ctor*
-  name: JavaScriptRuntime
-  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime__ctor_
-  commentId: Overload:Polite.JavaScriptRuntime.#ctor
-  isSpec: "True"
-  fullName: Polite.JavaScriptRuntime.JavaScriptRuntime
-  nameWithType: JavaScriptRuntime.JavaScriptRuntime
-- uid: Polite.JavaScriptRuntime.DefaultParser
-  name: DefaultParser
-  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime_DefaultParser
-  commentId: P:Polite.JavaScriptRuntime.DefaultParser
-  fullName: Polite.JavaScriptRuntime.DefaultParser
-  nameWithType: JavaScriptRuntime.DefaultParser
-- uid: Polite.JavaScriptRuntime.DefaultParser*
-  name: DefaultParser
-  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime_DefaultParser_
-  commentId: Overload:Polite.JavaScriptRuntime.DefaultParser
-  isSpec: "True"
-  fullName: Polite.JavaScriptRuntime.DefaultParser
-  nameWithType: JavaScriptRuntime.DefaultParser
-- uid: Polite.JavaScriptRuntime.IllegalDuplicates
-  name: IllegalDuplicates
-  href: api/Polite.JavaScriptRuntime.html#Polite_JavaScriptRuntime_IllegalDuplicates
-  commentId: F:Polite.JavaScriptRuntime.IllegalDuplicates
-  fullName: Polite.JavaScriptRuntime.IllegalDuplicates
-  nameWithType: JavaScriptRuntime.IllegalDuplicates
 - uid: Polite.LeftDenotation
   name: LeftDenotation
   href: api/Polite.LeftDenotation.html
@@ -4608,38 +4323,6 @@ references:
   commentId: T:Polite.LiteralSniffer
   fullName: Polite.LiteralSniffer
   nameWithType: LiteralSniffer
-- uid: Polite.MethodInvoker
-  name: MethodInvoker
-  href: api/Polite.MethodInvoker.html
-  commentId: T:Polite.MethodInvoker
-  fullName: Polite.MethodInvoker
-  nameWithType: MethodInvoker
-- uid: Polite.MethodInvoker.#ctor
-  name: MethodInvoker()
-  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker__ctor
-  commentId: M:Polite.MethodInvoker.#ctor
-  fullName: Polite.MethodInvoker.MethodInvoker()
-  nameWithType: MethodInvoker.MethodInvoker()
-- uid: Polite.MethodInvoker.#ctor*
-  name: MethodInvoker
-  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker__ctor_
-  commentId: Overload:Polite.MethodInvoker.#ctor
-  isSpec: "True"
-  fullName: Polite.MethodInvoker.MethodInvoker
-  nameWithType: MethodInvoker.MethodInvoker
-- uid: Polite.MethodInvoker.Value
-  name: Value
-  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker_Value
-  commentId: P:Polite.MethodInvoker.Value
-  fullName: Polite.MethodInvoker.Value
-  nameWithType: MethodInvoker.Value
-- uid: Polite.MethodInvoker.Value*
-  name: Value
-  href: api/Polite.MethodInvoker.html#Polite_MethodInvoker_Value_
-  commentId: Overload:Polite.MethodInvoker.Value
-  isSpec: "True"
-  fullName: Polite.MethodInvoker.Value
-  nameWithType: MethodInvoker.Value
 - uid: Polite.NullDenotion
   name: NullDenotion
   href: api/Polite.NullDenotion.html
@@ -4814,905 +4497,1396 @@ references:
   isSpec: "True"
   fullName: Polite.Parser.TryParse
   nameWithType: Parser.TryParse
-- uid: Polite.RefContainer
+- uid: Polite.RuntimeServices
+  name: Polite.RuntimeServices
+  href: api/Polite.RuntimeServices.html
+  commentId: N:Polite.RuntimeServices
+  fullName: Polite.RuntimeServices
+  nameWithType: Polite.RuntimeServices
+- uid: Polite.RuntimeServices.Container
+  name: Container
+  href: api/Polite.RuntimeServices.Container.html
+  commentId: T:Polite.RuntimeServices.Container
+  fullName: Polite.RuntimeServices.Container
+  nameWithType: Container
+- uid: Polite.RuntimeServices.Container.#ctor
+  name: Container()
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container__ctor
+  commentId: M:Polite.RuntimeServices.Container.#ctor
+  fullName: Polite.RuntimeServices.Container.Container()
+  nameWithType: Container.Container()
+- uid: Polite.RuntimeServices.Container.#ctor(System.Object)
+  name: Container(Object)
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container__ctor_System_Object_
+  commentId: M:Polite.RuntimeServices.Container.#ctor(System.Object)
+  fullName: Polite.RuntimeServices.Container.Container(System.Object)
+  nameWithType: Container.Container(Object)
+- uid: Polite.RuntimeServices.Container.#ctor*
+  name: Container
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container__ctor_
+  commentId: Overload:Polite.RuntimeServices.Container.#ctor
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Container.Container
+  nameWithType: Container.Container
+- uid: Polite.RuntimeServices.Container.Members
+  name: Members
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_Members
+  commentId: P:Polite.RuntimeServices.Container.Members
+  fullName: Polite.RuntimeServices.Container.Members
+  nameWithType: Container.Members
+- uid: Polite.RuntimeServices.Container.Members*
+  name: Members
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_Members_
+  commentId: Overload:Polite.RuntimeServices.Container.Members
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Container.Members
+  nameWithType: Container.Members
+- uid: Polite.RuntimeServices.Container.ToString
+  name: ToString()
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_ToString
+  commentId: M:Polite.RuntimeServices.Container.ToString
+  fullName: Polite.RuntimeServices.Container.ToString()
+  nameWithType: Container.ToString()
+- uid: Polite.RuntimeServices.Container.ToString*
+  name: ToString
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_ToString_
+  commentId: Overload:Polite.RuntimeServices.Container.ToString
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Container.ToString
+  nameWithType: Container.ToString
+- uid: Polite.RuntimeServices.Container.Value
+  name: Value
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_Value
+  commentId: P:Polite.RuntimeServices.Container.Value
+  fullName: Polite.RuntimeServices.Container.Value
+  nameWithType: Container.Value
+- uid: Polite.RuntimeServices.Container.Value*
+  name: Value
+  href: api/Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_Value_
+  commentId: Overload:Polite.RuntimeServices.Container.Value
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Container.Value
+  nameWithType: Container.Value
+- uid: Polite.RuntimeServices.Frame
+  name: Frame
+  href: api/Polite.RuntimeServices.Frame.html
+  commentId: T:Polite.RuntimeServices.Frame
+  fullName: Polite.RuntimeServices.Frame
+  nameWithType: Frame
+- uid: Polite.RuntimeServices.Frame.#ctor
+  name: Frame()
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame__ctor
+  commentId: M:Polite.RuntimeServices.Frame.#ctor
+  fullName: Polite.RuntimeServices.Frame.Frame()
+  nameWithType: Frame.Frame()
+- uid: Polite.RuntimeServices.Frame.#ctor*
+  name: Frame
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame__ctor_
+  commentId: Overload:Polite.RuntimeServices.Frame.#ctor
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Frame.Frame
+  nameWithType: Frame.Frame
+- uid: Polite.RuntimeServices.Frame.Clear
+  name: Clear()
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_Clear
+  commentId: M:Polite.RuntimeServices.Frame.Clear
+  fullName: Polite.RuntimeServices.Frame.Clear()
+  nameWithType: Frame.Clear()
+- uid: Polite.RuntimeServices.Frame.Clear*
+  name: Clear
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_Clear_
+  commentId: Overload:Polite.RuntimeServices.Frame.Clear
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Frame.Clear
+  nameWithType: Frame.Clear
+- uid: Polite.RuntimeServices.Frame.GetOrSet(System.Int32,Polite.RuntimeServices.Variable)
+  name: GetOrSet(Int32, Variable)
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_GetOrSet_System_Int32_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Frame.GetOrSet(System.Int32,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Frame.GetOrSet(System.Int32, Polite.RuntimeServices.Variable)
+  nameWithType: Frame.GetOrSet(Int32, Variable)
+- uid: Polite.RuntimeServices.Frame.GetOrSet*
+  name: GetOrSet
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_GetOrSet_
+  commentId: Overload:Polite.RuntimeServices.Frame.GetOrSet
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Frame.GetOrSet
+  nameWithType: Frame.GetOrSet
+- uid: Polite.RuntimeServices.Frame.Set(System.Int32,Polite.RuntimeServices.Variable)
+  name: Set(Int32, Variable)
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_Set_System_Int32_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Frame.Set(System.Int32,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Frame.Set(System.Int32, Polite.RuntimeServices.Variable)
+  nameWithType: Frame.Set(Int32, Variable)
+- uid: Polite.RuntimeServices.Frame.Set*
+  name: Set
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_Set_
+  commentId: Overload:Polite.RuntimeServices.Frame.Set
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Frame.Set
+  nameWithType: Frame.Set
+- uid: Polite.RuntimeServices.Frame.Variables
+  name: Variables
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_Variables
+  commentId: P:Polite.RuntimeServices.Frame.Variables
+  fullName: Polite.RuntimeServices.Frame.Variables
+  nameWithType: Frame.Variables
+- uid: Polite.RuntimeServices.Frame.Variables*
+  name: Variables
+  href: api/Polite.RuntimeServices.Frame.html#Polite_RuntimeServices_Frame_Variables_
+  commentId: Overload:Polite.RuntimeServices.Frame.Variables
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Frame.Variables
+  nameWithType: Frame.Variables
+- uid: Polite.RuntimeServices.Function
+  name: Function
+  href: api/Polite.RuntimeServices.Function.html
+  commentId: T:Polite.RuntimeServices.Function
+  fullName: Polite.RuntimeServices.Function
+  nameWithType: Function
+- uid: Polite.RuntimeServices.Function.Members
+  name: Members
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Members
+  commentId: P:Polite.RuntimeServices.Function.Members
+  fullName: Polite.RuntimeServices.Function.Members
+  nameWithType: Function.Members
+- uid: Polite.RuntimeServices.Function.Members*
+  name: Members
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Members_
+  commentId: Overload:Polite.RuntimeServices.Function.Members
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.Members
+  nameWithType: Function.Members
+- uid: Polite.RuntimeServices.Function.Operation
+  name: Operation
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Operation
+  commentId: P:Polite.RuntimeServices.Function.Operation
+  fullName: Polite.RuntimeServices.Function.Operation
+  nameWithType: Function.Operation
+- uid: Polite.RuntimeServices.Function.Operation*
+  name: Operation
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Operation_
+  commentId: Overload:Polite.RuntimeServices.Function.Operation
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.Operation
+  nameWithType: Function.Operation
+- uid: Polite.RuntimeServices.Function.Parameters
+  name: Parameters
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Parameters
+  commentId: P:Polite.RuntimeServices.Function.Parameters
+  fullName: Polite.RuntimeServices.Function.Parameters
+  nameWithType: Function.Parameters
+- uid: Polite.RuntimeServices.Function.Parameters*
+  name: Parameters
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Parameters_
+  commentId: Overload:Polite.RuntimeServices.Function.Parameters
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.Parameters
+  nameWithType: Function.Parameters
+- uid: Polite.RuntimeServices.Function.Parent
+  name: Parent
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Parent
+  commentId: P:Polite.RuntimeServices.Function.Parent
+  fullName: Polite.RuntimeServices.Function.Parent
+  nameWithType: Function.Parent
+- uid: Polite.RuntimeServices.Function.Parent*
+  name: Parent
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Parent_
+  commentId: Overload:Polite.RuntimeServices.Function.Parent
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.Parent
+  nameWithType: Function.Parent
+- uid: Polite.RuntimeServices.Function.ReturnsNull
+  name: ReturnsNull
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_ReturnsNull
+  commentId: P:Polite.RuntimeServices.Function.ReturnsNull
+  fullName: Polite.RuntimeServices.Function.ReturnsNull
+  nameWithType: Function.ReturnsNull
+- uid: Polite.RuntimeServices.Function.ReturnsNull*
+  name: ReturnsNull
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_ReturnsNull_
+  commentId: Overload:Polite.RuntimeServices.Function.ReturnsNull
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.ReturnsNull
+  nameWithType: Function.ReturnsNull
+- uid: Polite.RuntimeServices.Function.ToString
+  name: ToString()
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_ToString
+  commentId: M:Polite.RuntimeServices.Function.ToString
+  fullName: Polite.RuntimeServices.Function.ToString()
+  nameWithType: Function.ToString()
+- uid: Polite.RuntimeServices.Function.ToString*
+  name: ToString
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_ToString_
+  commentId: Overload:Polite.RuntimeServices.Function.ToString
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.ToString
+  nameWithType: Function.ToString
+- uid: Polite.RuntimeServices.Function.Value
+  name: Value
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Value
+  commentId: P:Polite.RuntimeServices.Function.Value
+  fullName: Polite.RuntimeServices.Function.Value
+  nameWithType: Function.Value
+- uid: Polite.RuntimeServices.Function.Value*
+  name: Value
+  href: api/Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Value_
+  commentId: Overload:Polite.RuntimeServices.Function.Value
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Function.Value
+  nameWithType: Function.Value
+- uid: Polite.RuntimeServices.FunctionInvoker
+  name: FunctionInvoker
+  href: api/Polite.RuntimeServices.FunctionInvoker.html
+  commentId: T:Polite.RuntimeServices.FunctionInvoker
+  fullName: Polite.RuntimeServices.FunctionInvoker
+  nameWithType: FunctionInvoker
+- uid: Polite.RuntimeServices.Initializer
+  name: Initializer
+  href: api/Polite.RuntimeServices.Initializer.html
+  commentId: T:Polite.RuntimeServices.Initializer
+  fullName: Polite.RuntimeServices.Initializer
+  nameWithType: Initializer
+- uid: Polite.RuntimeServices.JavaScriptRuntime
+  name: JavaScriptRuntime
+  href: api/Polite.RuntimeServices.JavaScriptRuntime.html
+  commentId: T:Polite.RuntimeServices.JavaScriptRuntime
+  fullName: Polite.RuntimeServices.JavaScriptRuntime
+  nameWithType: JavaScriptRuntime
+- uid: Polite.RuntimeServices.JavaScriptRuntime.#ctor(System.Type[])
+  name: JavaScriptRuntime(Type[])
+  href: api/Polite.RuntimeServices.JavaScriptRuntime.html#Polite_RuntimeServices_JavaScriptRuntime__ctor_System_Type___
+  commentId: M:Polite.RuntimeServices.JavaScriptRuntime.#ctor(System.Type[])
+  name.vb: JavaScriptRuntime(Type())
+  fullName: Polite.RuntimeServices.JavaScriptRuntime.JavaScriptRuntime(System.Type[])
+  fullName.vb: Polite.RuntimeServices.JavaScriptRuntime.JavaScriptRuntime(System.Type())
+  nameWithType: JavaScriptRuntime.JavaScriptRuntime(Type[])
+  nameWithType.vb: JavaScriptRuntime.JavaScriptRuntime(Type())
+- uid: Polite.RuntimeServices.JavaScriptRuntime.#ctor*
+  name: JavaScriptRuntime
+  href: api/Polite.RuntimeServices.JavaScriptRuntime.html#Polite_RuntimeServices_JavaScriptRuntime__ctor_
+  commentId: Overload:Polite.RuntimeServices.JavaScriptRuntime.#ctor
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.JavaScriptRuntime.JavaScriptRuntime
+  nameWithType: JavaScriptRuntime.JavaScriptRuntime
+- uid: Polite.RuntimeServices.JavaScriptRuntime.DefaultParser
+  name: DefaultParser
+  href: api/Polite.RuntimeServices.JavaScriptRuntime.html#Polite_RuntimeServices_JavaScriptRuntime_DefaultParser
+  commentId: P:Polite.RuntimeServices.JavaScriptRuntime.DefaultParser
+  fullName: Polite.RuntimeServices.JavaScriptRuntime.DefaultParser
+  nameWithType: JavaScriptRuntime.DefaultParser
+- uid: Polite.RuntimeServices.JavaScriptRuntime.DefaultParser*
+  name: DefaultParser
+  href: api/Polite.RuntimeServices.JavaScriptRuntime.html#Polite_RuntimeServices_JavaScriptRuntime_DefaultParser_
+  commentId: Overload:Polite.RuntimeServices.JavaScriptRuntime.DefaultParser
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.JavaScriptRuntime.DefaultParser
+  nameWithType: JavaScriptRuntime.DefaultParser
+- uid: Polite.RuntimeServices.JavaScriptRuntime.IllegalDuplicates
+  name: IllegalDuplicates
+  href: api/Polite.RuntimeServices.JavaScriptRuntime.html#Polite_RuntimeServices_JavaScriptRuntime_IllegalDuplicates
+  commentId: F:Polite.RuntimeServices.JavaScriptRuntime.IllegalDuplicates
+  fullName: Polite.RuntimeServices.JavaScriptRuntime.IllegalDuplicates
+  nameWithType: JavaScriptRuntime.IllegalDuplicates
+- uid: Polite.RuntimeServices.MethodInvoker
+  name: MethodInvoker
+  href: api/Polite.RuntimeServices.MethodInvoker.html
+  commentId: T:Polite.RuntimeServices.MethodInvoker
+  fullName: Polite.RuntimeServices.MethodInvoker
+  nameWithType: MethodInvoker
+- uid: Polite.RuntimeServices.MethodInvoker.#ctor
+  name: MethodInvoker()
+  href: api/Polite.RuntimeServices.MethodInvoker.html#Polite_RuntimeServices_MethodInvoker__ctor
+  commentId: M:Polite.RuntimeServices.MethodInvoker.#ctor
+  fullName: Polite.RuntimeServices.MethodInvoker.MethodInvoker()
+  nameWithType: MethodInvoker.MethodInvoker()
+- uid: Polite.RuntimeServices.MethodInvoker.#ctor*
+  name: MethodInvoker
+  href: api/Polite.RuntimeServices.MethodInvoker.html#Polite_RuntimeServices_MethodInvoker__ctor_
+  commentId: Overload:Polite.RuntimeServices.MethodInvoker.#ctor
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.MethodInvoker.MethodInvoker
+  nameWithType: MethodInvoker.MethodInvoker
+- uid: Polite.RuntimeServices.MethodInvoker.Value
+  name: Value
+  href: api/Polite.RuntimeServices.MethodInvoker.html#Polite_RuntimeServices_MethodInvoker_Value
+  commentId: P:Polite.RuntimeServices.MethodInvoker.Value
+  fullName: Polite.RuntimeServices.MethodInvoker.Value
+  nameWithType: MethodInvoker.Value
+- uid: Polite.RuntimeServices.MethodInvoker.Value*
+  name: Value
+  href: api/Polite.RuntimeServices.MethodInvoker.html#Polite_RuntimeServices_MethodInvoker_Value_
+  commentId: Overload:Polite.RuntimeServices.MethodInvoker.Value
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.MethodInvoker.Value
+  nameWithType: MethodInvoker.Value
+- uid: Polite.RuntimeServices.RefContainer
   name: RefContainer
-  href: api/Polite.RefContainer.html
-  commentId: T:Polite.RefContainer
-  fullName: Polite.RefContainer
+  href: api/Polite.RuntimeServices.RefContainer.html
+  commentId: T:Polite.RuntimeServices.RefContainer
+  fullName: Polite.RuntimeServices.RefContainer
   nameWithType: RefContainer
-- uid: Polite.RefContainer.#ctor
+- uid: Polite.RuntimeServices.RefContainer.#ctor
   name: RefContainer()
-  href: api/Polite.RefContainer.html#Polite_RefContainer__ctor
-  commentId: M:Polite.RefContainer.#ctor
-  fullName: Polite.RefContainer.RefContainer()
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer__ctor
+  commentId: M:Polite.RuntimeServices.RefContainer.#ctor
+  fullName: Polite.RuntimeServices.RefContainer.RefContainer()
   nameWithType: RefContainer.RefContainer()
-- uid: Polite.RefContainer.#ctor(Polite.Runtime.Operation,System.Action{System.Object})
+- uid: Polite.RuntimeServices.RefContainer.#ctor(Polite.RuntimeServices.Runtime.Operation,System.Action{System.Object})
   name: RefContainer(Runtime.Operation, Action<Object>)
-  href: api/Polite.RefContainer.html#Polite_RefContainer__ctor_Polite_Runtime_Operation_System_Action_System_Object__
-  commentId: M:Polite.RefContainer.#ctor(Polite.Runtime.Operation,System.Action{System.Object})
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer__ctor_Polite_RuntimeServices_Runtime_Operation_System_Action_System_Object__
+  commentId: M:Polite.RuntimeServices.RefContainer.#ctor(Polite.RuntimeServices.Runtime.Operation,System.Action{System.Object})
   name.vb: RefContainer(Runtime.Operation, Action(Of Object))
-  fullName: Polite.RefContainer.RefContainer(Polite.Runtime.Operation, System.Action<System.Object>)
-  fullName.vb: Polite.RefContainer.RefContainer(Polite.Runtime.Operation, System.Action(Of System.Object))
+  fullName: Polite.RuntimeServices.RefContainer.RefContainer(Polite.RuntimeServices.Runtime.Operation, System.Action<System.Object>)
+  fullName.vb: Polite.RuntimeServices.RefContainer.RefContainer(Polite.RuntimeServices.Runtime.Operation, System.Action(Of System.Object))
   nameWithType: RefContainer.RefContainer(Runtime.Operation, Action<Object>)
   nameWithType.vb: RefContainer.RefContainer(Runtime.Operation, Action(Of Object))
-- uid: Polite.RefContainer.#ctor*
+- uid: Polite.RuntimeServices.RefContainer.#ctor*
   name: RefContainer
-  href: api/Polite.RefContainer.html#Polite_RefContainer__ctor_
-  commentId: Overload:Polite.RefContainer.#ctor
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer__ctor_
+  commentId: Overload:Polite.RuntimeServices.RefContainer.#ctor
   isSpec: "True"
-  fullName: Polite.RefContainer.RefContainer
+  fullName: Polite.RuntimeServices.RefContainer.RefContainer
   nameWithType: RefContainer.RefContainer
-- uid: Polite.RefContainer.Get
+- uid: Polite.RuntimeServices.RefContainer.Get
   name: Get
-  href: api/Polite.RefContainer.html#Polite_RefContainer_Get
-  commentId: P:Polite.RefContainer.Get
-  fullName: Polite.RefContainer.Get
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer_Get
+  commentId: P:Polite.RuntimeServices.RefContainer.Get
+  fullName: Polite.RuntimeServices.RefContainer.Get
   nameWithType: RefContainer.Get
-- uid: Polite.RefContainer.Get*
+- uid: Polite.RuntimeServices.RefContainer.Get*
   name: Get
-  href: api/Polite.RefContainer.html#Polite_RefContainer_Get_
-  commentId: Overload:Polite.RefContainer.Get
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer_Get_
+  commentId: Overload:Polite.RuntimeServices.RefContainer.Get
   isSpec: "True"
-  fullName: Polite.RefContainer.Get
+  fullName: Polite.RuntimeServices.RefContainer.Get
   nameWithType: RefContainer.Get
-- uid: Polite.RefContainer.Set
+- uid: Polite.RuntimeServices.RefContainer.Set
   name: Set
-  href: api/Polite.RefContainer.html#Polite_RefContainer_Set
-  commentId: P:Polite.RefContainer.Set
-  fullName: Polite.RefContainer.Set
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer_Set
+  commentId: P:Polite.RuntimeServices.RefContainer.Set
+  fullName: Polite.RuntimeServices.RefContainer.Set
   nameWithType: RefContainer.Set
-- uid: Polite.RefContainer.Set*
+- uid: Polite.RuntimeServices.RefContainer.Set*
   name: Set
-  href: api/Polite.RefContainer.html#Polite_RefContainer_Set_
-  commentId: Overload:Polite.RefContainer.Set
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer_Set_
+  commentId: Overload:Polite.RuntimeServices.RefContainer.Set
   isSpec: "True"
-  fullName: Polite.RefContainer.Set
+  fullName: Polite.RuntimeServices.RefContainer.Set
   nameWithType: RefContainer.Set
-- uid: Polite.RefContainer.Value
+- uid: Polite.RuntimeServices.RefContainer.Value
   name: Value
-  href: api/Polite.RefContainer.html#Polite_RefContainer_Value
-  commentId: P:Polite.RefContainer.Value
-  fullName: Polite.RefContainer.Value
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer_Value
+  commentId: P:Polite.RuntimeServices.RefContainer.Value
+  fullName: Polite.RuntimeServices.RefContainer.Value
   nameWithType: RefContainer.Value
-- uid: Polite.RefContainer.Value*
+- uid: Polite.RuntimeServices.RefContainer.Value*
   name: Value
-  href: api/Polite.RefContainer.html#Polite_RefContainer_Value_
-  commentId: Overload:Polite.RefContainer.Value
+  href: api/Polite.RuntimeServices.RefContainer.html#Polite_RuntimeServices_RefContainer_Value_
+  commentId: Overload:Polite.RuntimeServices.RefContainer.Value
   isSpec: "True"
-  fullName: Polite.RefContainer.Value
+  fullName: Polite.RuntimeServices.RefContainer.Value
   nameWithType: RefContainer.Value
-- uid: Polite.Runtime
+- uid: Polite.RuntimeServices.Runtime
   name: Runtime
-  href: api/Polite.Runtime.html
-  commentId: T:Polite.Runtime
-  fullName: Polite.Runtime
+  href: api/Polite.RuntimeServices.Runtime.html
+  commentId: T:Polite.RuntimeServices.Runtime
+  fullName: Polite.RuntimeServices.Runtime
   nameWithType: Runtime
-- uid: Polite.Runtime.#ctor(Polite.Parser,System.Type[])
+- uid: Polite.RuntimeServices.Runtime.#ctor(Polite.Parser,System.Type[])
   name: Runtime(Parser, Type[])
-  href: api/Polite.Runtime.html#Polite_Runtime__ctor_Polite_Parser_System_Type___
-  commentId: M:Polite.Runtime.#ctor(Polite.Parser,System.Type[])
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime__ctor_Polite_Parser_System_Type___
+  commentId: M:Polite.RuntimeServices.Runtime.#ctor(Polite.Parser,System.Type[])
   name.vb: Runtime(Parser, Type())
-  fullName: Polite.Runtime.Runtime(Polite.Parser, System.Type[])
-  fullName.vb: Polite.Runtime.Runtime(Polite.Parser, System.Type())
+  fullName: Polite.RuntimeServices.Runtime.Runtime(Polite.Parser, System.Type[])
+  fullName.vb: Polite.RuntimeServices.Runtime.Runtime(Polite.Parser, System.Type())
   nameWithType: Runtime.Runtime(Parser, Type[])
   nameWithType.vb: Runtime.Runtime(Parser, Type())
-- uid: Polite.Runtime.#ctor*
+- uid: Polite.RuntimeServices.Runtime.#ctor*
   name: Runtime
-  href: api/Polite.Runtime.html#Polite_Runtime__ctor_
-  commentId: Overload:Polite.Runtime.#ctor
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime__ctor_
+  commentId: Overload:Polite.RuntimeServices.Runtime.#ctor
   isSpec: "True"
-  fullName: Polite.Runtime.Runtime
+  fullName: Polite.RuntimeServices.Runtime.Runtime
   nameWithType: Runtime.Runtime
-- uid: Polite.Runtime.Execute
+- uid: Polite.RuntimeServices.Runtime.Execute
   name: Execute()
-  href: api/Polite.Runtime.html#Polite_Runtime_Execute
-  commentId: M:Polite.Runtime.Execute
-  fullName: Polite.Runtime.Execute()
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute
+  commentId: M:Polite.RuntimeServices.Runtime.Execute
+  fullName: Polite.RuntimeServices.Runtime.Execute()
   nameWithType: Runtime.Execute()
-- uid: Polite.Runtime.Execute(Polite.Token)
+- uid: Polite.RuntimeServices.Runtime.Execute(Polite.Token)
   name: Execute(Token)
-  href: api/Polite.Runtime.html#Polite_Runtime_Execute_Polite_Token_
-  commentId: M:Polite.Runtime.Execute(Polite.Token)
-  fullName: Polite.Runtime.Execute(Polite.Token)
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute_Polite_Token_
+  commentId: M:Polite.RuntimeServices.Runtime.Execute(Polite.Token)
+  fullName: Polite.RuntimeServices.Runtime.Execute(Polite.Token)
   nameWithType: Runtime.Execute(Token)
-- uid: Polite.Runtime.Execute(System.String)
+- uid: Polite.RuntimeServices.Runtime.Execute(System.String)
   name: Execute(String)
-  href: api/Polite.Runtime.html#Polite_Runtime_Execute_System_String_
-  commentId: M:Polite.Runtime.Execute(System.String)
-  fullName: Polite.Runtime.Execute(System.String)
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute_System_String_
+  commentId: M:Polite.RuntimeServices.Runtime.Execute(System.String)
+  fullName: Polite.RuntimeServices.Runtime.Execute(System.String)
   nameWithType: Runtime.Execute(String)
-- uid: Polite.Runtime.Execute*
+- uid: Polite.RuntimeServices.Runtime.Execute*
   name: Execute
-  href: api/Polite.Runtime.html#Polite_Runtime_Execute_
-  commentId: Overload:Polite.Runtime.Execute
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Execute_
+  commentId: Overload:Polite.RuntimeServices.Runtime.Execute
   isSpec: "True"
-  fullName: Polite.Runtime.Execute
+  fullName: Polite.RuntimeServices.Runtime.Execute
   nameWithType: Runtime.Execute
-- uid: Polite.Runtime.GlobalDepth
+- uid: Polite.RuntimeServices.Runtime.GlobalDepth
   name: GlobalDepth
-  href: api/Polite.Runtime.html#Polite_Runtime_GlobalDepth
-  commentId: P:Polite.Runtime.GlobalDepth
-  fullName: Polite.Runtime.GlobalDepth
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_GlobalDepth
+  commentId: P:Polite.RuntimeServices.Runtime.GlobalDepth
+  fullName: Polite.RuntimeServices.Runtime.GlobalDepth
   nameWithType: Runtime.GlobalDepth
-- uid: Polite.Runtime.GlobalDepth*
+- uid: Polite.RuntimeServices.Runtime.GlobalDepth*
   name: GlobalDepth
-  href: api/Polite.Runtime.html#Polite_Runtime_GlobalDepth_
-  commentId: Overload:Polite.Runtime.GlobalDepth
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_GlobalDepth_
+  commentId: Overload:Polite.RuntimeServices.Runtime.GlobalDepth
   isSpec: "True"
-  fullName: Polite.Runtime.GlobalDepth
+  fullName: Polite.RuntimeServices.Runtime.GlobalDepth
   nameWithType: Runtime.GlobalDepth
-- uid: Polite.Runtime.GlobalReferences
+- uid: Polite.RuntimeServices.Runtime.GlobalReferences
   name: GlobalReferences
-  href: api/Polite.Runtime.html#Polite_Runtime_GlobalReferences
-  commentId: F:Polite.Runtime.GlobalReferences
-  fullName: Polite.Runtime.GlobalReferences
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_GlobalReferences
+  commentId: F:Polite.RuntimeServices.Runtime.GlobalReferences
+  fullName: Polite.RuntimeServices.Runtime.GlobalReferences
   nameWithType: Runtime.GlobalReferences
-- uid: Polite.Runtime.Instructions
+- uid: Polite.RuntimeServices.Runtime.Instructions
   name: Instructions
-  href: api/Polite.Runtime.html#Polite_Runtime_Instructions
-  commentId: F:Polite.Runtime.Instructions
-  fullName: Polite.Runtime.Instructions
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Instructions
+  commentId: F:Polite.RuntimeServices.Runtime.Instructions
+  fullName: Polite.RuntimeServices.Runtime.Instructions
   nameWithType: Runtime.Instructions
-- uid: Polite.Runtime.Operation
+- uid: Polite.RuntimeServices.Runtime.Operation
   name: Runtime.Operation
-  href: api/Polite.Runtime.Operation.html
-  commentId: T:Polite.Runtime.Operation
-  fullName: Polite.Runtime.Operation
+  href: api/Polite.RuntimeServices.Runtime.Operation.html
+  commentId: T:Polite.RuntimeServices.Runtime.Operation
+  fullName: Polite.RuntimeServices.Runtime.Operation
   nameWithType: Runtime.Operation
-- uid: Polite.Runtime.OperationFactory
+- uid: Polite.RuntimeServices.Runtime.OperationFactory
   name: Runtime.OperationFactory
-  href: api/Polite.Runtime.OperationFactory.html
-  commentId: T:Polite.Runtime.OperationFactory
-  fullName: Polite.Runtime.OperationFactory
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html
+  commentId: T:Polite.RuntimeServices.Runtime.OperationFactory
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory
   nameWithType: Runtime.OperationFactory
-- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Arithmetic(Runtime.Operation, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Arithmetic_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Arithmetic(Runtime.Operation, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
   name: Arithmetic(Runtime.Operation, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Runtime_Operation_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Arithmetic_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Arithmetic(Runtime.Operation, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Arithmetic(Variable, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Variable_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Arithmetic_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Arithmetic(Variable, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
   name: Arithmetic(Variable, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_Polite_Variable_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Arithmetic(Polite.Variable, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Arithmetic_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Arithmetic(Variable, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Arithmetic*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic*
   name: Arithmetic
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Arithmetic_
-  commentId: Overload:Polite.Runtime.OperationFactory.Arithmetic
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Arithmetic_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Arithmetic
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Arithmetic
   nameWithType: Runtime.OperationFactory.Arithmetic
-- uid: Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignment(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation,System.Int32)
   name: Assignment(Variable, Int16, Runtime.Operation, Int32)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Assignment_Polite_Variable_System_Int16_Polite_Runtime_Operation_System_Int32_
-  commentId: M:Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32)
-  fullName: Polite.Runtime.OperationFactory.Assignment(Polite.Variable, System.Int16, Polite.Runtime.Operation, System.Int32)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignment_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Runtime_Operation_System_Int32_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignment(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation,System.Int32)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignment(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation, System.Int32)
   nameWithType: Runtime.OperationFactory.Assignment(Variable, Int16, Runtime.Operation, Int32)
-- uid: Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Variable,System.Int32)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignment(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable,System.Int32)
   name: Assignment(Variable, Int16, Variable, Int32)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Assignment_Polite_Variable_System_Int16_Polite_Variable_System_Int32_
-  commentId: M:Polite.Runtime.OperationFactory.Assignment(Polite.Variable,System.Int16,Polite.Variable,System.Int32)
-  fullName: Polite.Runtime.OperationFactory.Assignment(Polite.Variable, System.Int16, Polite.Variable, System.Int32)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignment_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Variable_System_Int32_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignment(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable,System.Int32)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignment(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable, System.Int32)
   nameWithType: Runtime.OperationFactory.Assignment(Variable, Int16, Variable, Int32)
-- uid: Polite.Runtime.OperationFactory.Assignment*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignment*
   name: Assignment
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Assignment_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignment
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignment_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignment
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignment
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignment
   nameWithType: Runtime.OperationFactory.Assignment
-- uid: Polite.Runtime.OperationFactory.Assignments
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments
   name: Runtime.OperationFactory.Assignments
-  href: api/Polite.Runtime.OperationFactory.Assignments.html
-  commentId: T:Polite.Runtime.OperationFactory.Assignments
-  fullName: Polite.Runtime.OperationFactory.Assignments
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.html
+  commentId: T:Polite.RuntimeServices.Runtime.OperationFactory.Assignments
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments
   nameWithType: Runtime.OperationFactory.Assignments
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll
   name: Runtime.OperationFactory.Assignments.RefAll
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html
-  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefAll
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html
+  commentId: T:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll
   nameWithType: Runtime.OperationFactory.Assignments.RefAll
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Addition(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Addition_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Addition(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Addition(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Addition_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Addition(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition*
   name: Addition
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Addition_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Addition
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Addition_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Addition
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Addition
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Addition
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Basic(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Basic_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Basic(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Basic(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Basic_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Basic(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic*
   name: Basic
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Basic_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Basic
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Basic_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Basic
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Basic
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Basic
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Division(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Division_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Division(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Division(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Division_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Division(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Division*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division*
   name: Division
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Division_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Division
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Division_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Division
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Division
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Division
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Multiplication(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Multiplication_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Multiplication(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Multiplication(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Multiplication_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Multiplication(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication*
   name: Multiplication
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Multiplication_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Multiplication_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Multiplication
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Multiplication
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Multiplication
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Subtraction(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Subtraction_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Subtraction(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Subtraction(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Subtraction_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Subtraction(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction*
   name: Subtraction
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefAll.html#Polite_Runtime_OperationFactory_Assignments_RefAll_Subtraction_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefAll_Subtraction_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefAll.Subtraction
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefAll.Subtraction
   nameWithType: Runtime.OperationFactory.Assignments.RefAll.Subtraction
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone
   name: Runtime.OperationFactory.Assignments.RefNone
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html
-  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefNone
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html
+  commentId: T:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone
   nameWithType: Runtime.OperationFactory.Assignments.RefNone
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Addition(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Addition_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Addition(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Addition(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Addition_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Addition(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition*
   name: Addition
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Addition_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Addition
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Addition_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Addition
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Addition
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Addition
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Basic(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Basic_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Basic(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Basic(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Basic_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Basic(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic*
   name: Basic
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Basic_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Basic
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Basic_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Basic
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Basic
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Basic
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Division(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Division_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Division(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Division(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Division_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Division(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Division*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division*
   name: Division
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Division_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Division
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Division_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Division
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Division
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Division
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Multiplication(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Multiplication_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Multiplication(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Multiplication(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Multiplication_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Multiplication(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication*
   name: Multiplication
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Multiplication_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Multiplication_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Multiplication
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Multiplication
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Multiplication
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Subtraction(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Subtraction_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Subtraction(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Subtraction(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Subtraction_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Subtraction(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction*
   name: Subtraction
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefNone.html#Polite_Runtime_OperationFactory_Assignments_RefNone_Subtraction_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefNone_Subtraction_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefNone.Subtraction
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefNone.Subtraction
   nameWithType: Runtime.OperationFactory.Assignments.RefNone.Subtraction
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject
   name: Runtime.OperationFactory.Assignments.RefObject
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html
-  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefObject
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html
+  commentId: T:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject
   nameWithType: Runtime.OperationFactory.Assignments.RefObject
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Addition(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Addition_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Addition(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Addition(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Addition_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Addition(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition*
   name: Addition
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Addition_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Addition
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Addition_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Addition
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Addition
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Addition
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Basic(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Basic_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Basic(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Basic(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Basic_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Basic(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic*
   name: Basic
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Basic_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Basic
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Basic_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Basic
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Basic
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Basic
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Division(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Division_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Division(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Division(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Division_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Division(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Division*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division*
   name: Division
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Division_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Division
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Division_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Division
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Division
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Division
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Multiplication(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Multiplication_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Multiplication(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Multiplication(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Multiplication_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Multiplication(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication*
   name: Multiplication
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Multiplication_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Multiplication_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Multiplication
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Multiplication
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Multiplication
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Subtraction(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Subtraction_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Subtraction(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Subtraction(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Subtraction_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Subtraction(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction*
   name: Subtraction
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefObject.html#Polite_Runtime_OperationFactory_Assignments_RefObject_Subtraction_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefObject_Subtraction_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefObject.Subtraction
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefObject.Subtraction
   nameWithType: Runtime.OperationFactory.Assignments.RefObject.Subtraction
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue
   name: Runtime.OperationFactory.Assignments.RefValue
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html
-  commentId: T:Polite.Runtime.OperationFactory.Assignments.RefValue
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html
+  commentId: T:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue
   nameWithType: Runtime.OperationFactory.Assignments.RefValue
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Addition(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Addition_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Addition(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Addition(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Addition_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Addition_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Addition(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition*
   name: Addition
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Addition_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Addition
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Addition_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Addition
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Addition
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Addition
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Basic(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Basic_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Basic(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Basic(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Basic_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Basic_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Basic(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic*
   name: Basic
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Basic_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Basic
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Basic_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Basic
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Basic
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Basic
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Division(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Division_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Division(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Division(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Division_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Division_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Division(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Division*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division*
   name: Division
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Division_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Division
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Division_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Division
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Division
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Division
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Multiplication(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Multiplication_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Multiplication(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Multiplication(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Multiplication_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Multiplication_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Multiplication(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication*
   name: Multiplication
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Multiplication_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Multiplication_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Multiplication
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Multiplication
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Multiplication
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
   name: Subtraction(Variable, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Subtraction_Polite_Variable_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Subtraction(Variable, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
   name: Subtraction(Variable, Variable)
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Subtraction_Polite_Variable_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.Variable, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Subtraction_Polite_RuntimeServices_Variable_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.RuntimeServices.Variable,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction(Polite.RuntimeServices.Variable, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Subtraction(Variable, Variable)
-- uid: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction*
   name: Subtraction
-  href: api/Polite.Runtime.OperationFactory.Assignments.RefValue.html#Polite_Runtime_OperationFactory_Assignments_RefValue_Subtraction_
-  commentId: Overload:Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.html#Polite_RuntimeServices_Runtime_OperationFactory_Assignments_RefValue_Subtraction_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Assignments.RefValue.Subtraction
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Assignments.RefValue.Subtraction
   nameWithType: Runtime.OperationFactory.Assignments.RefValue.Subtraction
-- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Bitwise(Runtime.Operation, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Bitwise_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Bitwise(Runtime.Operation, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
   name: Bitwise(Runtime.Operation, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Runtime_Operation_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Bitwise_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Bitwise(Runtime.Operation, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Bitwise(Variable, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Variable_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Bitwise_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Bitwise(Variable, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
   name: Bitwise(Variable, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_Polite_Variable_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Bitwise(Polite.Variable,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Bitwise(Polite.Variable, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Bitwise_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Bitwise(Variable, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Bitwise*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise*
   name: Bitwise
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Bitwise_
-  commentId: Overload:Polite.Runtime.OperationFactory.Bitwise
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Bitwise_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Bitwise
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Bitwise
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Bitwise
   nameWithType: Runtime.OperationFactory.Bitwise
-- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Comparison(Runtime.Operation, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Comparison_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Comparison(Runtime.Operation, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
   name: Comparison(Runtime.Operation, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Runtime_Operation_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Comparison_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Comparison(Runtime.Operation, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Comparison(Variable, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Variable_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Comparison_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Comparison(Variable, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
   name: Comparison(Variable, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_Polite_Variable_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Comparison(Polite.Variable,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Comparison(Polite.Variable, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Comparison_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Comparison(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Comparison(Variable, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Comparison*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Comparison*
   name: Comparison
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Comparison_
-  commentId: Overload:Polite.Runtime.OperationFactory.Comparison
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Comparison_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Comparison
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Comparison
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Comparison
   nameWithType: Runtime.OperationFactory.Comparison
-- uid: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Condition(Runtime.Operation, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Condition_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Condition(Runtime.Operation, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
   name: Condition(Runtime.Operation, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Runtime_Operation_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Runtime.Operation, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Condition_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Condition(Runtime.Operation, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Runtime.Operation)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
   name: Condition(Variable, Int16, Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Variable_System_Int16_Polite_Runtime_Operation_
-  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Variable, System.Int16, Polite.Runtime.Operation)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Condition_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Runtime_Operation_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.Condition(Variable, Int16, Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Variable)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
   name: Condition(Variable, Int16, Variable)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_Polite_Variable_System_Int16_Polite_Variable_
-  commentId: M:Polite.Runtime.OperationFactory.Condition(Polite.Variable,System.Int16,Polite.Variable)
-  fullName: Polite.Runtime.OperationFactory.Condition(Polite.Variable, System.Int16, Polite.Variable)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Condition_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Variable_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Condition(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable)
   nameWithType: Runtime.OperationFactory.Condition(Variable, Int16, Variable)
-- uid: Polite.Runtime.OperationFactory.Condition*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.Condition*
   name: Condition
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_Condition_
-  commentId: Overload:Polite.Runtime.OperationFactory.Condition
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_Condition_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.Condition
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.Condition
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.Condition
   nameWithType: Runtime.OperationFactory.Condition
-- uid: Polite.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)
   name: RequiresOperation(Int16, Int16)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_RequiresOperation_System_Int16_System_Int16_
-  commentId: M:Polite.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)
-  fullName: Polite.Runtime.OperationFactory.RequiresOperation(System.Int16, System.Int16)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_RequiresOperation_System_Int16_System_Int16_
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.RequiresOperation(System.Int16,System.Int16)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.RequiresOperation(System.Int16, System.Int16)
   nameWithType: Runtime.OperationFactory.RequiresOperation(Int16, Int16)
-- uid: Polite.Runtime.OperationFactory.RequiresOperation*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.RequiresOperation*
   name: RequiresOperation
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_RequiresOperation_
-  commentId: Overload:Polite.Runtime.OperationFactory.RequiresOperation
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_RequiresOperation_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.RequiresOperation
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.RequiresOperation
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.RequiresOperation
   nameWithType: Runtime.OperationFactory.RequiresOperation
-- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name: TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, out Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Runtime_Operation_System_Int16_Polite_Runtime_Operation_System_Int32_Polite_Runtime_Operation__
-  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_TryCreate_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Runtime_Operation_System_Int32_Polite_RuntimeServices_Runtime_Operation__
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Runtime.Operation,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name.vb: TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation, System.Int32, out Polite.Runtime.Operation)
-  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Runtime.Operation, System.Int32, ByRef Polite.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Runtime.Operation, System.Int32, out Polite.RuntimeServices.Runtime.Operation)
+  fullName.vb: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Runtime.Operation, System.Int32, ByRef Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, out Runtime.Operation)
   nameWithType.vb: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name: TryCreate(Runtime.Operation, Int16, Variable, Int32, out Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Runtime_Operation_System_Int16_Polite_Variable_System_Int32_Polite_Runtime_Operation__
-  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_TryCreate_Polite_RuntimeServices_Runtime_Operation_System_Int16_Polite_RuntimeServices_Variable_System_Int32_Polite_RuntimeServices_Runtime_Operation__
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation,System.Int16,Polite.RuntimeServices.Variable,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name.vb: TryCreate(Runtime.Operation, Int16, Variable, Int32, ByRef Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Variable, System.Int32, out Polite.Runtime.Operation)
-  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Runtime.Operation, System.Int16, Polite.Variable, System.Int32, ByRef Polite.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Variable, System.Int32, out Polite.RuntimeServices.Runtime.Operation)
+  fullName.vb: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Runtime.Operation, System.Int16, Polite.RuntimeServices.Variable, System.Int32, ByRef Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Variable, Int32, out Runtime.Operation)
   nameWithType.vb: Runtime.OperationFactory.TryCreate(Runtime.Operation, Int16, Variable, Int32, ByRef Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name: TryCreate(Variable, Int16, Runtime.Operation, Int32, out Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Variable_System_Int16_Polite_Runtime_Operation_System_Int32_Polite_Runtime_Operation__
-  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Runtime.Operation,System.Int32,Polite.Runtime.Operation@)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_TryCreate_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Runtime_Operation_System_Int32_Polite_RuntimeServices_Runtime_Operation__
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Runtime.Operation,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name.vb: TryCreate(Variable, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Runtime.Operation, System.Int32, out Polite.Runtime.Operation)
-  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Runtime.Operation, System.Int32, ByRef Polite.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation, System.Int32, out Polite.RuntimeServices.Runtime.Operation)
+  fullName.vb: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Runtime.Operation, System.Int32, ByRef Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.TryCreate(Variable, Int16, Runtime.Operation, Int32, out Runtime.Operation)
   nameWithType.vb: Runtime.OperationFactory.TryCreate(Variable, Int16, Runtime.Operation, Int32, ByRef Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name: TryCreate(Variable, Int16, Variable, Int32, out Runtime.Operation)
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_Polite_Variable_System_Int16_Polite_Variable_System_Int32_Polite_Runtime_Operation__
-  commentId: M:Polite.Runtime.OperationFactory.TryCreate(Polite.Variable,System.Int16,Polite.Variable,System.Int32,Polite.Runtime.Operation@)
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_TryCreate_Polite_RuntimeServices_Variable_System_Int16_Polite_RuntimeServices_Variable_System_Int32_Polite_RuntimeServices_Runtime_Operation__
+  commentId: M:Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable,System.Int16,Polite.RuntimeServices.Variable,System.Int32,Polite.RuntimeServices.Runtime.Operation@)
   name.vb: TryCreate(Variable, Int16, Variable, Int32, ByRef Runtime.Operation)
-  fullName: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Variable, System.Int32, out Polite.Runtime.Operation)
-  fullName.vb: Polite.Runtime.OperationFactory.TryCreate(Polite.Variable, System.Int16, Polite.Variable, System.Int32, ByRef Polite.Runtime.Operation)
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable, System.Int32, out Polite.RuntimeServices.Runtime.Operation)
+  fullName.vb: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate(Polite.RuntimeServices.Variable, System.Int16, Polite.RuntimeServices.Variable, System.Int32, ByRef Polite.RuntimeServices.Runtime.Operation)
   nameWithType: Runtime.OperationFactory.TryCreate(Variable, Int16, Variable, Int32, out Runtime.Operation)
   nameWithType.vb: Runtime.OperationFactory.TryCreate(Variable, Int16, Variable, Int32, ByRef Runtime.Operation)
-- uid: Polite.Runtime.OperationFactory.TryCreate*
+- uid: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate*
   name: TryCreate
-  href: api/Polite.Runtime.OperationFactory.html#Polite_Runtime_OperationFactory_TryCreate_
-  commentId: Overload:Polite.Runtime.OperationFactory.TryCreate
+  href: api/Polite.RuntimeServices.Runtime.OperationFactory.html#Polite_RuntimeServices_Runtime_OperationFactory_TryCreate_
+  commentId: Overload:Polite.RuntimeServices.Runtime.OperationFactory.TryCreate
   isSpec: "True"
-  fullName: Polite.Runtime.OperationFactory.TryCreate
+  fullName: Polite.RuntimeServices.Runtime.OperationFactory.TryCreate
   nameWithType: Runtime.OperationFactory.TryCreate
-- uid: Polite.Runtime.Parser
+- uid: Polite.RuntimeServices.Runtime.Parser
   name: Parser
-  href: api/Polite.Runtime.html#Polite_Runtime_Parser
-  commentId: P:Polite.Runtime.Parser
-  fullName: Polite.Runtime.Parser
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Parser
+  commentId: P:Polite.RuntimeServices.Runtime.Parser
+  fullName: Polite.RuntimeServices.Runtime.Parser
   nameWithType: Runtime.Parser
-- uid: Polite.Runtime.Parser*
+- uid: Polite.RuntimeServices.Runtime.Parser*
   name: Parser
-  href: api/Polite.Runtime.html#Polite_Runtime_Parser_
-  commentId: Overload:Polite.Runtime.Parser
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Parser_
+  commentId: Overload:Polite.RuntimeServices.Runtime.Parser
   isSpec: "True"
-  fullName: Polite.Runtime.Parser
+  fullName: Polite.RuntimeServices.Runtime.Parser
   nameWithType: Runtime.Parser
-- uid: Polite.Runtime.Populate(Polite.Token)
+- uid: Polite.RuntimeServices.Runtime.Populate(Polite.Token)
   name: Populate(Token)
-  href: api/Polite.Runtime.html#Polite_Runtime_Populate_Polite_Token_
-  commentId: M:Polite.Runtime.Populate(Polite.Token)
-  fullName: Polite.Runtime.Populate(Polite.Token)
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Populate_Polite_Token_
+  commentId: M:Polite.RuntimeServices.Runtime.Populate(Polite.Token)
+  fullName: Polite.RuntimeServices.Runtime.Populate(Polite.Token)
   nameWithType: Runtime.Populate(Token)
-- uid: Polite.Runtime.Populate(System.String)
+- uid: Polite.RuntimeServices.Runtime.Populate(System.String)
   name: Populate(String)
-  href: api/Polite.Runtime.html#Polite_Runtime_Populate_System_String_
-  commentId: M:Polite.Runtime.Populate(System.String)
-  fullName: Polite.Runtime.Populate(System.String)
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Populate_System_String_
+  commentId: M:Polite.RuntimeServices.Runtime.Populate(System.String)
+  fullName: Polite.RuntimeServices.Runtime.Populate(System.String)
   nameWithType: Runtime.Populate(String)
-- uid: Polite.Runtime.Populate*
+- uid: Polite.RuntimeServices.Runtime.Populate*
   name: Populate
-  href: api/Polite.Runtime.html#Polite_Runtime_Populate_
-  commentId: Overload:Polite.Runtime.Populate
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Populate_
+  commentId: Overload:Polite.RuntimeServices.Runtime.Populate
   isSpec: "True"
-  fullName: Polite.Runtime.Populate
+  fullName: Polite.RuntimeServices.Runtime.Populate
   nameWithType: Runtime.Populate
-- uid: Polite.Runtime.Reset
+- uid: Polite.RuntimeServices.Runtime.Reset
   name: Reset()
-  href: api/Polite.Runtime.html#Polite_Runtime_Reset
-  commentId: M:Polite.Runtime.Reset
-  fullName: Polite.Runtime.Reset()
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Reset
+  commentId: M:Polite.RuntimeServices.Runtime.Reset
+  fullName: Polite.RuntimeServices.Runtime.Reset()
   nameWithType: Runtime.Reset()
-- uid: Polite.Runtime.Reset*
+- uid: Polite.RuntimeServices.Runtime.Reset*
   name: Reset
-  href: api/Polite.Runtime.html#Polite_Runtime_Reset_
-  commentId: Overload:Polite.Runtime.Reset
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_Reset_
+  commentId: Overload:Polite.RuntimeServices.Runtime.Reset
   isSpec: "True"
-  fullName: Polite.Runtime.Reset
+  fullName: Polite.RuntimeServices.Runtime.Reset
   nameWithType: Runtime.Reset
-- uid: Polite.Runtime.RuntimeSettings
+- uid: Polite.RuntimeServices.Runtime.RuntimeSettings
   name: RuntimeSettings
-  href: api/Polite.Runtime.html#Polite_Runtime_RuntimeSettings
-  commentId: P:Polite.Runtime.RuntimeSettings
-  fullName: Polite.Runtime.RuntimeSettings
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_RuntimeSettings
+  commentId: P:Polite.RuntimeServices.Runtime.RuntimeSettings
+  fullName: Polite.RuntimeServices.Runtime.RuntimeSettings
   nameWithType: Runtime.RuntimeSettings
-- uid: Polite.Runtime.RuntimeSettings*
+- uid: Polite.RuntimeServices.Runtime.RuntimeSettings*
   name: RuntimeSettings
-  href: api/Polite.Runtime.html#Polite_Runtime_RuntimeSettings_
-  commentId: Overload:Polite.Runtime.RuntimeSettings
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_RuntimeSettings_
+  commentId: Overload:Polite.RuntimeServices.Runtime.RuntimeSettings
   isSpec: "True"
-  fullName: Polite.Runtime.RuntimeSettings
+  fullName: Polite.RuntimeServices.Runtime.RuntimeSettings
   nameWithType: Runtime.RuntimeSettings
-- uid: Polite.Runtime.VariableStack
+- uid: Polite.RuntimeServices.Runtime.VariableStack
   name: VariableStack
-  href: api/Polite.Runtime.html#Polite_Runtime_VariableStack
-  commentId: P:Polite.Runtime.VariableStack
-  fullName: Polite.Runtime.VariableStack
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_VariableStack
+  commentId: P:Polite.RuntimeServices.Runtime.VariableStack
+  fullName: Polite.RuntimeServices.Runtime.VariableStack
   nameWithType: Runtime.VariableStack
-- uid: Polite.Runtime.VariableStack*
+- uid: Polite.RuntimeServices.Runtime.VariableStack*
   name: VariableStack
-  href: api/Polite.Runtime.html#Polite_Runtime_VariableStack_
-  commentId: Overload:Polite.Runtime.VariableStack
+  href: api/Polite.RuntimeServices.Runtime.html#Polite_RuntimeServices_Runtime_VariableStack_
+  commentId: Overload:Polite.RuntimeServices.Runtime.VariableStack
   isSpec: "True"
-  fullName: Polite.Runtime.VariableStack
+  fullName: Polite.RuntimeServices.Runtime.VariableStack
   nameWithType: Runtime.VariableStack
-- uid: Polite.RuntimeSettings
+- uid: Polite.RuntimeServices.RuntimeSettings
   name: RuntimeSettings
-  href: api/Polite.RuntimeSettings.html
-  commentId: T:Polite.RuntimeSettings
-  fullName: Polite.RuntimeSettings
+  href: api/Polite.RuntimeServices.RuntimeSettings.html
+  commentId: T:Polite.RuntimeServices.RuntimeSettings
+  fullName: Polite.RuntimeServices.RuntimeSettings
   nameWithType: RuntimeSettings
-- uid: Polite.RuntimeSettings.Contains(System.Int32,System.Int32)
+- uid: Polite.RuntimeServices.RuntimeSettings.Contains(System.Int32,System.Int32)
   name: Contains(Int32, Int32)
-  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_Contains_System_Int32_System_Int32_
-  commentId: M:Polite.RuntimeSettings.Contains(System.Int32,System.Int32)
-  fullName: Polite.RuntimeSettings.Contains(System.Int32, System.Int32)
+  href: api/Polite.RuntimeServices.RuntimeSettings.html#Polite_RuntimeServices_RuntimeSettings_Contains_System_Int32_System_Int32_
+  commentId: M:Polite.RuntimeServices.RuntimeSettings.Contains(System.Int32,System.Int32)
+  fullName: Polite.RuntimeServices.RuntimeSettings.Contains(System.Int32, System.Int32)
   nameWithType: RuntimeSettings.Contains(Int32, Int32)
-- uid: Polite.RuntimeSettings.Contains*
+- uid: Polite.RuntimeServices.RuntimeSettings.Contains*
   name: Contains
-  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_Contains_
-  commentId: Overload:Polite.RuntimeSettings.Contains
+  href: api/Polite.RuntimeServices.RuntimeSettings.html#Polite_RuntimeServices_RuntimeSettings_Contains_
+  commentId: Overload:Polite.RuntimeServices.RuntimeSettings.Contains
   isSpec: "True"
-  fullName: Polite.RuntimeSettings.Contains
+  fullName: Polite.RuntimeServices.RuntimeSettings.Contains
   nameWithType: RuntimeSettings.Contains
-- uid: Polite.RuntimeSettings.ObjectTypes
+- uid: Polite.RuntimeServices.RuntimeSettings.ObjectTypes
   name: RuntimeSettings.ObjectTypes
-  href: api/Polite.RuntimeSettings.ObjectTypes.html
-  commentId: T:Polite.RuntimeSettings.ObjectTypes
-  fullName: Polite.RuntimeSettings.ObjectTypes
+  href: api/Polite.RuntimeServices.RuntimeSettings.ObjectTypes.html
+  commentId: T:Polite.RuntimeServices.RuntimeSettings.ObjectTypes
+  fullName: Polite.RuntimeServices.RuntimeSettings.ObjectTypes
   nameWithType: RuntimeSettings.ObjectTypes
-- uid: Polite.RuntimeSettings.ObjectTypes.AssignByRef
+- uid: Polite.RuntimeServices.RuntimeSettings.ObjectTypes.AssignByRef
   name: AssignByRef
-  href: api/Polite.RuntimeSettings.ObjectTypes.html#Polite_RuntimeSettings_ObjectTypes_AssignByRef
-  commentId: F:Polite.RuntimeSettings.ObjectTypes.AssignByRef
-  fullName: Polite.RuntimeSettings.ObjectTypes.AssignByRef
+  href: api/Polite.RuntimeServices.RuntimeSettings.ObjectTypes.html#Polite_RuntimeServices_RuntimeSettings_ObjectTypes_AssignByRef
+  commentId: F:Polite.RuntimeServices.RuntimeSettings.ObjectTypes.AssignByRef
+  fullName: Polite.RuntimeServices.RuntimeSettings.ObjectTypes.AssignByRef
   nameWithType: RuntimeSettings.ObjectTypes.AssignByRef
-- uid: Polite.RuntimeSettings.ObjectTypes.PassByRef
+- uid: Polite.RuntimeServices.RuntimeSettings.ObjectTypes.PassByRef
   name: PassByRef
-  href: api/Polite.RuntimeSettings.ObjectTypes.html#Polite_RuntimeSettings_ObjectTypes_PassByRef
-  commentId: F:Polite.RuntimeSettings.ObjectTypes.PassByRef
-  fullName: Polite.RuntimeSettings.ObjectTypes.PassByRef
+  href: api/Polite.RuntimeServices.RuntimeSettings.ObjectTypes.html#Polite_RuntimeServices_RuntimeSettings_ObjectTypes_PassByRef
+  commentId: F:Polite.RuntimeServices.RuntimeSettings.ObjectTypes.PassByRef
+  fullName: Polite.RuntimeServices.RuntimeSettings.ObjectTypes.PassByRef
   nameWithType: RuntimeSettings.ObjectTypes.PassByRef
-- uid: Polite.RuntimeSettings.ToBitMask(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+- uid: Polite.RuntimeServices.RuntimeSettings.ToBitMask(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   name: ToBitMask(Boolean, Boolean, Boolean, Boolean)
-  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_ToBitMask_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:Polite.RuntimeSettings.ToBitMask(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  fullName: Polite.RuntimeSettings.ToBitMask(System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  href: api/Polite.RuntimeServices.RuntimeSettings.html#Polite_RuntimeServices_RuntimeSettings_ToBitMask_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Polite.RuntimeServices.RuntimeSettings.ToBitMask(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Polite.RuntimeServices.RuntimeSettings.ToBitMask(System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   nameWithType: RuntimeSettings.ToBitMask(Boolean, Boolean, Boolean, Boolean)
-- uid: Polite.RuntimeSettings.ToBitMask*
+- uid: Polite.RuntimeServices.RuntimeSettings.ToBitMask*
   name: ToBitMask
-  href: api/Polite.RuntimeSettings.html#Polite_RuntimeSettings_ToBitMask_
-  commentId: Overload:Polite.RuntimeSettings.ToBitMask
+  href: api/Polite.RuntimeServices.RuntimeSettings.html#Polite_RuntimeServices_RuntimeSettings_ToBitMask_
+  commentId: Overload:Polite.RuntimeServices.RuntimeSettings.ToBitMask
   isSpec: "True"
-  fullName: Polite.RuntimeSettings.ToBitMask
+  fullName: Polite.RuntimeServices.RuntimeSettings.ToBitMask
   nameWithType: RuntimeSettings.ToBitMask
-- uid: Polite.RuntimeSettings.ValueTypes
+- uid: Polite.RuntimeServices.RuntimeSettings.ValueTypes
   name: RuntimeSettings.ValueTypes
-  href: api/Polite.RuntimeSettings.ValueTypes.html
-  commentId: T:Polite.RuntimeSettings.ValueTypes
-  fullName: Polite.RuntimeSettings.ValueTypes
+  href: api/Polite.RuntimeServices.RuntimeSettings.ValueTypes.html
+  commentId: T:Polite.RuntimeServices.RuntimeSettings.ValueTypes
+  fullName: Polite.RuntimeServices.RuntimeSettings.ValueTypes
   nameWithType: RuntimeSettings.ValueTypes
-- uid: Polite.RuntimeSettings.ValueTypes.AssignByRef
+- uid: Polite.RuntimeServices.RuntimeSettings.ValueTypes.AssignByRef
   name: AssignByRef
-  href: api/Polite.RuntimeSettings.ValueTypes.html#Polite_RuntimeSettings_ValueTypes_AssignByRef
-  commentId: F:Polite.RuntimeSettings.ValueTypes.AssignByRef
-  fullName: Polite.RuntimeSettings.ValueTypes.AssignByRef
+  href: api/Polite.RuntimeServices.RuntimeSettings.ValueTypes.html#Polite_RuntimeServices_RuntimeSettings_ValueTypes_AssignByRef
+  commentId: F:Polite.RuntimeServices.RuntimeSettings.ValueTypes.AssignByRef
+  fullName: Polite.RuntimeServices.RuntimeSettings.ValueTypes.AssignByRef
   nameWithType: RuntimeSettings.ValueTypes.AssignByRef
-- uid: Polite.RuntimeSettings.ValueTypes.PassByRef
+- uid: Polite.RuntimeServices.RuntimeSettings.ValueTypes.PassByRef
   name: PassByRef
-  href: api/Polite.RuntimeSettings.ValueTypes.html#Polite_RuntimeSettings_ValueTypes_PassByRef
-  commentId: F:Polite.RuntimeSettings.ValueTypes.PassByRef
-  fullName: Polite.RuntimeSettings.ValueTypes.PassByRef
+  href: api/Polite.RuntimeServices.RuntimeSettings.ValueTypes.html#Polite_RuntimeServices_RuntimeSettings_ValueTypes_PassByRef
+  commentId: F:Polite.RuntimeServices.RuntimeSettings.ValueTypes.PassByRef
+  fullName: Polite.RuntimeServices.RuntimeSettings.ValueTypes.PassByRef
   nameWithType: RuntimeSettings.ValueTypes.PassByRef
+- uid: Polite.RuntimeServices.Stack
+  name: Stack
+  href: api/Polite.RuntimeServices.Stack.html
+  commentId: T:Polite.RuntimeServices.Stack
+  fullName: Polite.RuntimeServices.Stack
+  nameWithType: Stack
+- uid: Polite.RuntimeServices.Stack.#ctor
+  name: Stack()
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack__ctor
+  commentId: M:Polite.RuntimeServices.Stack.#ctor
+  fullName: Polite.RuntimeServices.Stack.Stack()
+  nameWithType: Stack.Stack()
+- uid: Polite.RuntimeServices.Stack.#ctor*
+  name: Stack
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack__ctor_
+  commentId: Overload:Polite.RuntimeServices.Stack.#ctor
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Stack.Stack
+  nameWithType: Stack.Stack
+- uid: Polite.RuntimeServices.Stack.Bottom
+  name: Bottom
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Bottom
+  commentId: P:Polite.RuntimeServices.Stack.Bottom
+  fullName: Polite.RuntimeServices.Stack.Bottom
+  nameWithType: Stack.Bottom
+- uid: Polite.RuntimeServices.Stack.Bottom*
+  name: Bottom
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Bottom_
+  commentId: Overload:Polite.RuntimeServices.Stack.Bottom
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Stack.Bottom
+  nameWithType: Stack.Bottom
+- uid: Polite.RuntimeServices.Stack.Pop
+  name: Pop()
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Pop
+  commentId: M:Polite.RuntimeServices.Stack.Pop
+  fullName: Polite.RuntimeServices.Stack.Pop()
+  nameWithType: Stack.Pop()
+- uid: Polite.RuntimeServices.Stack.Pop*
+  name: Pop
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Pop_
+  commentId: Overload:Polite.RuntimeServices.Stack.Pop
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Stack.Pop
+  nameWithType: Stack.Pop
+- uid: Polite.RuntimeServices.Stack.Push
+  name: Push()
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Push
+  commentId: M:Polite.RuntimeServices.Stack.Push
+  fullName: Polite.RuntimeServices.Stack.Push()
+  nameWithType: Stack.Push()
+- uid: Polite.RuntimeServices.Stack.Push*
+  name: Push
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Push_
+  commentId: Overload:Polite.RuntimeServices.Stack.Push
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Stack.Push
+  nameWithType: Stack.Push
+- uid: Polite.RuntimeServices.Stack.Reset
+  name: Reset()
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Reset
+  commentId: M:Polite.RuntimeServices.Stack.Reset
+  fullName: Polite.RuntimeServices.Stack.Reset()
+  nameWithType: Stack.Reset()
+- uid: Polite.RuntimeServices.Stack.Reset*
+  name: Reset
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Reset_
+  commentId: Overload:Polite.RuntimeServices.Stack.Reset
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Stack.Reset
+  nameWithType: Stack.Reset
+- uid: Polite.RuntimeServices.Stack.Top
+  name: Top
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Top
+  commentId: P:Polite.RuntimeServices.Stack.Top
+  fullName: Polite.RuntimeServices.Stack.Top
+  nameWithType: Stack.Top
+- uid: Polite.RuntimeServices.Stack.Top*
+  name: Top
+  href: api/Polite.RuntimeServices.Stack.html#Polite_RuntimeServices_Stack_Top_
+  commentId: Overload:Polite.RuntimeServices.Stack.Top
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Stack.Top
+  nameWithType: Stack.Top
+- uid: Polite.RuntimeServices.Variable
+  name: Variable
+  href: api/Polite.RuntimeServices.Variable.html
+  commentId: T:Polite.RuntimeServices.Variable
+  fullName: Polite.RuntimeServices.Variable
+  nameWithType: Variable
+- uid: Polite.RuntimeServices.Variable.#ctor(System.String)
+  name: Variable(String)
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable__ctor_System_String_
+  commentId: M:Polite.RuntimeServices.Variable.#ctor(System.String)
+  fullName: Polite.RuntimeServices.Variable.Variable(System.String)
+  nameWithType: Variable.Variable(String)
+- uid: Polite.RuntimeServices.Variable.#ctor*
+  name: Variable
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable__ctor_
+  commentId: Overload:Polite.RuntimeServices.Variable.#ctor
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Variable.Variable
+  nameWithType: Variable.Variable
+- uid: Polite.RuntimeServices.Variable.Alias
+  name: Alias
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Alias
+  commentId: P:Polite.RuntimeServices.Variable.Alias
+  fullName: Polite.RuntimeServices.Variable.Alias
+  nameWithType: Variable.Alias
+- uid: Polite.RuntimeServices.Variable.Alias*
+  name: Alias
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Alias_
+  commentId: Overload:Polite.RuntimeServices.Variable.Alias
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Variable.Alias
+  nameWithType: Variable.Alias
+- uid: Polite.RuntimeServices.Variable.Container
+  name: Container
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Container
+  commentId: P:Polite.RuntimeServices.Variable.Container
+  fullName: Polite.RuntimeServices.Variable.Container
+  nameWithType: Variable.Container
+- uid: Polite.RuntimeServices.Variable.Container*
+  name: Container
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Container_
+  commentId: Overload:Polite.RuntimeServices.Variable.Container
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Variable.Container
+  nameWithType: Variable.Container
+- uid: Polite.RuntimeServices.Variable.Name
+  name: Name
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Name
+  commentId: P:Polite.RuntimeServices.Variable.Name
+  fullName: Polite.RuntimeServices.Variable.Name
+  nameWithType: Variable.Name
+- uid: Polite.RuntimeServices.Variable.Name*
+  name: Name
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Name_
+  commentId: Overload:Polite.RuntimeServices.Variable.Name
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Variable.Name
+  nameWithType: Variable.Name
+- uid: Polite.RuntimeServices.Variable.Reinitialize
+  name: Reinitialize
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Reinitialize
+  commentId: P:Polite.RuntimeServices.Variable.Reinitialize
+  fullName: Polite.RuntimeServices.Variable.Reinitialize
+  nameWithType: Variable.Reinitialize
+- uid: Polite.RuntimeServices.Variable.Reinitialize*
+  name: Reinitialize
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_Reinitialize_
+  commentId: Overload:Polite.RuntimeServices.Variable.Reinitialize
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Variable.Reinitialize
+  nameWithType: Variable.Reinitialize
+- uid: Polite.RuntimeServices.Variable.ToString
+  name: ToString()
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_ToString
+  commentId: M:Polite.RuntimeServices.Variable.ToString
+  fullName: Polite.RuntimeServices.Variable.ToString()
+  nameWithType: Variable.ToString()
+- uid: Polite.RuntimeServices.Variable.ToString*
+  name: ToString
+  href: api/Polite.RuntimeServices.Variable.html#Polite_RuntimeServices_Variable_ToString_
+  commentId: Overload:Polite.RuntimeServices.Variable.ToString
+  isSpec: "True"
+  fullName: Polite.RuntimeServices.Variable.ToString
+  nameWithType: Variable.ToString
 - uid: Polite.Scope
   name: Scope
   href: api/Polite.Scope.html
@@ -5835,90 +6009,6 @@ references:
   isSpec: "True"
   fullName: Polite.Scope.Reserve
   nameWithType: Scope.Reserve
-- uid: Polite.Stack
-  name: Stack
-  href: api/Polite.Stack.html
-  commentId: T:Polite.Stack
-  fullName: Polite.Stack
-  nameWithType: Stack
-- uid: Polite.Stack.#ctor
-  name: Stack()
-  href: api/Polite.Stack.html#Polite_Stack__ctor
-  commentId: M:Polite.Stack.#ctor
-  fullName: Polite.Stack.Stack()
-  nameWithType: Stack.Stack()
-- uid: Polite.Stack.#ctor*
-  name: Stack
-  href: api/Polite.Stack.html#Polite_Stack__ctor_
-  commentId: Overload:Polite.Stack.#ctor
-  isSpec: "True"
-  fullName: Polite.Stack.Stack
-  nameWithType: Stack.Stack
-- uid: Polite.Stack.Bottom
-  name: Bottom
-  href: api/Polite.Stack.html#Polite_Stack_Bottom
-  commentId: P:Polite.Stack.Bottom
-  fullName: Polite.Stack.Bottom
-  nameWithType: Stack.Bottom
-- uid: Polite.Stack.Bottom*
-  name: Bottom
-  href: api/Polite.Stack.html#Polite_Stack_Bottom_
-  commentId: Overload:Polite.Stack.Bottom
-  isSpec: "True"
-  fullName: Polite.Stack.Bottom
-  nameWithType: Stack.Bottom
-- uid: Polite.Stack.Pop
-  name: Pop()
-  href: api/Polite.Stack.html#Polite_Stack_Pop
-  commentId: M:Polite.Stack.Pop
-  fullName: Polite.Stack.Pop()
-  nameWithType: Stack.Pop()
-- uid: Polite.Stack.Pop*
-  name: Pop
-  href: api/Polite.Stack.html#Polite_Stack_Pop_
-  commentId: Overload:Polite.Stack.Pop
-  isSpec: "True"
-  fullName: Polite.Stack.Pop
-  nameWithType: Stack.Pop
-- uid: Polite.Stack.Push
-  name: Push()
-  href: api/Polite.Stack.html#Polite_Stack_Push
-  commentId: M:Polite.Stack.Push
-  fullName: Polite.Stack.Push()
-  nameWithType: Stack.Push()
-- uid: Polite.Stack.Push*
-  name: Push
-  href: api/Polite.Stack.html#Polite_Stack_Push_
-  commentId: Overload:Polite.Stack.Push
-  isSpec: "True"
-  fullName: Polite.Stack.Push
-  nameWithType: Stack.Push
-- uid: Polite.Stack.Reset
-  name: Reset()
-  href: api/Polite.Stack.html#Polite_Stack_Reset
-  commentId: M:Polite.Stack.Reset
-  fullName: Polite.Stack.Reset()
-  nameWithType: Stack.Reset()
-- uid: Polite.Stack.Reset*
-  name: Reset
-  href: api/Polite.Stack.html#Polite_Stack_Reset_
-  commentId: Overload:Polite.Stack.Reset
-  isSpec: "True"
-  fullName: Polite.Stack.Reset
-  nameWithType: Stack.Reset
-- uid: Polite.Stack.Top
-  name: Top
-  href: api/Polite.Stack.html#Polite_Stack_Top
-  commentId: P:Polite.Stack.Top
-  fullName: Polite.Stack.Top
-  nameWithType: Stack.Top
-- uid: Polite.Stack.Top*
-  name: Top
-  href: api/Polite.Stack.html#Polite_Stack_Top_
-  commentId: Overload:Polite.Stack.Top
-  isSpec: "True"
-  fullName: Polite.Stack.Top
-  nameWithType: Stack.Top
 - uid: Polite.StatementDenotation
   name: StatementDenotation
   href: api/Polite.StatementDenotation.html
@@ -6988,87 +7078,3 @@ references:
   isSpec: "True"
   fullName: Polite.TokenTable.TryGet
   nameWithType: TokenTable.TryGet
-- uid: Polite.Variable
-  name: Variable
-  href: api/Polite.Variable.html
-  commentId: T:Polite.Variable
-  fullName: Polite.Variable
-  nameWithType: Variable
-- uid: Polite.Variable.#ctor(System.String)
-  name: Variable(String)
-  href: api/Polite.Variable.html#Polite_Variable__ctor_System_String_
-  commentId: M:Polite.Variable.#ctor(System.String)
-  fullName: Polite.Variable.Variable(System.String)
-  nameWithType: Variable.Variable(String)
-- uid: Polite.Variable.#ctor*
-  name: Variable
-  href: api/Polite.Variable.html#Polite_Variable__ctor_
-  commentId: Overload:Polite.Variable.#ctor
-  isSpec: "True"
-  fullName: Polite.Variable.Variable
-  nameWithType: Variable.Variable
-- uid: Polite.Variable.Alias
-  name: Alias
-  href: api/Polite.Variable.html#Polite_Variable_Alias
-  commentId: P:Polite.Variable.Alias
-  fullName: Polite.Variable.Alias
-  nameWithType: Variable.Alias
-- uid: Polite.Variable.Alias*
-  name: Alias
-  href: api/Polite.Variable.html#Polite_Variable_Alias_
-  commentId: Overload:Polite.Variable.Alias
-  isSpec: "True"
-  fullName: Polite.Variable.Alias
-  nameWithType: Variable.Alias
-- uid: Polite.Variable.Container
-  name: Container
-  href: api/Polite.Variable.html#Polite_Variable_Container
-  commentId: P:Polite.Variable.Container
-  fullName: Polite.Variable.Container
-  nameWithType: Variable.Container
-- uid: Polite.Variable.Container*
-  name: Container
-  href: api/Polite.Variable.html#Polite_Variable_Container_
-  commentId: Overload:Polite.Variable.Container
-  isSpec: "True"
-  fullName: Polite.Variable.Container
-  nameWithType: Variable.Container
-- uid: Polite.Variable.Name
-  name: Name
-  href: api/Polite.Variable.html#Polite_Variable_Name
-  commentId: P:Polite.Variable.Name
-  fullName: Polite.Variable.Name
-  nameWithType: Variable.Name
-- uid: Polite.Variable.Name*
-  name: Name
-  href: api/Polite.Variable.html#Polite_Variable_Name_
-  commentId: Overload:Polite.Variable.Name
-  isSpec: "True"
-  fullName: Polite.Variable.Name
-  nameWithType: Variable.Name
-- uid: Polite.Variable.Reinitialize
-  name: Reinitialize
-  href: api/Polite.Variable.html#Polite_Variable_Reinitialize
-  commentId: P:Polite.Variable.Reinitialize
-  fullName: Polite.Variable.Reinitialize
-  nameWithType: Variable.Reinitialize
-- uid: Polite.Variable.Reinitialize*
-  name: Reinitialize
-  href: api/Polite.Variable.html#Polite_Variable_Reinitialize_
-  commentId: Overload:Polite.Variable.Reinitialize
-  isSpec: "True"
-  fullName: Polite.Variable.Reinitialize
-  nameWithType: Variable.Reinitialize
-- uid: Polite.Variable.ToString
-  name: ToString()
-  href: api/Polite.Variable.html#Polite_Variable_ToString
-  commentId: M:Polite.Variable.ToString
-  fullName: Polite.Variable.ToString()
-  nameWithType: Variable.ToString()
-- uid: Polite.Variable.ToString*
-  name: ToString
-  href: api/Polite.Variable.html#Polite_Variable_ToString_
-  commentId: Overload:Polite.Variable.ToString
-  isSpec: "True"
-  fullName: Polite.Variable.ToString
-  nameWithType: Variable.ToString

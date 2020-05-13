@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate IdentifierChecker
+    <title>Class FunctionInvoker
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate IdentifierChecker
+    <meta name="title" content="Class FunctionInvoker
    ">
     <meta name="generator" content="docfx 2.53.1.0">
     
@@ -68,54 +68,69 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Polite.IdentifierChecker">
+            <article class="content wrap" id="_content" data-uid="Polite.RuntimeServices.FunctionInvoker">
   
   
-  <h1 id="Polite_IdentifierChecker" data-uid="Polite.IdentifierChecker" class="text-break">Delegate IdentifierChecker
+  <h1 id="Polite_RuntimeServices_FunctionInvoker" data-uid="Polite.RuntimeServices.FunctionInvoker" class="text-break">Class FunctionInvoker
   </h1>
-  <div class="markdown level0 summary"><p>Determines if a <span class="xref">System.String</span> meets the criteria to be an identifer (<see cref="!:Variable"></see>, <see cref="!:Function"></see>, etc).</p>
+  <div class="markdown level0 summary"><p>Wrapper class for <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a> for the interpretation process.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
-  <h6><strong>Assembly</strong>: Polite.dll</h6>
-  <h5 id="Polite_IdentifierChecker_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate bool IdentifierChecker(string name);</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Polite.RuntimeServices.Container.html">Container</a></div>
+    <div class="level2"><a class="xref" href="Polite.RuntimeServices.Function.html">Function</a></div>
+    <div class="level3"><span class="xref">FunctionInvoker</span></div>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The string to be checked.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns true if the name provided is a valid identifier for the custom language to be tokenized.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_ReturnsNull">Function.ReturnsNull</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Parameters">Function.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Operation">Function.Operation</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Parent">Function.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Value">Function.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_Members">Function.Members</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.RuntimeServices.Function.html#Polite_RuntimeServices_Function_ToString">Function.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.RuntimeServices.html">Polite.RuntimeServices</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_RuntimeServices_FunctionInvoker_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FunctionInvoker : Function</code></pre>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(Object, String)</a>

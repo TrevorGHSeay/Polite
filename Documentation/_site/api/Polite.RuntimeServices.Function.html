@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Token.Types
+    <title>Class Function
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Token.Types
+    <meta name="title" content="Class Function
    ">
     <meta name="generator" content="docfx 2.53.1.0">
     
@@ -68,24 +68,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Polite.Token.Types">
+            <article class="content wrap" id="_content" data-uid="Polite.RuntimeServices.Function">
   
   
-  <h1 id="Polite_Token_Types" data-uid="Polite.Token.Types" class="text-break">Class Token.Types
+  <h1 id="Polite_RuntimeServices_Function" data-uid="Polite.RuntimeServices.Function" class="text-break">Class Function
   </h1>
-  <div class="markdown level0 summary"><p>All <a class="xref" href="Polite.Token.html">Token</a> types available to a custom <a class="xref" href="Polite.Lexer.html">Lexer</a>, <a class="xref" href="Polite.Parser.html">Parser</a>, or <a class="xref" href="Polite.RuntimeServices.Runtime.html">Runtime</a>.</p>
+  <div class="markdown level0 summary"><p>The class that represents a function&apos;s raw definition. Not to be confused with <a class="xref" href="Polite.RuntimeServices.FunctionInvoker.html">FunctionInvoker</a> or <a class="xref" href="Polite.RuntimeServices.MethodInvoker.html">MethodInvoker</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Token.Types</span></div>
+    <div class="level1"><a class="xref" href="Polite.RuntimeServices.Container.html">Container</a></div>
+    <div class="level2"><span class="xref">Function</span></div>
+      <div class="level3"><a class="xref" href="Polite.RuntimeServices.FunctionInvoker.html">FunctionInvoker</a></div>
+      <div class="level3"><a class="xref" href="Polite.RuntimeServices.MethodInvoker.html">MethodInvoker</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -105,24 +105,26 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.RuntimeServices.html">Polite.RuntimeServices</a></h6>
   <h6><strong>Assembly</strong>: Polite.dll</h6>
-  <h5 id="Polite_Token_Types_syntax">Syntax</h5>
+  <h5 id="Polite_RuntimeServices_Function_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Types</code></pre>
+    <pre><code class="lang-csharp hljs">public class Function : Container</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Polite_Token_Types_Undefined" data-uid="Polite.Token.Types.Undefined">Undefined</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Polite_RuntimeServices_Function_Members_" data-uid="Polite.RuntimeServices.Function.Members*"></a>
+  <h4 id="Polite_RuntimeServices_Function_Members" data-uid="Polite.RuntimeServices.Function.Members">Members</h4>
+  <div class="markdown level1 summary"><p>The members of the <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a>&apos;s resulting <a class="xref" href="Polite.RuntimeServices.Container.html">Container</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const short Undefined = -1</code></pre>
+    <pre><code class="lang-csharp hljs">public override Dictionary&lt;int, Variable&gt; Members { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -132,40 +134,158 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int16</span></td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="Polite.RuntimeServices.Variable.html">Variable</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_Members">Container.Members</a></div>
+  
+  
+  <a id="Polite_RuntimeServices_Function_Operation_" data-uid="Polite.RuntimeServices.Function.Operation*"></a>
+  <h4 id="Polite_RuntimeServices_Function_Operation" data-uid="Polite.RuntimeServices.Function.Operation">Operation</h4>
+  <div class="markdown level1 summary"><p>The internal operations of the <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Runtime.Operation Operation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.RuntimeServices.Runtime.Operation.html">Runtime.Operation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_RuntimeServices_Function_Parameters_" data-uid="Polite.RuntimeServices.Function.Parameters*"></a>
+  <h4 id="Polite_RuntimeServices_Function_Parameters" data-uid="Polite.RuntimeServices.Function.Parameters">Parameters</h4>
+  <div class="markdown level1 summary"><p>The local parameters used to operate within the <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Variable[] Parameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.RuntimeServices.Variable.html">Variable</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_RuntimeServices_Function_Parent_" data-uid="Polite.RuntimeServices.Function.Parent*"></a>
+  <h4 id="Polite_RuntimeServices_Function_Parent" data-uid="Polite.RuntimeServices.Function.Parent">Parent</h4>
+  <div class="markdown level1 summary"><p>The parent of this <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a>; in C#, this is accessed using the &apos;this&apos; keyword.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Variable Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.RuntimeServices.Variable.html">Variable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_RuntimeServices_Function_ReturnsNull_" data-uid="Polite.RuntimeServices.Function.ReturnsNull*"></a>
+  <h4 id="Polite_RuntimeServices_Function_ReturnsNull" data-uid="Polite.RuntimeServices.Function.ReturnsNull">ReturnsNull</h4>
+  <div class="markdown level1 summary"><p>Does this <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a> return a null value?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReturnsNull { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_RuntimeServices_Function_Value_" data-uid="Polite.RuntimeServices.Function.Value*"></a>
+  <h4 id="Polite_RuntimeServices_Function_Value" data-uid="Polite.RuntimeServices.Function.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The result of the <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a> after having run through its <a class="xref" href="Polite.RuntimeServices.Runtime.Operation.html">Runtime.Operation</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_Value">Container.Value</a></div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Polite_Token_Types_IsArithmeticOperator_" data-uid="Polite.Token.Types.IsArithmeticOperator*"></a>
-  <h4 id="Polite_Token_Types_IsArithmeticOperator_Polite_Token_" data-uid="Polite.Token.Types.IsArithmeticOperator(Polite.Token)">IsArithmeticOperator(Token)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Polite_RuntimeServices_Function_ToString_" data-uid="Polite.RuntimeServices.Function.ToString*"></a>
+  <h4 id="Polite_RuntimeServices_Function_ToString" data-uid="Polite.RuntimeServices.Function.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a> into its string representation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsArithmeticOperator(Token token)</code></pre>
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.Token.html">Token</a></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -176,221 +296,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the <a class="xref" href="Polite.RuntimeServices.Function.html">Function</a>&apos;s string representation.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Polite_Token_Types_IsAssignmentOperator_" data-uid="Polite.Token.Types.IsAssignmentOperator*"></a>
-  <h4 id="Polite_Token_Types_IsAssignmentOperator_Polite_Token_" data-uid="Polite.Token.Types.IsAssignmentOperator(Polite.Token)">IsAssignmentOperator(Token)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsAssignmentOperator(Token token)</code></pre>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Polite.RuntimeServices.Container.html#Polite_RuntimeServices_Container_ToString">Container.ToString()</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(Object, String)</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.Token.html">Token</a></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Polite_Token_Types_IsBitwiseOperator_" data-uid="Polite.Token.Types.IsBitwiseOperator*"></a>
-  <h4 id="Polite_Token_Types_IsBitwiseOperator_Polite_Token_" data-uid="Polite.Token.Types.IsBitwiseOperator(Polite.Token)">IsBitwiseOperator(Token)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsBitwiseOperator(Token token)</code></pre>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetPropertyValue_System_Object_System_String_System_Object__">Extensions.TryGetPropertyValue(Object, String, out Object)</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.Token.html">Token</a></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Polite_Token_Types_IsComparisonOperator_" data-uid="Polite.Token.Types.IsComparisonOperator*"></a>
-  <h4 id="Polite_Token_Types_IsComparisonOperator_Polite_Token_" data-uid="Polite.Token.Types.IsComparisonOperator(Polite.Token)">IsComparisonOperator(Token)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsComparisonOperator(Token token)</code></pre>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetFieldValue_System_Object_System_String_">Extensions.GetFieldValue(Object, String)</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.Token.html">Token</a></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Polite_Token_Types_IsConditionOperator_" data-uid="Polite.Token.Types.IsConditionOperator*"></a>
-  <h4 id="Polite_Token_Types_IsConditionOperator_Polite_Token_" data-uid="Polite.Token.Types.IsConditionOperator(Polite.Token)">IsConditionOperator(Token)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsConditionOperator(Token token)</code></pre>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetFieldValue_System_Object_System_String_System_Object__">Extensions.TryGetFieldValue(Object, String, out Object)</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.Token.html">Token</a></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Polite_Token_Types_IsOrderStatement_" data-uid="Polite.Token.Types.IsOrderStatement*"></a>
-  <h4 id="Polite_Token_Types_IsOrderStatement_Polite_Token_" data-uid="Polite.Token.Types.IsOrderStatement(Polite.Token)">IsOrderStatement(Token)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsOrderStatement(Token token)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Polite.Token.html">Token</a></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
