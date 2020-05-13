@@ -1,0 +1,555 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExpressionConversion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExpressionConversion
+   ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion">
+  
+  
+  <h1 id="Polite_CompilerServices_Roslyn_ExpressionConversion" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion" class="text-break">Class ExpressionConversion
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ExpressionConversion</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.CompilerServices.Roslyn.html">Polite.CompilerServices.Roslyn</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_CompilerServices_Roslyn_ExpressionConversion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ExpressionConversion</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewAssignmentExpression_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewAssignmentExpression*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewAssignmentExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewAssignmentExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,Microsoft.CodeAnalysis.CSharp.SyntaxKind,Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)">NewAssignmentExpression(ExpressionSyntax, SyntaxKind, ExpressionSyntax)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax</span> of the provided <span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AssignmentExpressionSyntax NewAssignmentExpression(ExpressionSyntax left, SyntaxKind assignment, ExpressionSyntax right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>the left side of the assignment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind</span></td>
+        <td><span class="parametername">assignment</span></td>
+        <td><p>The <span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind</span> representing the type of assignment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right side of the assignment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax</span></td>
+        <td><p>The new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax</span> of the provided <span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewEqualsValueExpression_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewEqualsValueExpression*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewEqualsValueExpression_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewEqualsValueExpression(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax)">NewEqualsValueExpression(ExpressionSyntax)</h4>
+  <div class="markdown level1 summary"><p>Transposes an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax</span> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EqualsValueClauseSyntax NewEqualsValueExpression(ExpressionSyntax assignment)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><span class="parametername">assignment</span></td>
+        <td><p>The <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AssignmentExpressionSyntax</span> to be transposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax</span></td>
+        <td><p>The result of transposing the <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.EqualsValueClauseSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewExpression_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewExpression*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewExpression_Polite_CompilerServices_Statements_Expression_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewExpression(Polite.CompilerServices.Statements.Expression,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewExpression(Statements.Expression, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Transposes a <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExpressionSyntax NewExpression(Statements.Expression expression, FrameData frame, GeneratedClass.Collection existing = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> to be transposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><p>The transposed <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> as a <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewExpressionStatement_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewExpressionStatement*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewExpressionStatement_Polite_CompilerServices_Statements_Expression_Polite_CompilerServices_FrameData_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewExpressionStatement(Polite.CompilerServices.Statements.Expression,Polite.CompilerServices.FrameData,System.Int32)">NewExpressionStatement(Statements.Expression, FrameData, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new expression statement from the provided <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StatementSyntax NewExpressionStatement(Statements.Expression expression, FrameData frame, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> to be transposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><p>The transposed <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> as a <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewInvocation_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewInvocation*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewInvocation_Polite_CompilerServices_Statements_Expressions_Invocation_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewInvocation(Polite.CompilerServices.Statements.Expressions.Invocation,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection)">NewInvocation(Statements.Expressions.Invocation, FrameData, GeneratedClass.Collection)</h4>
+  <div class="markdown level1 summary"><p>Transposes a <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Invocation.html">Statements.Expressions.Invocation</a> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExpressionSyntax NewInvocation(Statements.Expressions.Invocation invocation, FrameData frame, GeneratedClass.Collection existing = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expressions.Invocation.html">Statements.Expressions.Invocation</a></td>
+        <td><span class="parametername">invocation</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Invocation.html">Statements.Expressions.Invocation</a> to be transposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Invocation.html">Statements.Expressions.Invocation</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><p>The result of transposing the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Invocation.html">Statements.Expressions.Invocation</a> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewLambdaExpression_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewLambdaExpression*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewLambdaExpression_Polite_CompilerServices_Statements_Expressions_FunctionDeclaration_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewLambdaExpression(Polite.CompilerServices.Statements.Expressions.FunctionDeclaration,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewLambdaExpression(Statements.Expressions.FunctionDeclaration, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Transposes a <a class="xref" href="Polite.CompilerServices.Statements.Expressions.FunctionDeclaration.html">Statements.Expressions.FunctionDeclaration</a> into a <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.LambdaExpressionSyntax</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExpressionSyntax NewLambdaExpression(Statements.Expressions.FunctionDeclaration function_decl, FrameData frame, GeneratedClass.Collection existing = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expressions.FunctionDeclaration.html">Statements.Expressions.FunctionDeclaration</a></td>
+        <td><span class="parametername">function_decl</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Expressions.FunctionDeclaration.html">Statements.Expressions.FunctionDeclaration</a> to transpose.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.FunctionDeclaration.html">Statements.Expressions.FunctionDeclaration</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><p>The result of transposing the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.FunctionDeclaration.html">Statements.Expressions.FunctionDeclaration</a> into a <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.LambdaExpressionSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewOperation_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewOperation*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_ExpressionConversion_NewOperation_Polite_CompilerServices_Statements_Expressions_Operation_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.ExpressionConversion.NewOperation(Polite.CompilerServices.Statements.Expressions.Operation,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewOperation(Statements.Expressions.Operation, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Transposes an <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Invocation.html">Statements.Expressions.Invocation</a> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExpressionSyntax NewOperation(Statements.Expressions.Operation operation, FrameData frame, GeneratedClass.Collection existing, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a></td>
+        <td><span class="parametername">operation</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a> to be transposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><p>The result of transposing the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a> into an <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

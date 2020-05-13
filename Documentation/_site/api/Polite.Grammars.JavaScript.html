@@ -1,0 +1,1115 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Grammars.JavaScript
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Grammars.JavaScript
+   ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Polite.Grammars.JavaScript">
+  
+  
+  <h1 id="Polite_Grammars_JavaScript" data-uid="Polite.Grammars.JavaScript" class="text-break">Class Grammars.JavaScript
+  </h1>
+  <div class="markdown level0 summary"><p>The master class containing directives corresponding to <a class="xref" href="Polite.html">Polite</a>&apos;s implementation of JavaScript&apos;s <a class="xref" href="Polite.NullDenotion.html">NullDenotion</a>, <a class="xref" href="Polite.LeftDenotation.html">LeftDenotation</a>, and <a class="xref" href="Polite.StatementDenotation.html">StatementDenotation</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Grammars.JavaScript</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_Grammars_JavaScript_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class JavaScript</code></pre>
+  </div>
+  <h5 id="Polite_Grammars_JavaScript_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Translated from Douglas Crockford&apos;s implementation of TDOP, originally in JavaScript.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Polite_Grammars_JavaScript_AssignmentLed_" data-uid="Polite.Grammars.JavaScript.AssignmentLed*"></a>
+  <h4 id="Polite_Grammars_JavaScript_AssignmentLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.AssignmentLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)">AssignmentLed(Token, Token, Int32, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates an assignment expression from the <a class="xref" href="Polite.Token.Types.Secondary.Assignments.html">Token.Types.Secondary.Assignments</a> <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token AssignmentLed(Token self, Token left, int binding_power, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is an <a class="xref" href="Polite.Token.Types.Secondary.Assignments.html">Token.Types.Secondary.Assignments</a> <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> directly to the left of &apos;self&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">binding_power</span></td>
+        <td><p>The left-binding-power used for ordering the <a class="xref" href="Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Operator">Operator</a> <a class="xref" href="Polite.Token.html">Token</a>&apos;s relationship with the <a class="xref" href="Polite.Token.html">Token</a> to its left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the assignment&apos;s expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_BlockFunction_" data-uid="Polite.Grammars.JavaScript.BlockFunction*"></a>
+  <h4 id="Polite_Grammars_JavaScript_BlockFunction_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.BlockFunction(Polite.Parser)">BlockFunction(Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a new block of statements using the <a class="xref" href="Polite.Parser.html#Polite_Parser_CurrentToken">CurrentToken</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token BlockFunction(Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a> for reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the new block.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_ConstantFunction_" data-uid="Polite.Grammars.JavaScript.ConstantFunction*"></a>
+  <h4 id="Polite_Grammars_JavaScript_ConstantFunction_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.ConstantFunction(Polite.Token,Polite.Parser)">ConstantFunction(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a new constant using the <a class="xref" href="Polite.Parser.html#Polite_Parser_CurrentToken">CurrentToken</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token ConstantFunction(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is an <a class="xref" href="Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Constant">Constant</a> <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a> for reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the new constant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_ConstructorNud_" data-uid="Polite.Grammars.JavaScript.ConstructorNud*"></a>
+  <h4 id="Polite_Grammars_JavaScript_ConstructorNud_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.ConstructorNud(Polite.Token,Polite.Parser)">ConstructorNud(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Defines the &apos;new&apos; keyword.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token ConstructorNud(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents the construction order.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>Returns the <a class="xref" href="Polite.Token.html">Token</a> expression representing the construction order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_FunctionNud_" data-uid="Polite.Grammars.JavaScript.FunctionNud*"></a>
+  <h4 id="Polite_Grammars_JavaScript_FunctionNud_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.FunctionNud(Polite.Token,Polite.Parser)">FunctionNud(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a prefix expression from the function declaration <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token FunctionNud(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is a function declaration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the function&apos;s expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_IfStad_" data-uid="Polite.Grammars.JavaScript.IfStad*"></a>
+  <h4 id="Polite_Grammars_JavaScript_IfStad_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.IfStad(Polite.Token,Polite.Parser)">IfStad(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement expression from the &apos;if&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token IfStad(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents the &apos;if&apos; statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the &apos;if&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_IndexerLed_" data-uid="Polite.Grammars.JavaScript.IndexerLed*"></a>
+  <h4 id="Polite_Grammars_JavaScript_IndexerLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.IndexerLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)">IndexerLed(Token, Token, Int32, Parser)</h4>
+  <div class="markdown level1 summary"><p>Defines the construction of an indexer ( [] ).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token IndexerLed(Token token, Token left, int binding_power, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents a <a class="xref" href="Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Indexer">Indexer</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> directly to the left of the <a class="xref" href="Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Indexer">Indexer</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">binding_power</span></td>
+        <td><p>The <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_LBP">LBP</a> (left binding power) that describes how tightly the <a class="xref" href="Polite.Token.html">Token</a> binds with the <a class="xref" href="Polite.Token.html">Token</a> to its left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> expression representing the usage of a <a class="xref" href="Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Indexer">Indexer</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_IndexerNud_" data-uid="Polite.Grammars.JavaScript.IndexerNud*"></a>
+  <h4 id="Polite_Grammars_JavaScript_IndexerNud_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.IndexerNud(Polite.Token,Polite.Parser)">IndexerNud(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Defines the construction of an indexed object (&apos;var i = [];&apos;).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token IndexerNud(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is a <a class="xref" href="Polite.Token.Types.Secondary.Variable.html#Polite_Token_Types_Secondary_Variable_Indexer">Indexer</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>Returns a <a class="xref" href="Polite.Token.html">Token</a> representing the indexed object&apos;s construction pattern.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_OpenCurlyStad_" data-uid="Polite.Grammars.JavaScript.OpenCurlyStad*"></a>
+  <h4 id="Polite_Grammars_JavaScript_OpenCurlyStad_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.OpenCurlyStad(Polite.Token,Polite.Parser)">OpenCurlyStad(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement expression from the &apos;{&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token OpenCurlyStad(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents the &apos;{&apos; statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the &apos;{&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_OpenParenLed_" data-uid="Polite.Grammars.JavaScript.OpenParenLed*"></a>
+  <h4 id="Polite_Grammars_JavaScript_OpenParenLed_Polite_Token_Polite_Token_System_Int32_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.OpenParenLed(Polite.Token,Polite.Token,System.Int32,Polite.Parser)">OpenParenLed(Token, Token, Int32, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates an assignment expression from the open parenethesis <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token OpenParenLed(Token self, Token left, int binding_power, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is an open parenthesis <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> directly to the left of &apos;self&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">binding_power</span></td>
+        <td><p>The left-binding-power used for ordering the <a class="xref" href="Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Operator">Operator</a> <a class="xref" href="Polite.Token.html">Token</a>&apos;s relationship with the <a class="xref" href="Polite.Token.html">Token</a> to its left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the open parenthesis&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_OpenParenNud_" data-uid="Polite.Grammars.JavaScript.OpenParenNud*"></a>
+  <h4 id="Polite_Grammars_JavaScript_OpenParenNud_Polite_Token_Polite_Token_System_Int32_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.OpenParenNud(Polite.Token,Polite.Token,System.Int32,Polite.Parser)">OpenParenNud(Token, Token, Int32, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a prefix expression from the open parenthesis <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token OpenParenNud(Token self, Token left, int binding_power, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is a prefix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> directly to the left of &apos;self&apos;.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">binding_power</span></td>
+        <td><p>The <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_LBP">LBP</a> (left binding power) that describes how tightly the <a class="xref" href="Polite.Token.html">Token</a> binds with the <a class="xref" href="Polite.Token.html">Token</a> to its left.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the open parentesis&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_ReferenceStad_" data-uid="Polite.Grammars.JavaScript.ReferenceStad*"></a>
+  <h4 id="Polite_Grammars_JavaScript_ReferenceStad_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.ReferenceStad(Polite.Token,Polite.Parser)">ReferenceStad(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement expression from the &apos;import&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token ReferenceStad(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents the &apos;import&apos; statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the &apos;import&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_ReturnStad_" data-uid="Polite.Grammars.JavaScript.ReturnStad*"></a>
+  <h4 id="Polite_Grammars_JavaScript_ReturnStad_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.ReturnStad(Polite.Token,Polite.Parser)">ReturnStad(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement expression from the &apos;return&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token ReturnStad(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents the &apos;return&apos; statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the &apos;return&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_StatementFunction_" data-uid="Polite.Grammars.JavaScript.StatementFunction*"></a>
+  <h4 id="Polite_Grammars_JavaScript_StatementFunction_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.StatementFunction(Polite.Parser)">StatementFunction(Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a new statement using the <a class="xref" href="Polite.Parser.html#Polite_Parser_CurrentToken">CurrentToken</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token StatementFunction(Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a> for reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the new statement.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_StatementsFunction_" data-uid="Polite.Grammars.JavaScript.StatementsFunction*"></a>
+  <h4 id="Polite_Grammars_JavaScript_StatementsFunction_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.StatementsFunction(Polite.Parser)">StatementsFunction(Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a new statement tree using the <a class="xref" href="Polite.Parser.html#Polite_Parser_CurrentToken">CurrentToken</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token StatementsFunction(Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a> for reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the new statement tree.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_ThisNud_" data-uid="Polite.Grammars.JavaScript.ThisNud*"></a>
+  <h4 id="Polite_Grammars_JavaScript_ThisNud_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.ThisNud(Polite.Token,Polite.Parser)">ThisNud(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a prefix expression from the &apos;function&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token ThisNud(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that is a function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the function&apos;s expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_VariableDeclarationStad_" data-uid="Polite.Grammars.JavaScript.VariableDeclarationStad*"></a>
+  <h4 id="Polite_Grammars_JavaScript_VariableDeclarationStad_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.VariableDeclarationStad(Polite.Token,Polite.Parser)">VariableDeclarationStad(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates an expression for the &apos;var&apos; statement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token VariableDeclarationStad(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>A &apos;var&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the variable&apos;s declaration expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Grammars_JavaScript_WhileStad_" data-uid="Polite.Grammars.JavaScript.WhileStad*"></a>
+  <h4 id="Polite_Grammars_JavaScript_WhileStad_Polite_Token_Polite_Parser_" data-uid="Polite.Grammars.JavaScript.WhileStad(Polite.Token,Polite.Parser)">WhileStad(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement expression from the &apos;while&apos; <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token WhileStad(Token self, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">self</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> that represents the &apos;while&apos; statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree representing the &apos;while&apos; expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetPropertyValue_System_Object_System_String_System_Object__">Extensions.TryGetPropertyValue(Object, String, out Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetFieldValue_System_Object_System_String_">Extensions.GetFieldValue(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetFieldValue_System_Object_System_String_System_Object__">Extensions.TryGetFieldValue(Object, String, out Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

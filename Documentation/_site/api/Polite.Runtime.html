@@ -1,0 +1,498 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Runtime
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Runtime
+   ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Polite.Runtime">
+  
+  
+  <h1 id="Polite_Runtime" data-uid="Polite.Runtime" class="text-break">Class Runtime
+  </h1>
+  <div class="markdown level0 summary"><p>The PCR (<a class="xref" href="Polite.html">Polite</a> Common Runtime) used for caching and executing instructions in any <a class="xref" href="Polite.html">Polite</a> language.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Runtime</span></div>
+      <div class="level2"><a class="xref" href="Polite.JavaScriptRuntime.html">JavaScriptRuntime</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_Runtime_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Runtime</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Polite_Runtime__ctor_" data-uid="Polite.Runtime.#ctor*"></a>
+  <h4 id="Polite_Runtime__ctor_Polite_Parser_System_Type___" data-uid="Polite.Runtime.#ctor(Polite.Parser,System.Type[])">Runtime(Parser, Type[])</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the default <a class="xref" href="Polite.Runtime.html">Runtime</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Runtime(Parser parser, Type[] global_references)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Parser">Parser</a> to use for constructing <a class="xref" href="Polite.Token.html">Token</a> trees.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td><span class="parametername">global_references</span></td>
+        <td><p>Every <span class="xref">System.Type</span> that source code you <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Execute">Execute()</a> may utilize at <a class="xref" href="Polite.Runtime.html">Runtime</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Polite_Runtime_GlobalReferences" data-uid="Polite.Runtime.GlobalReferences">GlobalReferences</h4>
+  <div class="markdown level1 summary"><p>Every .NET <span class="xref">System.Type</span> that the <a class="xref" href="Polite.Runtime.html">Runtime</a> may allow source code to reference.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type[] GlobalReferences</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Runtime_Instructions" data-uid="Polite.Runtime.Instructions">Instructions</h4>
+  <div class="markdown level1 summary"><p>The destination field for <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Populate_System_String_">Populate(String)</a> and <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Populate_Polite_Token_">Populate(Token)</a> methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, Runtime.Operation&gt; Instructions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="Polite.Runtime.Operation.html">Runtime.Operation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Polite_Runtime_GlobalDepth_" data-uid="Polite.Runtime.GlobalDepth*"></a>
+  <h4 id="Polite_Runtime_GlobalDepth" data-uid="Polite.Runtime.GlobalDepth">GlobalDepth</h4>
+  <div class="markdown level1 summary"><p>The maximum <a class="xref" href="Polite.Frame.html">Frame</a> depth that a global <a class="xref" href="Polite.Variable.html">Variable</a> may exist at and still be stored on the Heap (<a class="xref" href="Polite.Stack.html#Polite_Stack_Bottom">Bottom</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GlobalDepth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_Parser_" data-uid="Polite.Runtime.Parser*"></a>
+  <h4 id="Polite_Runtime_Parser" data-uid="Polite.Runtime.Parser">Parser</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Parser">Parser</a> to parse source code / <a class="xref" href="Polite.Token.html">Token</a> trees with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Parser Parser { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_RuntimeSettings_" data-uid="Polite.Runtime.RuntimeSettings*"></a>
+  <h4 id="Polite_Runtime_RuntimeSettings" data-uid="Polite.Runtime.RuntimeSettings">RuntimeSettings</h4>
+  <div class="markdown level1 summary"><p>The bitfield used to reference the behaviour of a <a class="xref" href="Polite.Variable.html">Variable</a> at the time of interpretation. If this field is changed, you must repopulate the <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Instructions">Instructions</a> for settings to take effect. If no settings are provided, they default to mimic C#. See <a class="xref" href="Polite.RuntimeSettings.html">RuntimeSettings</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RuntimeSettings { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_VariableStack_" data-uid="Polite.Runtime.VariableStack*"></a>
+  <h4 id="Polite_Runtime_VariableStack" data-uid="Polite.Runtime.VariableStack">VariableStack</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Stack.html">Stack</a> containing every currently utilized <a class="xref" href="Polite.Variable.html">Variable</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stack VariableStack { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Stack.html">Stack</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Polite_Runtime_Execute_" data-uid="Polite.Runtime.Execute*"></a>
+  <h4 id="Polite_Runtime_Execute" data-uid="Polite.Runtime.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Executes the instructions already pre-processed by the <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Populate_System_String_">Populate(String)</a> or <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Populate_Polite_Token_">Populate(Token)</a> methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
+  </div>
+  
+  
+  <a id="Polite_Runtime_Execute_" data-uid="Polite.Runtime.Execute*"></a>
+  <h4 id="Polite_Runtime_Execute_Polite_Token_" data-uid="Polite.Runtime.Execute(Polite.Token)">Execute(Token)</h4>
+  <div class="markdown level1 summary"><p>Executes the provided instruction(s).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(Token instructions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">instructions</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree that expresses <a class="xref" href="Polite.Runtime.html">Runtime</a> expressions to be executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_Execute_" data-uid="Polite.Runtime.Execute*"></a>
+  <h4 id="Polite_Runtime_Execute_System_String_" data-uid="Polite.Runtime.Execute(System.String)">Execute(String)</h4>
+  <div class="markdown level1 summary"><p>Executes the provided source code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(string source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The custom language&apos;s source code to be tokenized, parsed, and then executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_Populate_" data-uid="Polite.Runtime.Populate*"></a>
+  <h4 id="Polite_Runtime_Populate_Polite_Token_" data-uid="Polite.Runtime.Populate(Polite.Token)">Populate(Token)</h4>
+  <div class="markdown level1 summary"><p>Processes and caches the provided source code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Populate(Token source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> tree to be processed and cached, which you can later <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Execute">Execute()</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_Populate_" data-uid="Polite.Runtime.Populate*"></a>
+  <h4 id="Polite_Runtime_Populate_System_String_" data-uid="Polite.Runtime.Populate(System.String)">Populate(String)</h4>
+  <div class="markdown level1 summary"><p>Processes and caches the provided source code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Populate(string source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The source code to be processed and cached, which you can later <a class="xref" href="Polite.Runtime.html#Polite_Runtime_Execute">Execute()</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Runtime_Reset_" data-uid="Polite.Runtime.Reset*"></a>
+  <h4 id="Polite_Runtime_Reset" data-uid="Polite.Runtime.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Resets the <a class="xref" href="Polite.Runtime.html">Runtime</a>&apos;s cached memory banks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetPropertyValue_System_Object_System_String_System_Object__">Extensions.TryGetPropertyValue(Object, String, out Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_GetFieldValue_System_Object_System_String_">Extensions.GetFieldValue(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Polite.Extensions.html#Polite_Extensions_TryGetFieldValue_System_Object_System_String_System_Object__">Extensions.TryGetFieldValue(Object, String, out Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
