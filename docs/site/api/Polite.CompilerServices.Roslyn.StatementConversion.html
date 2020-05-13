@@ -1,0 +1,882 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StatementConversion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StatementConversion
+   ">
+    <meta name="generator" content="docfx 2.53.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Polite.CompilerServices.Roslyn.StatementConversion">
+  
+  
+  <h1 id="Polite_CompilerServices_Roslyn_StatementConversion" data-uid="Polite.CompilerServices.Roslyn.StatementConversion" class="text-break">Class StatementConversion
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">StatementConversion</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.CompilerServices.Roslyn.html">Polite.CompilerServices.Roslyn</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_CompilerServices_Roslyn_StatementConversion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class StatementConversion</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewAccessor_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewAccessor*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewAccessor_Microsoft_CodeAnalysis_CSharp_SyntaxKind_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_AttributeListSyntax__Microsoft_CodeAnalysis_SyntaxTokenList_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewAccessor(Microsoft.CodeAnalysis.CSharp.SyntaxKind,Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax},Microsoft.CodeAnalysis.SyntaxTokenList,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Int32)">NewAccessor(SyntaxKind, SyntaxList&lt;AttributeListSyntax&gt;, SyntaxTokenList, BlockSyntax, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span> used to get or set a property&apos;s value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AccessorDeclarationSyntax NewAccessor(SyntaxKind kind, SyntaxList&lt;AttributeListSyntax&gt; attributes = default(SyntaxList&lt;AttributeListSyntax&gt;), SyntaxTokenList modifiers = default(SyntaxTokenList), BlockSyntax body = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind</span></td>
+        <td><span class="parametername">kind</span></td>
+        <td><p>The <span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind.GetAccessorDeclaration</span> or <span class="xref">Microsoft.CodeAnalysis.CSharp.SyntaxKind.SetAccessorDeclaration</span> representing the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.SyntaxList</span>&lt;<span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax</span>&gt;</td>
+        <td><span class="parametername">attributes</span></td>
+        <td><p>The attributes assigned to the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.SyntaxTokenList</span></td>
+        <td><span class="parametername">modifiers</span></td>
+        <td><p>The attributes assigned to the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+        <td><span class="parametername">body</span></td>
+        <td><p>The body of the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span> used to get or set a property&apos;s value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewAssignment_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewAssignment*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewAssignment_Polite_CompilerServices_Statements_Expressions_Operation_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewAssignment(Polite.CompilerServices.Statements.Expressions.Operation,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewAssignment(Statements.Expressions.Operation, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the assignment <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StatementSyntax NewAssignment(Statements.Expressions.Operation assignment, FrameData frame, GeneratedClass.Collection existing = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a></td>
+        <td><span class="parametername">assignment</span></td>
+        <td><p>The assignment <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a> to rranspose.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the assignment <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Operation.html">Statements.Expressions.Operation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewCasePattern_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewCasePattern*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewCasePattern_Microsoft_CodeAnalysis_CSharp_Syntax_TypeSyntax_System_String_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewCasePattern(Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax,System.String,System.Int32)">NewCasePattern(TypeSyntax, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.CasePatternSwitchLabelSyntax</span> that defines a <span class="xref">System.Type</span> switch statement&apos;s case pattern.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CasePatternSwitchLabelSyntax NewCasePattern(TypeSyntax type, string identifier_name, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.TypeSyntax</span> defining the case.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier_name</span></td>
+        <td><p>The name of the case&apos; <span class="xref">System.Type</span> pattern variable.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.CasePatternSwitchLabelSyntax</span></td>
+        <td><p>S new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.CasePatternSwitchLabelSyntax</span> that defines a <span class="xref">System.Type</span> switch statement&apos;s case pattern.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewConditional_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewConditional*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewConditional_Polite_CompilerServices_Statements_Selector_Conditional_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewConditional(Polite.CompilerServices.Statements.Selector.Conditional,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewConditional(Statements.Selector.Conditional, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the <a class="xref" href="Polite.CompilerServices.Statements.Selector.Conditional.html">Statements.Selector.Conditional</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StatementSyntax NewConditional(Statements.Selector.Conditional conditional, FrameData frame, GeneratedClass.Collection existing = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Selector.Conditional.html">Statements.Selector.Conditional</a></td>
+        <td><span class="parametername">conditional</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Selector.Conditional.html">Statements.Selector.Conditional</a> to transpose.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Selector.Conditional.html">Statements.Selector.Conditional</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the provided <a class="xref" href="Polite.CompilerServices.Statements.Selector.Conditional.html">Statements.Selector.Conditional</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewDefaultCase_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewDefaultCase*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewDefaultCase_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewDefaultCase(System.Int32)">NewDefaultCase(Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.DefaultSwitchLabelSyntax</span> that defines a switch statement&apos;s default case.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DefaultSwitchLabelSyntax NewDefaultCase(int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.DefaultSwitchLabelSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.DefaultSwitchLabelSyntax</span> that defines a switch statement&apos;s default case.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewForLoop_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewForLoop*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewForLoop_Polite_CompilerServices_Statements_Selector_Loop_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewForLoop(Polite.CompilerServices.Statements.Selector.Loop,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewForLoop(Statements.Selector.Loop, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the <a class="xref" href="Polite.CompilerServices.Statements.Selector.Loop.html">Statements.Selector.Loop</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StatementSyntax NewForLoop(Statements.Selector.Loop loop, FrameData frame, GeneratedClass.Collection existing, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Selector.Loop.html">Statements.Selector.Loop</a></td>
+        <td><span class="parametername">loop</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Selector.Loop.html">Statements.Selector.Loop</a> to transpose.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Selector.Loop.html">Statements.Selector.Loop</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the provided <a class="xref" href="Polite.CompilerServices.Statements.Selector.Loop.html">Statements.Selector.Loop</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewGetAccessor_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewGetAccessor*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewGetAccessor_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_AttributeListSyntax__Microsoft_CodeAnalysis_SyntaxTokenList_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewGetAccessor(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax},Microsoft.CodeAnalysis.SyntaxTokenList,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Int32)">NewGetAccessor(SyntaxList&lt;AttributeListSyntax&gt;, SyntaxTokenList, BlockSyntax, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span> used to get a property&apos;s value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AccessorDeclarationSyntax NewGetAccessor(SyntaxList&lt;AttributeListSyntax&gt; attributes = default(SyntaxList&lt;AttributeListSyntax&gt;), SyntaxTokenList modifiers = default(SyntaxTokenList), BlockSyntax body = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.SyntaxList</span>&lt;<span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax</span>&gt;</td>
+        <td><span class="parametername">attributes</span></td>
+        <td><p>The attributes assigned to the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.SyntaxTokenList</span></td>
+        <td><span class="parametername">modifiers</span></td>
+        <td><p>The attributes assigned to the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+        <td><span class="parametername">body</span></td>
+        <td><p>The body of the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span> used to get a property&apos;s value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewReturn_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewReturn*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewReturn_Polite_CompilerServices_FrameData_Polite_CompilerServices_Statements_Expressions_Result_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewReturn(Polite.CompilerServices.FrameData,Polite.CompilerServices.Statements.Expressions.Result,System.Int32)">NewReturn(FrameData, Statements.Expressions.Result, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Result.html">Statements.Expressions.Result</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StatementSyntax NewReturn(FrameData frame, Statements.Expressions.Result result = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Result.html">Statements.Expressions.Result</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Expressions.Result.html">Statements.Expressions.Result</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Result.html">Statements.Expressions.Result</a> that contains the <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a> used as a return value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the provided <a class="xref" href="Polite.CompilerServices.Statements.Expressions.Result.html">Statements.Expressions.Result</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewSelector_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewSelector*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewSelector_Polite_CompilerServices_Statements_Selector_Polite_CompilerServices_FrameData_Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewSelector(Polite.CompilerServices.Statements.Selector,Polite.CompilerServices.FrameData,Polite.GeneratedClass.Collection,System.Int32)">NewSelector(Statements.Selector, FrameData, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the <a class="xref" href="Polite.CompilerServices.Statements.Selector.html">Statements.Selector</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static StatementSyntax NewSelector(Statements.Selector selector, FrameData frame, GeneratedClass.Collection existing = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statements.Selector.html">Statements.Selector</a></td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statements.Selector.html">Statements.Selector</a> to transpose.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statements.Selector.html">Statements.Selector</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> that represents the provided <a class="xref" href="Polite.CompilerServices.Statements.Selector.html">Statements.Selector</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewSetAccessor_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewSetAccessor*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewSetAccessor_Microsoft_CodeAnalysis_SyntaxList_Microsoft_CodeAnalysis_CSharp_Syntax_AttributeListSyntax__Microsoft_CodeAnalysis_SyntaxTokenList_Microsoft_CodeAnalysis_CSharp_Syntax_BlockSyntax_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewSetAccessor(Microsoft.CodeAnalysis.SyntaxList{Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax},Microsoft.CodeAnalysis.SyntaxTokenList,Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax,System.Int32)">NewSetAccessor(SyntaxList&lt;AttributeListSyntax&gt;, SyntaxTokenList, BlockSyntax, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span> used to set a property&apos;s value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AccessorDeclarationSyntax NewSetAccessor(SyntaxList&lt;AttributeListSyntax&gt; attributes = default(SyntaxList&lt;AttributeListSyntax&gt;), SyntaxTokenList modifiers = default(SyntaxTokenList), BlockSyntax body = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.SyntaxList</span>&lt;<span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax</span>&gt;</td>
+        <td><span class="parametername">attributes</span></td>
+        <td><p>The attributes assigned to the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.SyntaxTokenList</span></td>
+        <td><span class="parametername">modifiers</span></td>
+        <td><p>The attributes assigned to the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax</span></td>
+        <td><span class="parametername">body</span></td>
+        <td><p>The body of the accessor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax</span> used to set a property&apos;s value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_NewSwitchStatement_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewSwitchStatement*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_NewSwitchStatement_Microsoft_CodeAnalysis_CSharp_Syntax_ExpressionSyntax_System_Int32_Microsoft_CodeAnalysis_CSharp_Syntax_SwitchSectionSyntax___" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.NewSwitchStatement(Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax,System.Int32,Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax[])">NewSwitchStatement(ExpressionSyntax, Int32, SwitchSectionSyntax[])</h4>
+  <div class="markdown level1 summary"><p>Creates a new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.SwitchStatementSyntax</span> from the provided <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SwitchStatementSyntax NewSwitchStatement(ExpressionSyntax expression, int indent = 0, params SwitchSectionSyntax[] cases)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.ExpressionSyntax</span> the switch statement tests against.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax</span>[]</td>
+        <td><span class="parametername">cases</span></td>
+        <td><p>The <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.SwitchSectionSyntax</span> <span class="xref">System.Array</span> that occupy the switch statement.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.SwitchStatementSyntax</span></td>
+        <td><p>A new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.SwitchStatementSyntax</span> created from the provided <a class="xref" href="Polite.CompilerServices.Statements.Expression.html">Statements.Expression</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_CompilerServices_Roslyn_StatementConversion_TryGetStatementSyntax_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.TryGetStatementSyntax*"></a>
+  <h4 id="Polite_CompilerServices_Roslyn_StatementConversion_TryGetStatementSyntax_Polite_CompilerServices_Statement_Polite_CompilerServices_FrameData_Microsoft_CodeAnalysis_CSharp_Syntax_StatementSyntax__Polite_GeneratedClass_Collection_System_Int32_" data-uid="Polite.CompilerServices.Roslyn.StatementConversion.TryGetStatementSyntax(Polite.CompilerServices.Statement,Polite.CompilerServices.FrameData,Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax@,Polite.GeneratedClass.Collection,System.Int32)">TryGetStatementSyntax(Statement, FrameData, out StatementSyntax, GeneratedClass.Collection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Attempts to transpose the provided <a class="xref" href="Polite.CompilerServices.Statement.html">Statement</a> into a <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetStatementSyntax(Statement statement, FrameData frame, out StatementSyntax statement_syntax, GeneratedClass.Collection existing = null, int indent = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.Statement.html">Statement</a></td>
+        <td><span class="parametername">statement</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.Statement.html">Statement</a> to transpose.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a></td>
+        <td><span class="parametername">frame</span></td>
+        <td><p>The <a class="xref" href="Polite.CompilerServices.FrameData.html">FrameData</a> in which the <a class="xref" href="Polite.CompilerServices.Statement.html">Statement</a> resides.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span></td>
+        <td><span class="parametername">statement_syntax</span></td>
+        <td><p>The resulting <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.GeneratedClass.Collection.html">GeneratedClass.Collection</a></td>
+        <td><span class="parametername">existing</span></td>
+        <td><p>The collection of classes already generated for the application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The number of indents used as padding for the new <span class="xref">Microsoft.CodeAnalysis.CSharp.Syntax.StatementSyntax</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if transposition was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
