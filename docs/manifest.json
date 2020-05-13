@@ -1,0 +1,786 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/trevo/Documents/Visual Studio 2017/Projects/InterpreterTestAppSolution/Polite",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ou5syPpv7GOzEZVAACr7PA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "AUYeJgwU6O7GfJs7+0NHeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "dnAqLzdkEzRjZ24f5eC5cg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.CommonGrammar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.CommonGrammar.html",
+          "hash": "zGhLq41qyOAXnCFs9fGwJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Container.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Container.html",
+          "hash": "pOCvDdQ/ynr7go7hIpwcGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Extensions.html",
+          "hash": "NYzKQ/Pj3h9j6KlnjFYW7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Frame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Frame.html",
+          "hash": "NAZoFR9k6K8d7NQo8lrCHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Function.html",
+          "hash": "perwWvXD/dGlC9bxnxDvqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.FunctionInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.FunctionInvoker.html",
+          "hash": "LjJmdTY2v+VF9goPFd6oFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Grammars.JavaScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Grammars.JavaScript.html",
+          "hash": "Y+GjAkHBG/Q8lwd4l84Zwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Grammars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Grammars.html",
+          "hash": "Ol2F0dK9S2TBTXwhwSPKyg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.IdentifierChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.IdentifierChecker.html",
+          "hash": "4buiacLVgoP+3bzsrDixbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Initializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Initializer.html",
+          "hash": "1kbitPSbNii1LBqWp3Xd8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.JavaScriptRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.JavaScriptRuntime.html",
+          "hash": "LzGhxvhrM2H9GHoGOz7twQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.LeftDenotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.LeftDenotation.html",
+          "hash": "/Xp9XWX7FfPE6dJOnI7DKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Lexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Lexer.html",
+          "hash": "RtFAxg0+eszud6T/JvW9bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Lexicon.Defaults.JavaScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Lexicon.Defaults.JavaScript.html",
+          "hash": "+symku0C6RL2ZUDruNOVbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Lexicon.Defaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Lexicon.Defaults.html",
+          "hash": "j81SW8njQLhViTsDTKeBmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Lexicon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Lexicon.html",
+          "hash": "ZbbKTDuvLDr9Q/IaA5GMvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Lexicons.JavaScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Lexicons.JavaScript.html",
+          "hash": "OHf43rcfCMuhNOxNAULp2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Lexicons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Lexicons.html",
+          "hash": "IaZSKicmqP+KIpYjUBFQvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.LiteralSniffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.LiteralSniffer.html",
+          "hash": "PQkqGqLd6pH/wH55/0jusw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.MethodInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.MethodInvoker.html",
+          "hash": "Cl+ioswBP+/pTzveeuSZDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.NullDenotion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.NullDenotion.html",
+          "hash": "8iBWiqkXl4PkZBN3tKbXUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Parser.html",
+          "hash": "wyLLx8jmdZyA18rhmZai2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.RefContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.RefContainer.html",
+          "hash": "vlWVzBsoS4an4U7I+OctKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.Operation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.Operation.html",
+          "hash": "0fiAzF8grKQUb9NmWoanRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.OperationFactory.Assignments.RefAll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.OperationFactory.Assignments.RefAll.html",
+          "hash": "2o+Y7nr1Zt+pspAshBLiRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.OperationFactory.Assignments.RefNone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.OperationFactory.Assignments.RefNone.html",
+          "hash": "R4vMZO2fZjacxCD2tRvxUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.OperationFactory.Assignments.RefObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.OperationFactory.Assignments.RefObject.html",
+          "hash": "mKWJ893A8UUTrTbwxQHElw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.OperationFactory.Assignments.RefValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.OperationFactory.Assignments.RefValue.html",
+          "hash": "ELcHrtMl3K5merr58fiFNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.OperationFactory.Assignments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.OperationFactory.Assignments.html",
+          "hash": "RKo+pylEG51gOO+sfLFKWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.OperationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.OperationFactory.html",
+          "hash": "pwN6gvu31oikChxR82oHRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Runtime.html",
+          "hash": "Fa2AtS7dR0BOIdj6MQupGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.RuntimeSettings.ObjectTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.RuntimeSettings.ObjectTypes.html",
+          "hash": "4FJX6I89Jbaw2lAaueDRbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.RuntimeSettings.ValueTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.RuntimeSettings.ValueTypes.html",
+          "hash": "Lgt6NjlXINwnMwDV+DfPfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.RuntimeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.RuntimeSettings.html",
+          "hash": "iRKLrmIZ5W+DqR6ikF2e2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Scope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Scope.html",
+          "hash": "Wo4mCtHzeMVj/ZEgQpOkfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Stack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Stack.html",
+          "hash": "wiJaf4/OemZFPT1Tj5BYRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.StatementDenotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.StatementDenotation.html",
+          "hash": "oyBXiYHcys4VbuIiC9SE/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Arities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Arities.html",
+          "hash": "ZOvWrChDf41HFQpdn4lYmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Primary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Primary.html",
+          "hash": "l81oeE8G8EurlDwExRXQzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Assignments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Assignments.html",
+          "hash": "fvf/NXxahngo/v4VN+TNrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Bitwise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Bitwise.html",
+          "hash": "oipruC4sUadI8cGXwjnKfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Comparers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Comparers.html",
+          "hash": "56T/85VB0h7tKZCSl3dE0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Conditionals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Conditionals.html",
+          "hash": "kaeLq3xwaWDg97zRTcvMSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Function.html",
+          "hash": "N3MjAsRfCjHQ3LikgBR7kQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Literals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Literals.html",
+          "hash": "XpwyL9dnDzvClqJJtCeAgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Operations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Operations.html",
+          "hash": "x+MPa8CT81XJsEiBBfc0VA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Orders.html",
+          "hash": "NO0VwBsoN+LTH4JLqY85ew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.Variable.html",
+          "hash": "TnuUCeM1nDenIQGKy9/d5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.Secondary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.Secondary.html",
+          "hash": "xXdCabquyVQufqR8bk/nZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.Types.html",
+          "hash": "D+cvAKZWJETFPDaO3MA7Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Token.html",
+          "hash": "CHHrYqOLqBqPx6/1pZNoaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.TokenBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.TokenBase.html",
+          "hash": "B09MHLrvBROcgQrekmBtvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.TokenTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.TokenTable.html",
+          "hash": "oT6AJ463SHy4wZ/29oM0lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.Variable.html",
+          "hash": "Aof7ozO96y2E9WAt9SNgFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Polite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Polite.html",
+          "hash": "o0a+Bu+0l9+DafZX43RhNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ijvd7IaE2dLXXBh4M7xs4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Sg+nKmnHP++YKMT39ruhpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 55,
+          "skipped_file_count": 30
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,1011 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Token
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Token
+   ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Polite.Token">
+  
+  
+  <h1 id="Polite_Token" data-uid="Polite.Token" class="text-break">Class Token
+  </h1>
+  <div class="markdown level0 summary"><p>The main class defining usage and interpretation of syntactical elements in source code.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Polite.TokenBase.html">TokenBase</a></div>
+    <div class="level2"><span class="xref">Token</span></div>
+      <div class="level3"><a class="xref" href="Polite.Scope.html">Scope</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_Nud">TokenBase.Nud</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_Led">TokenBase.Led</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_Stad">TokenBase.Stad</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_LBP">TokenBase.LBP</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_NudError_Polite_Token_Polite_Parser_">TokenBase.NudError(Token, Parser)</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_LedError_Polite_Token_Polite_Token_System_Int32_Polite_Parser_">TokenBase.LedError(Token, Token, Int32, Parser)</a>
+    </div>
+    <div>
+      <a class="xref" href="Polite.TokenBase.html#Polite_TokenBase_ThrowException_System_String_">TokenBase.ThrowException(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Polite.html">Polite</a></h6>
+  <h6><strong>Assembly</strong>: Polite.dll</h6>
+  <h5 id="Polite_Token_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Token : TokenBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Polite_Token__ctor_" data-uid="Polite.Token.#ctor*"></a>
+  <h4 id="Polite_Token__ctor_System_Int16_System_Int16_System_Int32_System_String_Polite_NullDenotion_Polite_LeftDenotation_Polite_StatementDenotation_" data-uid="Polite.Token.#ctor(System.Int16,System.Int16,System.Int32,System.String,Polite.NullDenotion,Polite.LeftDenotation,Polite.StatementDenotation)">Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token(short primary_type, short secondary_type, int lbp, string name, NullDenotion nud, LeftDenotation led, StatementDenotation stad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">primary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">secondary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lbp</span></td>
+        <td><p>The left-binding-power used in the creation of <a class="xref" href="Polite.Token.html">Token</a> trees.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the new <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.NullDenotion.html">NullDenotion</a></td>
+        <td><span class="parametername">nud</span></td>
+        <td><p>The <a class="xref" href="Polite.NullDenotion.html">NullDenotion</a> that instructs the <a class="xref" href="Polite.Parser.html">Parser</a> on how to handle the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.LeftDenotation.html">LeftDenotation</a></td>
+        <td><span class="parametername">led</span></td>
+        <td><p>The <a class="xref" href="Polite.LeftDenotation.html">LeftDenotation</a> that instructs the <a class="xref" href="Polite.Parser.html">Parser</a> on how to handle the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.StatementDenotation.html">StatementDenotation</a></td>
+        <td><span class="parametername">stad</span></td>
+        <td><p>The <a class="xref" href="Polite.StatementDenotation.html">StatementDenotation</a> that instructs the <a class="xref" href="Polite.Parser.html">Parser</a> on how to handle the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token__ctor_" data-uid="Polite.Token.#ctor*"></a>
+  <h4 id="Polite_Token__ctor_System_Int16_System_Int16_System_Int32_System_String_Polite_NullDenotion_Polite_LeftDenotation_Polite_StatementDenotation_System_Int16___" data-uid="Polite.Token.#ctor(System.Int16,System.Int16,System.Int32,System.String,Polite.NullDenotion,Polite.LeftDenotation,Polite.StatementDenotation,System.Int16[])">Token(Int16, Int16, Int32, String, NullDenotion, LeftDenotation, StatementDenotation, Int16[])</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token(short primary_type, short secondary_type, int lbp, string name, NullDenotion nud, LeftDenotation led, StatementDenotation stad, short[] next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">primary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">secondary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lbp</span></td>
+        <td><p>The left-binding-power used in the creation of <a class="xref" href="Polite.Token.html">Token</a> trees.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the new <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.NullDenotion.html">NullDenotion</a></td>
+        <td><span class="parametername">nud</span></td>
+        <td><p>The <a class="xref" href="Polite.NullDenotion.html">NullDenotion</a> that instructs the <a class="xref" href="Polite.Parser.html">Parser</a> on how to handle the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.LeftDenotation.html">LeftDenotation</a></td>
+        <td><span class="parametername">led</span></td>
+        <td><p>The <a class="xref" href="Polite.LeftDenotation.html">LeftDenotation</a> that instructs the <a class="xref" href="Polite.Parser.html">Parser</a> on how to handle the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.StatementDenotation.html">StatementDenotation</a></td>
+        <td><span class="parametername">stad</span></td>
+        <td><p>The <a class="xref" href="Polite.StatementDenotation.html">StatementDenotation</a> that instructs the <a class="xref" href="Polite.Parser.html">Parser</a> on how to handle the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span>[]</td>
+        <td><span class="parametername">next</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.html">Token.Types</a> permitted to follow this <a class="xref" href="Polite.Token.html">Token</a> syntactically. Used in the tokenizing process.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token__ctor_" data-uid="Polite.Token.#ctor*"></a>
+  <h4 id="Polite_Token__ctor_System_Int16_System_Int16_System_String_System_Int32_" data-uid="Polite.Token.#ctor(System.Int16,System.Int16,System.String,System.Int32)">Token(Int16, Int16, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token(short primary_type, short secondary_type, string name, int lbp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">primary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">secondary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the new <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lbp</span></td>
+        <td><p>The left-binding-power used in the creation of <a class="xref" href="Polite.Token.html">Token</a> trees.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token__ctor_" data-uid="Polite.Token.#ctor*"></a>
+  <h4 id="Polite_Token__ctor_System_Int16_System_Int32_System_String_" data-uid="Polite.Token.#ctor(System.Int16,System.Int32,System.String)">Token(Int16, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token(short primary_type, int lbp, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">primary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type that the new <a class="xref" href="Polite.Token.html">Token</a> will have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lbp</span></td>
+        <td><p>The left-binding-power used in the creation of <a class="xref" href="Polite.Token.html">Token</a> trees.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the new <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Polite_Token_Arity" data-uid="Polite.Token.Arity">Arity</h4>
+  <div class="markdown level1 summary"><p>The value from all possible <a class="xref" href="Polite.Token.Arities.html">Token.Arities</a> that best represents this <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short Arity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Children" data-uid="Polite.Token.Children">Children</h4>
+  <div class="markdown level1 summary"><p>The children nodes/leaves of this <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Token&gt; Children</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Polite.Token.html">Token</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_End" data-uid="Polite.Token.End">End</h4>
+  <div class="markdown level1 summary"><p>The end index of this <a class="xref" href="Polite.Token.html">Token</a> within source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int End</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Name" data-uid="Polite.Token.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.html">Token</a>&apos;s literal representation in source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Next" data-uid="Polite.Token.Next">Next</h4>
+  <div class="markdown level1 summary"><p>A collection of known <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> types that may follow this <a class="xref" href="Polite.Token.html">Token</a> syntactically.
+<p>If populated, this and every illegally trailing <a class="xref" href="Polite.Token.html">Token</a> (until found in <a class="xref" href="Polite.Token.html#Polite_Token_Next">Next</a>) will be emalgamated into one (during the lexing phase) and passed to the <a class="xref" href="Polite.Parser.html">Parser</a> as a single identifier, so that keywords may be included inside variable names.</p>
+For example, in <a class="xref" href="Polite.Lexicons.JavaScript.html">Lexicons.JavaScript</a>, &quot;var vars = 2;&quot; processes the phrase &quot;vars&quot; as an identifier, since &quot;var&quot; only contains whitespace as a <a class="xref" href="Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_IgnoredDelimiter">IgnoredDelimiter</a> in it&apos;s <a class="xref" href="Polite.Token.html#Polite_Token_Next">Next</a> collection; the <a class="xref" href="Polite.Lexer.html">Lexer</a> then knows you mean &quot;vars&quot;, and not a consecutive &quot;var&quot; and &quot;s&quot; (since &quot;var&quot; would, in the second case, be missing its necessary whitespace).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short[] Next</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_PrimaryType" data-uid="Polite.Token.PrimaryType">PrimaryType</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type of this <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short PrimaryType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Reserved" data-uid="Polite.Token.Reserved">Reserved</h4>
+  <div class="markdown level1 summary"><p>Has this token been reserved by a <a class="xref" href="Polite.Scope.html">Scope</a>?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Reserved</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Scope" data-uid="Polite.Token.Scope">Scope</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Scope.html">Scope</a> that this <a class="xref" href="Polite.Token.html">Token</a> belongs to; null if not applicable or yet unprocessed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scope Scope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Scope.html">Scope</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_SecondaryType" data-uid="Polite.Token.SecondaryType">SecondaryType</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.Types.Secondary.html">Token.Types.Secondary</a> type of this <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short SecondaryType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Start" data-uid="Polite.Token.Start">Start</h4>
+  <div class="markdown level1 summary"><p>The start index of this <a class="xref" href="Polite.Token.html">Token</a> within source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Start</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Polite_Token_Value" data-uid="Polite.Token.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The <span class="xref">System.Object</span> value that this <a class="xref" href="Polite.Token.html">Token</a> represents at the point of <a class="xref" href="Polite.Runtime.html">Runtime</a> initialization. Used only in the case of a <a class="xref" href="Polite.Token.Types.Primary.html#Polite_Token_Types_Primary_Literal">Literal</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Value</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Polite_Token_First_" data-uid="Polite.Token.First*"></a>
+  <h4 id="Polite_Token_First" data-uid="Polite.Token.First">First</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.html#Polite_Token_First">First</a> member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token First { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_HasChildren_" data-uid="Polite.Token.HasChildren*"></a>
+  <h4 id="Polite_Token_HasChildren" data-uid="Polite.Token.HasChildren">HasChildren</h4>
+  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Polite.Token.html">Token</a> have children?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChildren { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_HasMembers_" data-uid="Polite.Token.HasMembers*"></a>
+  <h4 id="Polite_Token_HasMembers" data-uid="Polite.Token.HasMembers">HasMembers</h4>
+  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Polite.Token.html">Token</a> have members?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMembers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_Second_" data-uid="Polite.Token.Second*"></a>
+  <h4 id="Polite_Token_Second" data-uid="Polite.Token.Second">Second</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.html#Polite_Token_Second">Second</a> member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token Second { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_Third_" data-uid="Polite.Token.Third*"></a>
+  <h4 id="Polite_Token_Third" data-uid="Polite.Token.Third">Third</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.Token.html#Polite_Token_Third">Third</a> member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token Third { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Polite_Token_Clone_" data-uid="Polite.Token.Clone*"></a>
+  <h4 id="Polite_Token_Clone" data-uid="Polite.Token.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a deep-copy. Does not copy children - do this manually.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Token Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>A deep copy, wth an empty collection of <a class="xref" href="Polite.Token.html#Polite_Token_Children">Children</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_IsTypeOf_" data-uid="Polite.Token.IsTypeOf*"></a>
+  <h4 id="Polite_Token_IsTypeOf_Polite_Token_System_Int16_" data-uid="Polite.Token.IsTypeOf(Polite.Token,System.Int16)">IsTypeOf(Token, Int16)</h4>
+  <div class="markdown level1 summary"><p>Is the <a class="xref" href="Polite.Token.html">Token</a>&apos;s <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type a match with &apos;type&apos;?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTypeOf(Token token, short type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.html">Token</a> to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if <a class="xref" href="Polite.Token.html">Token</a> is of type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_Itself_" data-uid="Polite.Token.Itself*"></a>
+  <h4 id="Polite_Token_Itself_Polite_Token_Polite_Parser_" data-uid="Polite.Token.Itself(Polite.Token,Polite.Parser)">Itself(Token, Parser)</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Polite.NullDenotion.html">NullDenotion</a> that refers to itself only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Token Itself(Token token, Parser parser)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The return value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Polite.Parser.html">Parser</a></td>
+        <td><span class="parametername">parser</span></td>
+        <td><p>The current <a class="xref" href="Polite.Parser.html">Parser</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Polite.Token.html">Token</a></td>
+        <td><p>Returns &apos;token&apos;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_Preceeds_" data-uid="Polite.Token.Preceeds*"></a>
+  <h4 id="Polite_Token_Preceeds_System_Int16_" data-uid="Polite.Token.Preceeds(System.Int16)">Preceeds(Int16)</h4>
+  <div class="markdown level1 summary"><p>Does the primary_type come before this <a class="xref" href="Polite.Token.html">Token</a> (is it found in its <a class="xref" href="Polite.Token.html#Polite_Token_Next">Next</a> field)?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Preceeds(short primary_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">primary_type</span></td>
+        <td><p>The <a class="xref" href="Polite.Token.Types.Primary.html">Token.Types.Primary</a> type of <a class="xref" href="Polite.Token.html">Token</a> to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns true if it may come before primary_type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Polite_Token_ToString_" data-uid="Polite.Token.ToString*"></a>
+  <h4 id="Polite_Token_ToString" data-uid="Polite.Token.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts the <a class="xref" href="Polite.Token.html">Token</a> into its string representation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the string representation of the <a class="xref" href="Polite.Token.html">Token</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
