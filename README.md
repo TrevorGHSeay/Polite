@@ -1,5 +1,5 @@
 # Polite
-Polite is a Lexing, Parsing, Runtime, and Compiler framework designed for easy creation and execution of new dynamic .NET scripting languages. It includes all the necessary API to get starting creating your own language using the TDOP (top-down operator precedence) methodology. This includes all context-free grammars and, additionally, most other grammars if you manage your static denotation methods correctly.
+Polite is a Lexing, Parsing, Runtime, and Compiler framework designed for easy creation and execution of new .NET programming languages. It includes all the necessary API to get starting creating your own language using the TDOP (top-down operator precedence) methodology. This includes all context-free grammars and, additionally, most other grammars if you manage your static denotation methods correctly.
 
 The lexer, while simple and relatively slow in comparison to other commercial tokenizers, is included in the framework for two reasons: firstly, it's capable of tokenizing a vast number of varied languages and, secondly, because creating a lexer for your own language can be tedious and require an aggregious amount of overhead time. If you wish to create your own lexer, you can just inherit from the Lexer class, override the Tokenize and Tokenized methods, then pass it to the Parser.
 
